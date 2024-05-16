@@ -1,0 +1,4160 @@
+2.4478 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+34.3752 	WARNING 	User requested fullscreen with size [1280  720], but screen is actually [1920, 1080]. Using actual size
+36.6808 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1, -1, -1]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001A4BBE37C88>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001A4BBDA60F0>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+36.6814 	EXP 	window1: mouseVisible = True
+36.6815 	EXP 	window1: recordFrameIntervals = False
+36.8431 	EXP 	window1: recordFrameIntervals = True
+37.0259 	EXP 	window1: recordFrameIntervals = False
+37.6976 	EXP 	Created textCondition = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textCondition', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+37.7250 	EXP 	Created textWelcome = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textWelcome', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+37.7280 	EXP 	Created textAloud = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textAloud', opacity=1, ori=0, pos=array([ 0.  , -0.19]), rgb=UNKNOWN, text='red', units='height', win=Window(...), wrapWidth=1)
+37.7308 	EXP 	Created textSilent = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textSilent', opacity=1, ori=0, pos=array([ 0.25, -0.19]), rgb=UNKNOWN, text='blue', units='height', win=Window(...), wrapWidth=1)
+37.7373 	EXP 	Created textSing = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textSing', opacity=1, ori=0, pos=array([-0.25, -0.19]), rgb=UNKNOWN, text='yellow', units='height', win=Window(...), wrapWidth=1)
+37.7389 	EXP 	Created conditional_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='conditional_text', opacity=1, ori=0.0, pos=array([ 0.  , -0.35]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+37.7412 	EXP 	Created textBlank500 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='textBlank500', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+37.7427 	EXP 	Created textStudy = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textStudy', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+37.7444 	EXP 	Created textBlank500 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='textBlank500', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+37.7580 	EXP 	Created textTestInstructions = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textTestInstructions', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+37.7597 	EXP 	Created textBlank500 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='textBlank500', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+37.7612 	EXP 	Created textConf = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textConf', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+37.7833 	EXP 	Created textConfScale = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textConfScale', opacity=1, ori=0, pos=array([ 0.  , -0.25]), rgb=UNKNOWN, text='(NEW) 1...2...3...4...5...6 (OLD)\n', units='height', win=Window(...), wrapWidth=1)
+37.7848 	EXP 	Created textTestBlank = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textTestBlank', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+37.7862 	EXP 	Created textRKN = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textRKN', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+37.7972 	EXP 	Created textRKNScale = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textRKNScale', opacity=1, ori=0, pos=array([ 0.  , -0.25]), rgb=UNKNOWN, text='(R)e-experienced\n(F)amiliar\n(N)either', units='height', win=Window(...), wrapWidth=1)
+37.7991 	EXP 	Created textBlank500 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='textBlank500', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+37.8275 	EXP 	Created textEnd = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='textEnd', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+37.8655 	EXP 	textCondition: autoDraw = True
+39.8171 	DATA 	Keypress: a
+39.8639 	EXP 	textCondition: autoDraw = False
+39.8639 	EXP 	textWelcome: autoDraw = True
+39.8639 	EXP 	textAloud: autoDraw = True
+39.8639 	EXP 	textSilent: autoDraw = True
+39.8639 	EXP 	textSing: autoDraw = True
+39.8639 	EXP 	conditional_text: autoDraw = True
+39.8639 	EXP 	conditional_text: text = ''
+63.2771 	DATA 	Mouse: Left button down, pos=(1850,913)
+63.3176 	DATA 	Mouse:  Left button up, pos=(1791,776)
+1494.5052 	DATA 	Keypress: space
+1494.5136 	EXP 	textWelcome: autoDraw = False
+1494.5136 	EXP 	textAloud: autoDraw = False
+1494.5136 	EXP 	textSilent: autoDraw = False
+1494.5136 	EXP 	textSing: autoDraw = False
+1494.5136 	EXP 	conditional_text: autoDraw = False
+1494.5136 	EXP 	textBlank500: autoDraw = True
+1495.0074 	EXP 	Created sequence: random, trialTypes=1, nReps=90, seed=None
+1495.0081 	EXP 	New trial (rep=0, index=0): None
+1495.0244 	EXP 	textBlank500: autoDraw = False
+1495.0244 	EXP 	textBlank500: autoDraw = False
+1495.0244 	EXP 	textStudy: text = 'straight'
+1495.0244 	EXP 	textStudy: autoDraw = True
+1497.0325 	EXP 	textStudy: autoDraw = False
+1497.0325 	EXP 	textBlank500: autoDraw = True
+1497.5180 	EXP 	New trial (rep=1, index=0): None
+1497.5330 	EXP 	textBlank500: autoDraw = False
+1497.5330 	EXP 	textStudy: text = 'resistance'
+1497.5330 	EXP 	textStudy: autoDraw = True
+1499.5350 	EXP 	textStudy: autoDraw = False
+1499.5350 	EXP 	textStudy: autoDraw = False
+1499.5350 	EXP 	textBlank500: autoDraw = True
+1500.0228 	EXP 	New trial (rep=2, index=0): None
+1500.0357 	EXP 	textBlank500: autoDraw = False
+1500.0357 	EXP 	textBlank500: autoDraw = False
+1500.0357 	EXP 	textStudy: text = 'brief'
+1500.0357 	EXP 	textStudy: autoDraw = True
+1502.0375 	EXP 	textStudy: autoDraw = False
+1502.0375 	EXP 	textStudy: autoDraw = False
+1502.0375 	EXP 	textBlank500: autoDraw = True
+1502.5270 	EXP 	New trial (rep=3, index=0): None
+1502.5416 	EXP 	textBlank500: autoDraw = False
+1502.5416 	EXP 	textBlank500: autoDraw = False
+1502.5416 	EXP 	textStudy: text = 'reach'
+1502.5416 	EXP 	textStudy: autoDraw = True
+1504.5567 	EXP 	textStudy: autoDraw = False
+1504.5567 	EXP 	textBlank500: autoDraw = True
+1505.0424 	EXP 	New trial (rep=4, index=0): None
+1505.0572 	EXP 	textBlank500: autoDraw = False
+1505.0572 	EXP 	textStudy: text = 'guard'
+1505.0572 	EXP 	textStudy: autoDraw = True
+1507.0590 	EXP 	textStudy: autoDraw = False
+1507.0590 	EXP 	textStudy: autoDraw = False
+1507.0590 	EXP 	textBlank500: autoDraw = True
+1507.5454 	EXP 	New trial (rep=5, index=0): None
+1507.5597 	EXP 	textBlank500: autoDraw = False
+1507.5597 	EXP 	textBlank500: autoDraw = False
+1507.5597 	EXP 	textStudy: text = 'distance'
+1507.5597 	EXP 	textStudy: autoDraw = True
+1509.5619 	EXP 	textStudy: autoDraw = False
+1509.5619 	EXP 	textStudy: autoDraw = False
+1509.5619 	EXP 	textBlank500: autoDraw = True
+1510.0497 	EXP 	New trial (rep=6, index=0): None
+1510.0633 	EXP 	textBlank500: autoDraw = False
+1510.0633 	EXP 	textBlank500: autoDraw = False
+1510.0633 	EXP 	textStudy: text = 'master'
+1510.0633 	EXP 	textStudy: autoDraw = True
+1512.0645 	EXP 	textStudy: autoDraw = False
+1512.0645 	EXP 	textStudy: autoDraw = False
+1512.0645 	EXP 	textBlank500: autoDraw = True
+1512.5515 	EXP 	New trial (rep=7, index=0): None
+1512.5649 	EXP 	textBlank500: autoDraw = False
+1512.5649 	EXP 	textBlank500: autoDraw = False
+1512.5649 	EXP 	textStudy: text = 'department'
+1512.5649 	EXP 	textStudy: autoDraw = True
+1514.5668 	EXP 	textStudy: autoDraw = False
+1514.5668 	EXP 	textStudy: autoDraw = False
+1514.5668 	EXP 	textBlank500: autoDraw = True
+1515.0546 	EXP 	New trial (rep=8, index=0): None
+1515.0675 	EXP 	textBlank500: autoDraw = False
+1515.0675 	EXP 	textBlank500: autoDraw = False
+1515.0675 	EXP 	textStudy: text = 'property'
+1515.0675 	EXP 	textStudy: autoDraw = True
+1517.0693 	EXP 	textStudy: autoDraw = False
+1517.0693 	EXP 	textStudy: autoDraw = False
+1517.0693 	EXP 	textBlank500: autoDraw = True
+1517.5578 	EXP 	New trial (rep=9, index=0): None
+1517.5767 	EXP 	textBlank500: autoDraw = False
+1517.5767 	EXP 	textBlank500: autoDraw = False
+1517.5767 	EXP 	textStudy: text = 'broke'
+1517.5767 	EXP 	textStudy: autoDraw = True
+1519.5887 	EXP 	textStudy: autoDraw = False
+1519.5887 	EXP 	textBlank500: autoDraw = True
+1520.0757 	EXP 	New trial (rep=10, index=0): None
+1520.0959 	EXP 	textBlank500: autoDraw = False
+1520.0959 	EXP 	textStudy: text = 'discovery'
+1520.0959 	EXP 	textStudy: autoDraw = True
+1522.1076 	EXP 	textStudy: autoDraw = False
+1522.1076 	EXP 	textBlank500: autoDraw = True
+1522.5930 	EXP 	New trial (rep=11, index=0): None
+1522.6081 	EXP 	textBlank500: autoDraw = False
+1522.6081 	EXP 	textStudy: text = 'produce'
+1522.6081 	EXP 	textStudy: autoDraw = True
+1524.6103 	EXP 	textStudy: autoDraw = False
+1524.6103 	EXP 	textStudy: autoDraw = False
+1524.6103 	EXP 	textBlank500: autoDraw = True
+1525.0997 	EXP 	New trial (rep=12, index=0): None
+1525.1214 	EXP 	textBlank500: autoDraw = False
+1525.1214 	EXP 	textBlank500: autoDraw = False
+1525.1214 	EXP 	textStudy: text = 'dozen'
+1525.1214 	EXP 	textStudy: autoDraw = True
+1527.1297 	EXP 	textStudy: autoDraw = False
+1527.1297 	EXP 	textBlank500: autoDraw = True
+1527.6156 	EXP 	New trial (rep=13, index=0): None
+1527.6299 	EXP 	textBlank500: autoDraw = False
+1527.6299 	EXP 	textStudy: text = 'substance'
+1527.6299 	EXP 	textStudy: autoDraw = True
+1529.6318 	EXP 	textStudy: autoDraw = False
+1529.6318 	EXP 	textStudy: autoDraw = False
+1529.6318 	EXP 	textBlank500: autoDraw = True
+1530.1187 	EXP 	New trial (rep=14, index=0): None
+1530.1324 	EXP 	textBlank500: autoDraw = False
+1530.1324 	EXP 	textBlank500: autoDraw = False
+1530.1324 	EXP 	textStudy: text = 'threat'
+1530.1324 	EXP 	textStudy: autoDraw = True
+1532.1345 	EXP 	textStudy: autoDraw = False
+1532.1345 	EXP 	textStudy: autoDraw = False
+1532.1345 	EXP 	textBlank500: autoDraw = True
+1532.6238 	EXP 	New trial (rep=15, index=0): None
+1532.6397 	EXP 	textBlank500: autoDraw = False
+1532.6397 	EXP 	textBlank500: autoDraw = False
+1532.6397 	EXP 	textStudy: text = 'suggestion'
+1532.6397 	EXP 	textStudy: autoDraw = True
+1534.6535 	EXP 	textStudy: autoDraw = False
+1534.6535 	EXP 	textBlank500: autoDraw = True
+1535.1404 	EXP 	New trial (rep=16, index=0): None
+1535.1559 	EXP 	textBlank500: autoDraw = False
+1535.1559 	EXP 	textStudy: text = 'revolution'
+1535.1559 	EXP 	textStudy: autoDraw = True
+1537.1561 	EXP 	textStudy: autoDraw = False
+1537.1561 	EXP 	textStudy: autoDraw = False
+1537.1561 	EXP 	textBlank500: autoDraw = True
+1537.6433 	EXP 	New trial (rep=17, index=0): None
+1537.6567 	EXP 	textBlank500: autoDraw = False
+1537.6567 	EXP 	textBlank500: autoDraw = False
+1537.6567 	EXP 	textStudy: text = 'interview'
+1537.6567 	EXP 	textStudy: autoDraw = True
+1539.6585 	EXP 	textStudy: autoDraw = False
+1539.6585 	EXP 	textStudy: autoDraw = False
+1539.6585 	EXP 	textBlank500: autoDraw = True
+1540.1472 	EXP 	New trial (rep=18, index=0): None
+1540.1622 	EXP 	textBlank500: autoDraw = False
+1540.1622 	EXP 	textBlank500: autoDraw = False
+1540.1622 	EXP 	textStudy: text = 'birth'
+1540.1622 	EXP 	textStudy: autoDraw = True
+1542.1613 	EXP 	textStudy: autoDraw = False
+1542.1613 	EXP 	textStudy: autoDraw = False
+1542.1613 	EXP 	textBlank500: autoDraw = True
+1542.6503 	EXP 	New trial (rep=19, index=0): None
+1542.6676 	EXP 	textBlank500: autoDraw = False
+1542.6676 	EXP 	textBlank500: autoDraw = False
+1542.6676 	EXP 	textStudy: text = 'profession'
+1542.6676 	EXP 	textStudy: autoDraw = True
+1544.6804 	EXP 	textStudy: autoDraw = False
+1544.6804 	EXP 	textBlank500: autoDraw = True
+1545.1661 	EXP 	New trial (rep=20, index=0): None
+1545.1804 	EXP 	textBlank500: autoDraw = False
+1545.1804 	EXP 	textStudy: text = 'dance'
+1545.1804 	EXP 	textStudy: autoDraw = True
+1547.1829 	EXP 	textStudy: autoDraw = False
+1547.1829 	EXP 	textStudy: autoDraw = False
+1547.1829 	EXP 	textBlank500: autoDraw = True
+1547.6730 	EXP 	New trial (rep=21, index=0): None
+1547.6913 	EXP 	textBlank500: autoDraw = False
+1547.6913 	EXP 	textBlank500: autoDraw = False
+1547.6913 	EXP 	textStudy: text = 'stranger'
+1547.6913 	EXP 	textStudy: autoDraw = True
+1549.7019 	EXP 	textStudy: autoDraw = False
+1549.7019 	EXP 	textBlank500: autoDraw = True
+1550.1919 	EXP 	New trial (rep=22, index=0): None
+1550.2127 	EXP 	textBlank500: autoDraw = False
+1550.2127 	EXP 	textStudy: text = 'defeat'
+1550.2127 	EXP 	textStudy: autoDraw = True
+1552.2212 	EXP 	textStudy: autoDraw = False
+1552.2212 	EXP 	textBlank500: autoDraw = True
+1552.7089 	EXP 	New trial (rep=23, index=0): None
+1552.7299 	EXP 	textBlank500: autoDraw = False
+1552.7299 	EXP 	textStudy: text = 'institute'
+1552.7299 	EXP 	textStudy: autoDraw = True
+1554.7404 	EXP 	textStudy: autoDraw = False
+1554.7404 	EXP 	textBlank500: autoDraw = True
+1555.2271 	EXP 	New trial (rep=24, index=0): None
+1555.2407 	EXP 	textBlank500: autoDraw = False
+1555.2407 	EXP 	textStudy: text = 'trash'
+1555.2407 	EXP 	textStudy: autoDraw = True
+1557.2427 	EXP 	textStudy: autoDraw = False
+1557.2427 	EXP 	textStudy: autoDraw = False
+1557.2427 	EXP 	textBlank500: autoDraw = True
+1557.7314 	EXP 	New trial (rep=25, index=0): None
+1557.7479 	EXP 	textBlank500: autoDraw = False
+1557.7479 	EXP 	textBlank500: autoDraw = False
+1557.7479 	EXP 	textStudy: text = 'judge'
+1557.7479 	EXP 	textStudy: autoDraw = True
+1559.7621 	EXP 	textStudy: autoDraw = False
+1559.7621 	EXP 	textBlank500: autoDraw = True
+1560.2516 	EXP 	New trial (rep=26, index=0): None
+1560.2764 	EXP 	textBlank500: autoDraw = False
+1560.2764 	EXP 	textStudy: text = 'century'
+1560.2764 	EXP 	textStudy: autoDraw = True
+1562.2813 	EXP 	textStudy: autoDraw = False
+1562.2813 	EXP 	textBlank500: autoDraw = True
+1562.7716 	EXP 	New trial (rep=27, index=0): None
+1562.7881 	EXP 	textBlank500: autoDraw = False
+1562.7881 	EXP 	textStudy: text = 'column'
+1562.7881 	EXP 	textStudy: autoDraw = True
+1564.8002 	EXP 	textStudy: autoDraw = False
+1564.8002 	EXP 	textBlank500: autoDraw = True
+1565.2860 	EXP 	New trial (rep=28, index=0): None
+1565.3011 	EXP 	textBlank500: autoDraw = False
+1565.3011 	EXP 	textStudy: text = 'management'
+1565.3011 	EXP 	textStudy: autoDraw = True
+1567.3030 	EXP 	textStudy: autoDraw = False
+1567.3030 	EXP 	textStudy: autoDraw = False
+1567.3030 	EXP 	textBlank500: autoDraw = True
+1567.7912 	EXP 	New trial (rep=29, index=0): None
+1567.8035 	EXP 	textBlank500: autoDraw = False
+1567.8035 	EXP 	textBlank500: autoDraw = False
+1567.8035 	EXP 	textStudy: text = 'color'
+1567.8035 	EXP 	textStudy: autoDraw = True
+1569.8054 	EXP 	textStudy: autoDraw = False
+1569.8054 	EXP 	textStudy: autoDraw = False
+1569.8054 	EXP 	textBlank500: autoDraw = True
+1570.2930 	EXP 	New trial (rep=30, index=0): None
+1570.3093 	EXP 	textBlank500: autoDraw = False
+1570.3093 	EXP 	textBlank500: autoDraw = False
+1570.3093 	EXP 	textStudy: text = 'equipment'
+1570.3093 	EXP 	textStudy: autoDraw = True
+1572.3245 	EXP 	textStudy: autoDraw = False
+1572.3245 	EXP 	textBlank500: autoDraw = True
+1572.8117 	EXP 	New trial (rep=31, index=0): None
+1572.8267 	EXP 	textBlank500: autoDraw = False
+1572.8267 	EXP 	textStudy: text = 'suspect'
+1572.8267 	EXP 	textStudy: autoDraw = True
+1574.8268 	EXP 	textStudy: autoDraw = False
+1574.8268 	EXP 	textStudy: autoDraw = False
+1574.8268 	EXP 	textBlank500: autoDraw = True
+1575.3175 	EXP 	New trial (rep=32, index=0): None
+1575.3368 	EXP 	textBlank500: autoDraw = False
+1575.3368 	EXP 	textBlank500: autoDraw = False
+1575.3368 	EXP 	textStudy: text = 'company'
+1575.3368 	EXP 	textStudy: autoDraw = True
+1577.3464 	EXP 	textStudy: autoDraw = False
+1577.3464 	EXP 	textBlank500: autoDraw = True
+1577.8316 	EXP 	New trial (rep=33, index=0): None
+1577.8469 	EXP 	textBlank500: autoDraw = False
+1577.8469 	EXP 	textStudy: text = 'material'
+1577.8469 	EXP 	textStudy: autoDraw = True
+1579.8488 	EXP 	textStudy: autoDraw = False
+1579.8488 	EXP 	textStudy: autoDraw = False
+1579.8488 	EXP 	textBlank500: autoDraw = True
+1580.3385 	EXP 	New trial (rep=34, index=0): None
+1580.3576 	EXP 	textBlank500: autoDraw = False
+1580.3576 	EXP 	textBlank500: autoDraw = False
+1580.3576 	EXP 	textStudy: text = 'tough'
+1580.3576 	EXP 	textStudy: autoDraw = True
+1582.3678 	EXP 	textStudy: autoDraw = False
+1582.3678 	EXP 	textBlank500: autoDraw = True
+1582.8544 	EXP 	New trial (rep=35, index=0): None
+1582.8686 	EXP 	textBlank500: autoDraw = False
+1582.8686 	EXP 	textStudy: text = 'strength'
+1582.8686 	EXP 	textStudy: autoDraw = True
+1584.8703 	EXP 	textStudy: autoDraw = False
+1584.8703 	EXP 	textStudy: autoDraw = False
+1584.8703 	EXP 	textBlank500: autoDraw = True
+1585.3580 	EXP 	New trial (rep=36, index=0): None
+1585.3709 	EXP 	textBlank500: autoDraw = False
+1585.3709 	EXP 	textBlank500: autoDraw = False
+1585.3709 	EXP 	textStudy: text = 'degree'
+1585.3709 	EXP 	textStudy: autoDraw = True
+1587.3729 	EXP 	textStudy: autoDraw = False
+1587.3729 	EXP 	textStudy: autoDraw = False
+1587.3729 	EXP 	textBlank500: autoDraw = True
+1587.8616 	EXP 	New trial (rep=37, index=0): None
+1587.8782 	EXP 	textBlank500: autoDraw = False
+1587.8782 	EXP 	textBlank500: autoDraw = False
+1587.8782 	EXP 	textStudy: text = 'question'
+1587.8782 	EXP 	textStudy: autoDraw = True
+1589.8921 	EXP 	textStudy: autoDraw = False
+1589.8921 	EXP 	textBlank500: autoDraw = True
+1590.3800 	EXP 	New trial (rep=38, index=0): None
+1590.3967 	EXP 	textBlank500: autoDraw = False
+1590.3967 	EXP 	textStudy: text = 'drama'
+1590.3967 	EXP 	textStudy: autoDraw = True
+1592.4111 	EXP 	textStudy: autoDraw = False
+1592.4111 	EXP 	textBlank500: autoDraw = True
+1592.8976 	EXP 	New trial (rep=39, index=0): None
+1592.9120 	EXP 	textBlank500: autoDraw = False
+1592.9120 	EXP 	textStudy: text = 'turkey'
+1592.9120 	EXP 	textStudy: autoDraw = True
+1594.9139 	EXP 	textStudy: autoDraw = False
+1594.9139 	EXP 	textStudy: autoDraw = False
+1594.9139 	EXP 	textBlank500: autoDraw = True
+1595.4023 	EXP 	New trial (rep=40, index=0): None
+1595.4168 	EXP 	textBlank500: autoDraw = False
+1595.4168 	EXP 	textBlank500: autoDraw = False
+1595.4168 	EXP 	textStudy: text = 'period'
+1595.4168 	EXP 	textStudy: autoDraw = True
+1597.4165 	EXP 	textStudy: autoDraw = False
+1597.4165 	EXP 	textStudy: autoDraw = False
+1597.4165 	EXP 	textBlank500: autoDraw = True
+1597.9065 	EXP 	New trial (rep=41, index=0): None
+1597.9254 	EXP 	textBlank500: autoDraw = False
+1597.9254 	EXP 	textBlank500: autoDraw = False
+1597.9254 	EXP 	textStudy: text = 'strain'
+1597.9254 	EXP 	textStudy: autoDraw = True
+1599.9356 	EXP 	textStudy: autoDraw = False
+1599.9356 	EXP 	textBlank500: autoDraw = True
+1600.4238 	EXP 	New trial (rep=42, index=0): None
+1600.4401 	EXP 	textBlank500: autoDraw = False
+1600.4401 	EXP 	textStudy: text = 'motion'
+1600.4401 	EXP 	textStudy: autoDraw = True
+1602.4548 	EXP 	textStudy: autoDraw = False
+1602.4548 	EXP 	textBlank500: autoDraw = True
+1602.9410 	EXP 	New trial (rep=43, index=0): None
+1602.9551 	EXP 	textBlank500: autoDraw = False
+1602.9551 	EXP 	textStudy: text = 'weather'
+1602.9551 	EXP 	textStudy: autoDraw = True
+1604.9572 	EXP 	textStudy: autoDraw = False
+1604.9572 	EXP 	textStudy: autoDraw = False
+1604.9572 	EXP 	textBlank500: autoDraw = True
+1605.4496 	EXP 	New trial (rep=44, index=0): None
+1605.4655 	EXP 	textBlank500: autoDraw = False
+1605.4655 	EXP 	textBlank500: autoDraw = False
+1605.4655 	EXP 	textStudy: text = 'weight'
+1605.4655 	EXP 	textStudy: autoDraw = True
+1607.4763 	EXP 	textStudy: autoDraw = False
+1607.4763 	EXP 	textBlank500: autoDraw = True
+1607.9624 	EXP 	New trial (rep=45, index=0): None
+1607.9771 	EXP 	textBlank500: autoDraw = False
+1607.9771 	EXP 	textStudy: text = 'exchange'
+1607.9771 	EXP 	textStudy: autoDraw = True
+1609.9788 	EXP 	textStudy: autoDraw = False
+1609.9788 	EXP 	textStudy: autoDraw = False
+1609.9788 	EXP 	textBlank500: autoDraw = True
+1610.4674 	EXP 	New trial (rep=46, index=0): None
+1610.4822 	EXP 	textBlank500: autoDraw = False
+1610.4822 	EXP 	textBlank500: autoDraw = False
+1610.4822 	EXP 	textStudy: text = 'count'
+1610.4822 	EXP 	textStudy: autoDraw = True
+1612.4837 	EXP 	textStudy: autoDraw = False
+1612.4837 	EXP 	textStudy: autoDraw = False
+1612.4837 	EXP 	textBlank500: autoDraw = True
+1612.9853 	EXP 	New trial (rep=47, index=0): None
+1613.0024 	EXP 	textBlank500: autoDraw = False
+1613.0024 	EXP 	textStudy: text = 'sunset'
+1613.0024 	EXP 	textStudy: autoDraw = True
+1615.0174 	EXP 	textStudy: autoDraw = False
+1615.0174 	EXP 	textBlank500: autoDraw = True
+1615.5032 	EXP 	New trial (rep=48, index=0): None
+1615.5178 	EXP 	textBlank500: autoDraw = False
+1615.5178 	EXP 	textStudy: text = 'principal'
+1615.5178 	EXP 	textStudy: autoDraw = True
+1617.5199 	EXP 	textStudy: autoDraw = False
+1617.5199 	EXP 	textStudy: autoDraw = False
+1617.5199 	EXP 	textBlank500: autoDraw = True
+1618.0068 	EXP 	New trial (rep=49, index=0): None
+1618.0207 	EXP 	textBlank500: autoDraw = False
+1618.0207 	EXP 	textBlank500: autoDraw = False
+1618.0207 	EXP 	textStudy: text = 'owner'
+1618.0207 	EXP 	textStudy: autoDraw = True
+1620.0223 	EXP 	textStudy: autoDraw = False
+1620.0223 	EXP 	textStudy: autoDraw = False
+1620.0223 	EXP 	textBlank500: autoDraw = True
+1620.5106 	EXP 	New trial (rep=50, index=0): None
+1620.5228 	EXP 	textBlank500: autoDraw = False
+1620.5228 	EXP 	textBlank500: autoDraw = False
+1620.5228 	EXP 	textStudy: text = 'hunger'
+1620.5228 	EXP 	textStudy: autoDraw = True
+1622.5248 	EXP 	textStudy: autoDraw = False
+1622.5248 	EXP 	textStudy: autoDraw = False
+1622.5248 	EXP 	textBlank500: autoDraw = True
+1623.0133 	EXP 	New trial (rep=51, index=0): None
+1623.0258 	EXP 	textBlank500: autoDraw = False
+1623.0258 	EXP 	textBlank500: autoDraw = False
+1623.0258 	EXP 	textStudy: text = 'accident'
+1623.0258 	EXP 	textStudy: autoDraw = True
+1625.0274 	EXP 	textStudy: autoDraw = False
+1625.0274 	EXP 	textStudy: autoDraw = False
+1625.0274 	EXP 	textBlank500: autoDraw = True
+1625.5189 	EXP 	New trial (rep=52, index=0): None
+1625.5463 	EXP 	textBlank500: autoDraw = False
+1625.5463 	EXP 	textBlank500: autoDraw = False
+1625.5463 	EXP 	textStudy: text = 'treatment'
+1625.5463 	EXP 	textStudy: autoDraw = True
+1627.5466 	EXP 	textStudy: autoDraw = False
+1627.5466 	EXP 	textBlank500: autoDraw = True
+1628.0344 	EXP 	New trial (rep=53, index=0): None
+1628.0513 	EXP 	textBlank500: autoDraw = False
+1628.0513 	EXP 	textStudy: text = 'break'
+1628.0513 	EXP 	textStudy: autoDraw = True
+1630.0658 	EXP 	textStudy: autoDraw = False
+1630.0658 	EXP 	textBlank500: autoDraw = True
+1630.5537 	EXP 	New trial (rep=54, index=0): None
+1630.5724 	EXP 	textBlank500: autoDraw = False
+1630.5724 	EXP 	textStudy: text = 'benefit'
+1630.5724 	EXP 	textStudy: autoDraw = True
+1632.5850 	EXP 	textStudy: autoDraw = False
+1632.5850 	EXP 	textBlank500: autoDraw = True
+1633.0738 	EXP 	New trial (rep=55, index=0): None
+1633.0903 	EXP 	textBlank500: autoDraw = False
+1633.0903 	EXP 	textStudy: text = 'minute'
+1633.0903 	EXP 	textStudy: autoDraw = True
+1635.1042 	EXP 	textStudy: autoDraw = False
+1635.1042 	EXP 	textBlank500: autoDraw = True
+1635.5902 	EXP 	New trial (rep=56, index=0): None
+1635.6046 	EXP 	textBlank500: autoDraw = False
+1635.6046 	EXP 	textStudy: text = 'south'
+1635.6046 	EXP 	textStudy: autoDraw = True
+1637.6067 	EXP 	textStudy: autoDraw = False
+1637.6067 	EXP 	textStudy: autoDraw = False
+1637.6067 	EXP 	textBlank500: autoDraw = True
+1638.0957 	EXP 	New trial (rep=57, index=0): None
+1638.1116 	EXP 	textBlank500: autoDraw = False
+1638.1116 	EXP 	textBlank500: autoDraw = False
+1638.1116 	EXP 	textStudy: text = 'direction'
+1638.1116 	EXP 	textStudy: autoDraw = True
+1640.1257 	EXP 	textStudy: autoDraw = False
+1640.1257 	EXP 	textBlank500: autoDraw = True
+1640.6121 	EXP 	New trial (rep=58, index=0): None
+1640.6263 	EXP 	textBlank500: autoDraw = False
+1640.6263 	EXP 	textStudy: text = 'skill'
+1640.6263 	EXP 	textStudy: autoDraw = True
+1642.6283 	EXP 	textStudy: autoDraw = False
+1642.6283 	EXP 	textStudy: autoDraw = False
+1642.6283 	EXP 	textBlank500: autoDraw = True
+1643.1159 	EXP 	New trial (rep=59, index=0): None
+1643.1288 	EXP 	textBlank500: autoDraw = False
+1643.1288 	EXP 	textBlank500: autoDraw = False
+1643.1288 	EXP 	textStudy: text = 'sleep'
+1643.1288 	EXP 	textStudy: autoDraw = True
+1645.1307 	EXP 	textStudy: autoDraw = False
+1645.1307 	EXP 	textStudy: autoDraw = False
+1645.1307 	EXP 	textBlank500: autoDraw = True
+1645.6195 	EXP 	New trial (rep=60, index=0): None
+1645.6364 	EXP 	textBlank500: autoDraw = False
+1645.6364 	EXP 	textBlank500: autoDraw = False
+1645.6364 	EXP 	textStudy: text = 'stand'
+1645.6364 	EXP 	textStudy: autoDraw = True
+1647.6500 	EXP 	textStudy: autoDraw = False
+1647.6500 	EXP 	textBlank500: autoDraw = True
+1648.1365 	EXP 	New trial (rep=61, index=0): None
+1648.1505 	EXP 	textBlank500: autoDraw = False
+1648.1505 	EXP 	textStudy: text = 'impact'
+1648.1505 	EXP 	textStudy: autoDraw = True
+1650.1525 	EXP 	textStudy: autoDraw = False
+1650.1525 	EXP 	textStudy: autoDraw = False
+1650.1525 	EXP 	textBlank500: autoDraw = True
+1650.6405 	EXP 	New trial (rep=62, index=0): None
+1650.6548 	EXP 	textBlank500: autoDraw = False
+1650.6548 	EXP 	textBlank500: autoDraw = False
+1650.6548 	EXP 	textStudy: text = 'debate'
+1650.6548 	EXP 	textStudy: autoDraw = True
+1652.6550 	EXP 	textStudy: autoDraw = False
+1652.6550 	EXP 	textStudy: autoDraw = False
+1652.6550 	EXP 	textBlank500: autoDraw = True
+1653.1431 	EXP 	New trial (rep=63, index=0): None
+1653.1561 	EXP 	textBlank500: autoDraw = False
+1653.1561 	EXP 	textBlank500: autoDraw = False
+1653.1561 	EXP 	textStudy: text = 'pretty'
+1653.1561 	EXP 	textStudy: autoDraw = True
+1655.1575 	EXP 	textStudy: autoDraw = False
+1655.1575 	EXP 	textStudy: autoDraw = False
+1655.1575 	EXP 	textBlank500: autoDraw = True
+1655.6456 	EXP 	New trial (rep=64, index=0): None
+1655.6672 	EXP 	textBlank500: autoDraw = False
+1655.6672 	EXP 	textBlank500: autoDraw = False
+1655.6672 	EXP 	textStudy: text = 'union'
+1655.6672 	EXP 	textStudy: autoDraw = True
+1657.6767 	EXP 	textStudy: autoDraw = False
+1657.6767 	EXP 	textBlank500: autoDraw = True
+1658.1640 	EXP 	New trial (rep=65, index=0): None
+1658.1786 	EXP 	textBlank500: autoDraw = False
+1658.1786 	EXP 	textStudy: text = 'touch'
+1658.1786 	EXP 	textStudy: autoDraw = True
+1660.1792 	EXP 	textStudy: autoDraw = False
+1660.1792 	EXP 	textStudy: autoDraw = False
+1660.1792 	EXP 	textBlank500: autoDraw = True
+1660.6690 	EXP 	New trial (rep=66, index=0): None
+1660.6874 	EXP 	textBlank500: autoDraw = False
+1660.6874 	EXP 	textBlank500: autoDraw = False
+1660.6874 	EXP 	textStudy: text = 'level'
+1660.6874 	EXP 	textStudy: autoDraw = True
+1662.6983 	EXP 	textStudy: autoDraw = False
+1662.6983 	EXP 	textBlank500: autoDraw = True
+1663.1887 	EXP 	New trial (rep=67, index=0): None
+1663.2069 	EXP 	textBlank500: autoDraw = False
+1663.2069 	EXP 	textStudy: text = 'territory'
+1663.2069 	EXP 	textStudy: autoDraw = True
+1665.2175 	EXP 	textStudy: autoDraw = False
+1665.2175 	EXP 	textBlank500: autoDraw = True
+1665.7067 	EXP 	New trial (rep=68, index=0): None
+1665.7235 	EXP 	textBlank500: autoDraw = False
+1665.7235 	EXP 	textStudy: text = 'split'
+1665.7235 	EXP 	textStudy: autoDraw = True
+1667.7367 	EXP 	textStudy: autoDraw = False
+1667.7367 	EXP 	textBlank500: autoDraw = True
+1668.2222 	EXP 	New trial (rep=69, index=0): None
+1668.2372 	EXP 	textBlank500: autoDraw = False
+1668.2372 	EXP 	textStudy: text = 'harmony'
+1668.2372 	EXP 	textStudy: autoDraw = True
+1670.2394 	EXP 	textStudy: autoDraw = False
+1670.2394 	EXP 	textStudy: autoDraw = False
+1670.2394 	EXP 	textBlank500: autoDraw = True
+1670.7265 	EXP 	New trial (rep=70, index=0): None
+1670.7397 	EXP 	textBlank500: autoDraw = False
+1670.7397 	EXP 	textBlank500: autoDraw = False
+1670.7397 	EXP 	textStudy: text = 'blind'
+1670.7397 	EXP 	textStudy: autoDraw = True
+1672.7414 	EXP 	textStudy: autoDraw = False
+1672.7414 	EXP 	textStudy: autoDraw = False
+1672.7414 	EXP 	textBlank500: autoDraw = True
+1673.2305 	EXP 	New trial (rep=71, index=0): None
+1673.2478 	EXP 	textBlank500: autoDraw = False
+1673.2478 	EXP 	textBlank500: autoDraw = False
+1673.2478 	EXP 	textStudy: text = 'place'
+1673.2478 	EXP 	textStudy: autoDraw = True
+1675.2608 	EXP 	textStudy: autoDraw = False
+1675.2608 	EXP 	textBlank500: autoDraw = True
+1675.7465 	EXP 	New trial (rep=72, index=0): None
+1675.7613 	EXP 	textBlank500: autoDraw = False
+1675.7613 	EXP 	textStudy: text = 'population'
+1675.7613 	EXP 	textStudy: autoDraw = True
+1677.7633 	EXP 	textStudy: autoDraw = False
+1677.7633 	EXP 	textStudy: autoDraw = False
+1677.7633 	EXP 	textBlank500: autoDraw = True
+1678.2529 	EXP 	New trial (rep=73, index=0): None
+1678.2690 	EXP 	textBlank500: autoDraw = False
+1678.2690 	EXP 	textBlank500: autoDraw = False
+1678.2690 	EXP 	textStudy: text = 'carry'
+1678.2690 	EXP 	textStudy: autoDraw = True
+1680.2827 	EXP 	textStudy: autoDraw = False
+1680.2827 	EXP 	textBlank500: autoDraw = True
+1680.7710 	EXP 	New trial (rep=74, index=0): None
+1680.7887 	EXP 	textBlank500: autoDraw = False
+1680.7887 	EXP 	textStudy: text = 'express'
+1680.7887 	EXP 	textStudy: autoDraw = True
+1682.8015 	EXP 	textStudy: autoDraw = False
+1682.8015 	EXP 	textBlank500: autoDraw = True
+1683.2873 	EXP 	New trial (rep=75, index=0): None
+1683.3022 	EXP 	textBlank500: autoDraw = False
+1683.3022 	EXP 	textStudy: text = 'people'
+1683.3022 	EXP 	textStudy: autoDraw = True
+1685.3041 	EXP 	textStudy: autoDraw = False
+1685.3041 	EXP 	textStudy: autoDraw = False
+1685.3041 	EXP 	textBlank500: autoDraw = True
+1685.7915 	EXP 	New trial (rep=76, index=0): None
+1685.8044 	EXP 	textBlank500: autoDraw = False
+1685.8044 	EXP 	textBlank500: autoDraw = False
+1685.8044 	EXP 	textStudy: text = 'fashion'
+1685.8044 	EXP 	textStudy: autoDraw = True
+1687.8068 	EXP 	textStudy: autoDraw = False
+1687.8068 	EXP 	textStudy: autoDraw = False
+1687.8068 	EXP 	textBlank500: autoDraw = True
+1688.2963 	EXP 	New trial (rep=77, index=0): None
+1688.3112 	EXP 	textBlank500: autoDraw = False
+1688.3112 	EXP 	textBlank500: autoDraw = False
+1688.3112 	EXP 	textStudy: text = 'fellow'
+1688.3112 	EXP 	textStudy: autoDraw = True
+1690.3258 	EXP 	textStudy: autoDraw = False
+1690.3258 	EXP 	textBlank500: autoDraw = True
+1690.8135 	EXP 	New trial (rep=78, index=0): None
+1690.8289 	EXP 	textBlank500: autoDraw = False
+1690.8289 	EXP 	textStudy: text = 'service'
+1690.8289 	EXP 	textStudy: autoDraw = True
+1692.8286 	EXP 	textStudy: autoDraw = False
+1692.8286 	EXP 	textStudy: autoDraw = False
+1692.8286 	EXP 	textBlank500: autoDraw = True
+1693.3179 	EXP 	New trial (rep=79, index=0): None
+1693.3356 	EXP 	textBlank500: autoDraw = False
+1693.3356 	EXP 	textBlank500: autoDraw = False
+1693.3356 	EXP 	textStudy: text = 'raise'
+1693.3356 	EXP 	textStudy: autoDraw = True
+1695.3477 	EXP 	textStudy: autoDraw = False
+1695.3477 	EXP 	textBlank500: autoDraw = True
+1695.8372 	EXP 	New trial (rep=80, index=0): None
+1695.8604 	EXP 	textBlank500: autoDraw = False
+1695.8604 	EXP 	textStudy: text = 'answer'
+1695.8604 	EXP 	textStudy: autoDraw = True
+1697.8668 	EXP 	textStudy: autoDraw = False
+1697.8668 	EXP 	textBlank500: autoDraw = True
+1698.3531 	EXP 	New trial (rep=81, index=0): None
+1698.3708 	EXP 	textBlank500: autoDraw = False
+1698.3708 	EXP 	textStudy: text = 'division'
+1698.3708 	EXP 	textStudy: autoDraw = True
+1700.3858 	EXP 	textStudy: autoDraw = False
+1700.3858 	EXP 	textBlank500: autoDraw = True
+1700.8719 	EXP 	New trial (rep=82, index=0): None
+1700.8865 	EXP 	textBlank500: autoDraw = False
+1700.8865 	EXP 	textStudy: text = 'write'
+1700.8865 	EXP 	textStudy: autoDraw = True
+1702.8886 	EXP 	textStudy: autoDraw = False
+1702.8886 	EXP 	textStudy: autoDraw = False
+1702.8886 	EXP 	textBlank500: autoDraw = True
+1703.3761 	EXP 	New trial (rep=83, index=0): None
+1703.3890 	EXP 	textBlank500: autoDraw = False
+1703.3890 	EXP 	textBlank500: autoDraw = False
+1703.3890 	EXP 	textStudy: text = 'escape'
+1703.3890 	EXP 	textStudy: autoDraw = True
+1705.3911 	EXP 	textStudy: autoDraw = False
+1705.3911 	EXP 	textStudy: autoDraw = False
+1705.3911 	EXP 	textBlank500: autoDraw = True
+1705.8799 	EXP 	New trial (rep=84, index=0): None
+1705.8969 	EXP 	textBlank500: autoDraw = False
+1705.8969 	EXP 	textBlank500: autoDraw = False
+1705.8969 	EXP 	textStudy: text = 'smooth'
+1705.8969 	EXP 	textStudy: autoDraw = True
+1707.9102 	EXP 	textStudy: autoDraw = False
+1707.9102 	EXP 	textBlank500: autoDraw = True
+1708.3976 	EXP 	New trial (rep=85, index=0): None
+1708.4122 	EXP 	textBlank500: autoDraw = False
+1708.4122 	EXP 	textStudy: text = 'quarter'
+1708.4122 	EXP 	textStudy: autoDraw = True
+1710.4127 	EXP 	textStudy: autoDraw = False
+1710.4127 	EXP 	textStudy: autoDraw = False
+1710.4127 	EXP 	textBlank500: autoDraw = True
+1710.9020 	EXP 	New trial (rep=86, index=0): None
+1710.9155 	EXP 	textBlank500: autoDraw = False
+1710.9155 	EXP 	textBlank500: autoDraw = False
+1710.9155 	EXP 	textStudy: text = 'trend'
+1710.9155 	EXP 	textStudy: autoDraw = True
+1712.9152 	EXP 	textStudy: autoDraw = False
+1712.9152 	EXP 	textStudy: autoDraw = False
+1712.9152 	EXP 	textBlank500: autoDraw = True
+1713.4022 	EXP 	New trial (rep=87, index=0): None
+1713.4156 	EXP 	textBlank500: autoDraw = False
+1713.4156 	EXP 	textBlank500: autoDraw = False
+1713.4156 	EXP 	textStudy: text = 'store'
+1713.4156 	EXP 	textStudy: autoDraw = True
+1715.4177 	EXP 	textStudy: autoDraw = False
+1715.4177 	EXP 	textStudy: autoDraw = False
+1715.4177 	EXP 	textBlank500: autoDraw = True
+1715.9048 	EXP 	New trial (rep=88, index=0): None
+1715.9181 	EXP 	textBlank500: autoDraw = False
+1715.9181 	EXP 	textBlank500: autoDraw = False
+1715.9181 	EXP 	textStudy: text = 'drink'
+1715.9181 	EXP 	textStudy: autoDraw = True
+1717.9203 	EXP 	textStudy: autoDraw = False
+1717.9203 	EXP 	textStudy: autoDraw = False
+1717.9203 	EXP 	textBlank500: autoDraw = True
+1718.4091 	EXP 	New trial (rep=89, index=0): None
+1718.4250 	EXP 	textBlank500: autoDraw = False
+1718.4250 	EXP 	textBlank500: autoDraw = False
+1718.4250 	EXP 	textStudy: text = 'contract'
+1718.4250 	EXP 	textStudy: autoDraw = True
+1720.4394 	EXP 	textStudy: autoDraw = False
+1720.4394 	EXP 	textBlank500: autoDraw = True
+1720.9402 	EXP 	textBlank500: autoDraw = False
+1720.9402 	EXP 	textTestInstructions: autoDraw = True
+1823.8672 	DATA 	Keypress: k
+1823.8761 	EXP 	textTestInstructions: autoDraw = False
+1823.8761 	EXP 	textBlank500: autoDraw = True
+1824.3692 	EXP 	Created sequence: random, trialTypes=1, nReps=180, seed=None
+1824.3724 	EXP 	New trial (rep=0, index=0): None
+1824.3909 	EXP 	textBlank500: autoDraw = False
+1824.3909 	EXP 	textBlank500: autoDraw = False
+1824.3909 	EXP 	textConf: text = 'revolution'
+1824.3909 	EXP 	textConf: autoDraw = True
+1824.3909 	EXP 	textConfScale: autoDraw = True
+1828.9976 	DATA 	Keypress: 1
+1829.0001 	EXP 	textConf: autoDraw = False
+1829.0001 	EXP 	textConfScale: autoDraw = False
+1829.0001 	EXP 	textTestBlank: text = 'revolution'
+1829.0001 	EXP 	textTestBlank: autoDraw = True
+1829.5210 	EXP 	textTestBlank: autoDraw = False
+1829.5210 	EXP 	textRKN: text = 'revolution'
+1829.5210 	EXP 	textRKN: autoDraw = True
+1829.5210 	EXP 	textRKNScale: autoDraw = True
+1833.3994 	DATA 	Keypress: n
+1833.4023 	EXP 	textRKN: autoDraw = False
+1833.4023 	EXP 	textRKNScale: autoDraw = False
+1833.4023 	EXP 	textBlank500: autoDraw = True
+1833.8945 	EXP 	New trial (rep=1, index=0): None
+1833.9146 	EXP 	textBlank500: autoDraw = False
+1833.9146 	EXP 	textBlank500: autoDraw = False
+1833.9146 	EXP 	textConf: text = 'solution'
+1833.9146 	EXP 	textConf: autoDraw = True
+1833.9146 	EXP 	textConfScale: autoDraw = True
+1844.9185 	DATA 	Keypress: 1
+1844.9210 	EXP 	textConf: autoDraw = False
+1844.9210 	EXP 	textConfScale: autoDraw = False
+1844.9210 	EXP 	textTestBlank: text = 'solution'
+1844.9210 	EXP 	textTestBlank: autoDraw = True
+1845.4378 	EXP 	textTestBlank: autoDraw = False
+1845.4378 	EXP 	textRKN: text = 'solution'
+1845.4378 	EXP 	textRKN: autoDraw = True
+1845.4378 	EXP 	textRKNScale: autoDraw = True
+1846.7558 	DATA 	Keypress: n
+1846.7823 	EXP 	textRKN: autoDraw = False
+1846.7823 	EXP 	textRKNScale: autoDraw = False
+1846.7823 	EXP 	textBlank500: autoDraw = True
+1847.2714 	EXP 	New trial (rep=2, index=0): None
+1847.2862 	EXP 	textBlank500: autoDraw = False
+1847.2862 	EXP 	textBlank500: autoDraw = False
+1847.2862 	EXP 	textConf: text = 'evidence'
+1847.2862 	EXP 	textConf: autoDraw = True
+1847.2862 	EXP 	textConfScale: autoDraw = True
+1851.7795 	DATA 	Keypress: 4
+1851.7819 	EXP 	textConf: autoDraw = False
+1851.7819 	EXP 	textConfScale: autoDraw = False
+1851.7819 	EXP 	textTestBlank: text = 'evidence'
+1851.7819 	EXP 	textTestBlank: autoDraw = True
+1852.2879 	EXP 	textTestBlank: autoDraw = False
+1852.2879 	EXP 	textRKN: text = 'evidence'
+1852.2879 	EXP 	textRKN: autoDraw = True
+1852.2879 	EXP 	textRKNScale: autoDraw = True
+1853.8178 	DATA 	Keypress: f
+1853.8226 	EXP 	textRKN: autoDraw = False
+1853.8226 	EXP 	textRKNScale: autoDraw = False
+1853.8226 	EXP 	textBlank500: autoDraw = True
+1854.3145 	EXP 	New trial (rep=3, index=0): None
+1854.3322 	EXP 	textBlank500: autoDraw = False
+1854.3322 	EXP 	textBlank500: autoDraw = False
+1854.3322 	EXP 	textConf: text = 'hunger'
+1854.3322 	EXP 	textConf: autoDraw = True
+1854.3322 	EXP 	textConfScale: autoDraw = True
+1856.7825 	DATA 	Keypress: 6
+1856.8118 	EXP 	textConf: autoDraw = False
+1856.8118 	EXP 	textConfScale: autoDraw = False
+1856.8118 	EXP 	textTestBlank: text = 'hunger'
+1856.8118 	EXP 	textTestBlank: autoDraw = True
+1857.3264 	EXP 	textTestBlank: autoDraw = False
+1857.3264 	EXP 	textRKN: text = 'hunger'
+1857.3264 	EXP 	textRKN: autoDraw = True
+1857.3264 	EXP 	textRKNScale: autoDraw = True
+1858.5925 	DATA 	Keypress: r
+1858.5951 	EXP 	textRKN: autoDraw = False
+1858.5951 	EXP 	textRKNScale: autoDraw = False
+1858.5951 	EXP 	textBlank500: autoDraw = True
+1859.0870 	EXP 	New trial (rep=4, index=0): None
+1859.1033 	EXP 	textBlank500: autoDraw = False
+1859.1033 	EXP 	textBlank500: autoDraw = False
+1859.1033 	EXP 	textConf: text = 'blind'
+1859.1033 	EXP 	textConf: autoDraw = True
+1859.1033 	EXP 	textConfScale: autoDraw = True
+1861.0407 	DATA 	Keypress: 6
+1861.0434 	EXP 	textConf: autoDraw = False
+1861.0434 	EXP 	textConfScale: autoDraw = False
+1861.0434 	EXP 	textTestBlank: text = 'blind'
+1861.0434 	EXP 	textTestBlank: autoDraw = True
+1861.5500 	EXP 	textTestBlank: autoDraw = False
+1861.5500 	EXP 	textTestBlank: autoDraw = False
+1861.5500 	EXP 	textRKN: text = 'blind'
+1861.5500 	EXP 	textRKN: autoDraw = True
+1861.5500 	EXP 	textRKNScale: autoDraw = True
+1862.5957 	DATA 	Keypress: r
+1862.5982 	EXP 	textRKN: autoDraw = False
+1862.5982 	EXP 	textRKNScale: autoDraw = False
+1862.5982 	EXP 	textBlank500: autoDraw = True
+1863.0871 	EXP 	New trial (rep=5, index=0): None
+1863.1031 	EXP 	textBlank500: autoDraw = False
+1863.1031 	EXP 	textBlank500: autoDraw = False
+1863.1031 	EXP 	textConf: text = 'payment'
+1863.1031 	EXP 	textConf: autoDraw = True
+1863.1031 	EXP 	textConfScale: autoDraw = True
+1865.1830 	DATA 	Keypress: 1
+1865.1855 	EXP 	textConf: autoDraw = False
+1865.1855 	EXP 	textConfScale: autoDraw = False
+1865.1855 	EXP 	textTestBlank: text = 'payment'
+1865.1855 	EXP 	textTestBlank: autoDraw = True
+1865.7014 	EXP 	textTestBlank: autoDraw = False
+1865.7014 	EXP 	textRKN: text = 'payment'
+1865.7014 	EXP 	textRKN: autoDraw = True
+1865.7014 	EXP 	textRKNScale: autoDraw = True
+1866.3311 	DATA 	Keypress: n
+1866.3352 	EXP 	textRKN: autoDraw = False
+1866.3352 	EXP 	textRKNScale: autoDraw = False
+1866.3352 	EXP 	textBlank500: autoDraw = True
+1866.8266 	EXP 	New trial (rep=6, index=0): None
+1866.8451 	EXP 	textBlank500: autoDraw = False
+1866.8451 	EXP 	textBlank500: autoDraw = False
+1866.8451 	EXP 	textConf: text = 'running'
+1866.8451 	EXP 	textConf: autoDraw = True
+1866.8451 	EXP 	textConfScale: autoDraw = True
+1868.6778 	DATA 	Keypress: 1
+1868.7050 	EXP 	textConf: autoDraw = False
+1868.7050 	EXP 	textConfScale: autoDraw = False
+1868.7050 	EXP 	textTestBlank: text = 'running'
+1868.7050 	EXP 	textTestBlank: autoDraw = True
+1869.2047 	EXP 	textTestBlank: autoDraw = False
+1869.2047 	EXP 	textTestBlank: autoDraw = False
+1869.2047 	EXP 	textRKN: text = 'running'
+1869.2047 	EXP 	textRKN: autoDraw = True
+1869.2047 	EXP 	textRKNScale: autoDraw = True
+1869.8671 	DATA 	Keypress: n
+1869.8720 	EXP 	textRKN: autoDraw = False
+1869.8720 	EXP 	textRKNScale: autoDraw = False
+1869.8720 	EXP 	textBlank500: autoDraw = True
+1870.3625 	EXP 	New trial (rep=7, index=0): None
+1870.3798 	EXP 	textBlank500: autoDraw = False
+1870.3798 	EXP 	textBlank500: autoDraw = False
+1870.3798 	EXP 	textConf: text = 'straight'
+1870.3798 	EXP 	textConf: autoDraw = True
+1870.3798 	EXP 	textConfScale: autoDraw = True
+1873.8086 	DATA 	Keypress: 1
+1873.8111 	EXP 	textConf: autoDraw = False
+1873.8111 	EXP 	textConfScale: autoDraw = False
+1873.8111 	EXP 	textTestBlank: text = 'straight'
+1873.8111 	EXP 	textTestBlank: autoDraw = True
+1874.3327 	EXP 	textTestBlank: autoDraw = False
+1874.3327 	EXP 	textRKN: text = 'straight'
+1874.3327 	EXP 	textRKN: autoDraw = True
+1874.3327 	EXP 	textRKNScale: autoDraw = True
+1874.8349 	DATA 	Keypress: n
+1874.8602 	EXP 	textRKN: autoDraw = False
+1874.8602 	EXP 	textRKNScale: autoDraw = False
+1874.8602 	EXP 	textBlank500: autoDraw = True
+1875.3492 	EXP 	New trial (rep=8, index=0): None
+1875.3643 	EXP 	textBlank500: autoDraw = False
+1875.3643 	EXP 	textBlank500: autoDraw = False
+1875.3643 	EXP 	textConf: text = 'century'
+1875.3643 	EXP 	textConf: autoDraw = True
+1875.3643 	EXP 	textConfScale: autoDraw = True
+1877.6788 	DATA 	Keypress: 1
+1877.6812 	EXP 	textConf: autoDraw = False
+1877.6812 	EXP 	textConfScale: autoDraw = False
+1877.6812 	EXP 	textTestBlank: text = 'century'
+1877.6812 	EXP 	textTestBlank: autoDraw = True
+1878.1806 	EXP 	textTestBlank: autoDraw = False
+1878.1806 	EXP 	textTestBlank: autoDraw = False
+1878.1806 	EXP 	textRKN: text = 'century'
+1878.1806 	EXP 	textRKN: autoDraw = True
+1878.1806 	EXP 	textRKNScale: autoDraw = True
+1879.1875 	DATA 	Keypress: n
+1879.2148 	EXP 	textRKN: autoDraw = False
+1879.2148 	EXP 	textRKNScale: autoDraw = False
+1879.2148 	EXP 	textBlank500: autoDraw = True
+1879.7058 	EXP 	New trial (rep=9, index=0): None
+1879.7251 	EXP 	textBlank500: autoDraw = False
+1879.7251 	EXP 	textBlank500: autoDraw = False
+1879.7251 	EXP 	textConf: text = 'brilliant'
+1879.7251 	EXP 	textConf: autoDraw = True
+1879.7251 	EXP 	textConfScale: autoDraw = True
+1881.4321 	DATA 	Keypress: 1
+1881.4346 	EXP 	textConf: autoDraw = False
+1881.4346 	EXP 	textConfScale: autoDraw = False
+1881.4346 	EXP 	textTestBlank: text = 'brilliant'
+1881.4346 	EXP 	textTestBlank: autoDraw = True
+1881.9365 	EXP 	textTestBlank: autoDraw = False
+1881.9365 	EXP 	textTestBlank: autoDraw = False
+1881.9365 	EXP 	textRKN: text = 'brilliant'
+1881.9365 	EXP 	textRKN: autoDraw = True
+1881.9365 	EXP 	textRKNScale: autoDraw = True
+1882.5300 	DATA 	Keypress: n
+1882.5347 	EXP 	textRKN: autoDraw = False
+1882.5347 	EXP 	textRKNScale: autoDraw = False
+1882.5347 	EXP 	textBlank500: autoDraw = True
+1883.0257 	EXP 	New trial (rep=10, index=0): None
+1883.0473 	EXP 	textBlank500: autoDraw = False
+1883.0473 	EXP 	textBlank500: autoDraw = False
+1883.0473 	EXP 	textConf: text = 'service'
+1883.0473 	EXP 	textConf: autoDraw = True
+1883.0473 	EXP 	textConfScale: autoDraw = True
+1886.1784 	DATA 	Keypress: 4
+1886.2075 	EXP 	textConf: autoDraw = False
+1886.2075 	EXP 	textConfScale: autoDraw = False
+1886.2075 	EXP 	textTestBlank: text = 'service'
+1886.2075 	EXP 	textTestBlank: autoDraw = True
+1886.7223 	EXP 	textTestBlank: autoDraw = False
+1886.7223 	EXP 	textRKN: text = 'service'
+1886.7223 	EXP 	textRKN: autoDraw = True
+1886.7223 	EXP 	textRKNScale: autoDraw = True
+1888.1557 	DATA 	Keypress: f
+1888.1582 	EXP 	textRKN: autoDraw = False
+1888.1582 	EXP 	textRKNScale: autoDraw = False
+1888.1582 	EXP 	textBlank500: autoDraw = True
+1888.6462 	EXP 	New trial (rep=11, index=0): None
+1888.6631 	EXP 	textBlank500: autoDraw = False
+1888.6631 	EXP 	textBlank500: autoDraw = False
+1888.6631 	EXP 	textConf: text = 'turkey'
+1888.6631 	EXP 	textConf: autoDraw = True
+1888.6631 	EXP 	textConfScale: autoDraw = True
+1890.7119 	DATA 	Keypress: 6
+1890.7144 	EXP 	textConf: autoDraw = False
+1890.7144 	EXP 	textConfScale: autoDraw = False
+1890.7144 	EXP 	textTestBlank: text = 'turkey'
+1890.7144 	EXP 	textTestBlank: autoDraw = True
+1891.2392 	EXP 	textTestBlank: autoDraw = False
+1891.2392 	EXP 	textRKN: text = 'turkey'
+1891.2392 	EXP 	textRKN: autoDraw = True
+1891.2392 	EXP 	textRKNScale: autoDraw = True
+1892.4213 	DATA 	Keypress: r
+1892.4279 	EXP 	textRKN: autoDraw = False
+1892.4279 	EXP 	textRKNScale: autoDraw = False
+1892.4279 	EXP 	textBlank500: autoDraw = True
+1892.9177 	EXP 	New trial (rep=12, index=0): None
+1892.9328 	EXP 	textBlank500: autoDraw = False
+1892.9328 	EXP 	textBlank500: autoDraw = False
+1892.9328 	EXP 	textConf: text = 'engineer'
+1892.9328 	EXP 	textConf: autoDraw = True
+1892.9328 	EXP 	textConfScale: autoDraw = True
+1895.1991 	DATA 	Keypress: 1
+1895.2015 	EXP 	textConf: autoDraw = False
+1895.2015 	EXP 	textConfScale: autoDraw = False
+1895.2015 	EXP 	textTestBlank: text = 'engineer'
+1895.2015 	EXP 	textTestBlank: autoDraw = True
+1895.7145 	EXP 	textTestBlank: autoDraw = False
+1895.7145 	EXP 	textRKN: text = 'engineer'
+1895.7145 	EXP 	textRKN: autoDraw = True
+1895.7145 	EXP 	textRKNScale: autoDraw = True
+1896.5949 	DATA 	Keypress: n
+1896.5987 	EXP 	textRKN: autoDraw = False
+1896.5987 	EXP 	textRKNScale: autoDraw = False
+1896.5987 	EXP 	textBlank500: autoDraw = True
+1897.0927 	EXP 	New trial (rep=13, index=0): None
+1897.1150 	EXP 	textBlank500: autoDraw = False
+1897.1150 	EXP 	textBlank500: autoDraw = False
+1897.1150 	EXP 	textConf: text = 'scene'
+1897.1150 	EXP 	textConf: autoDraw = True
+1897.1150 	EXP 	textConfScale: autoDraw = True
+1899.6756 	DATA 	Keypress: 1
+1899.7024 	EXP 	textConf: autoDraw = False
+1899.7024 	EXP 	textConfScale: autoDraw = False
+1899.7024 	EXP 	textTestBlank: text = 'scene'
+1899.7024 	EXP 	textTestBlank: autoDraw = True
+1900.2078 	EXP 	textTestBlank: autoDraw = False
+1900.2078 	EXP 	textTestBlank: autoDraw = False
+1900.2078 	EXP 	textRKN: text = 'scene'
+1900.2078 	EXP 	textRKN: autoDraw = True
+1900.2078 	EXP 	textRKNScale: autoDraw = True
+1900.8653 	DATA 	Keypress: n
+1900.8697 	EXP 	textRKN: autoDraw = False
+1900.8697 	EXP 	textRKNScale: autoDraw = False
+1900.8697 	EXP 	textBlank500: autoDraw = True
+1901.3650 	EXP 	New trial (rep=14, index=0): None
+1901.3870 	EXP 	textBlank500: autoDraw = False
+1901.3870 	EXP 	textBlank500: autoDraw = False
+1901.3870 	EXP 	textConf: text = 'union'
+1901.3870 	EXP 	textConf: autoDraw = True
+1901.3870 	EXP 	textConfScale: autoDraw = True
+1905.2400 	DATA 	Keypress: 4
+1905.2424 	EXP 	textConf: autoDraw = False
+1905.2424 	EXP 	textConfScale: autoDraw = False
+1905.2424 	EXP 	textTestBlank: text = 'union'
+1905.2424 	EXP 	textTestBlank: autoDraw = True
+1905.7581 	EXP 	textTestBlank: autoDraw = False
+1905.7581 	EXP 	textRKN: text = 'union'
+1905.7581 	EXP 	textRKN: autoDraw = True
+1905.7581 	EXP 	textRKNScale: autoDraw = True
+1906.3386 	DATA 	Keypress: f
+1906.3419 	EXP 	textRKN: autoDraw = False
+1906.3419 	EXP 	textRKNScale: autoDraw = False
+1906.3419 	EXP 	textBlank500: autoDraw = True
+1906.8373 	EXP 	New trial (rep=15, index=0): None
+1906.8566 	EXP 	textBlank500: autoDraw = False
+1906.8566 	EXP 	textBlank500: autoDraw = False
+1906.8566 	EXP 	textConf: text = 'treatment'
+1906.8566 	EXP 	textConf: autoDraw = True
+1906.8566 	EXP 	textConfScale: autoDraw = True
+1909.1697 	DATA 	Keypress: 6
+1909.2011 	EXP 	textConf: autoDraw = False
+1909.2011 	EXP 	textConfScale: autoDraw = False
+1909.2011 	EXP 	textTestBlank: text = 'treatment'
+1909.2011 	EXP 	textTestBlank: autoDraw = True
+1909.7121 	EXP 	textTestBlank: autoDraw = False
+1909.7121 	EXP 	textRKN: text = 'treatment'
+1909.7121 	EXP 	textRKN: autoDraw = True
+1909.7121 	EXP 	textRKNScale: autoDraw = True
+1910.9579 	DATA 	Keypress: r
+1910.9632 	EXP 	textRKN: autoDraw = False
+1910.9632 	EXP 	textRKNScale: autoDraw = False
+1910.9632 	EXP 	textBlank500: autoDraw = True
+1911.4520 	EXP 	New trial (rep=16, index=0): None
+1911.4668 	EXP 	textBlank500: autoDraw = False
+1911.4668 	EXP 	textBlank500: autoDraw = False
+1911.4668 	EXP 	textConf: text = 'strength'
+1911.4668 	EXP 	textConf: autoDraw = True
+1911.4668 	EXP 	textConfScale: autoDraw = True
+1914.2753 	DATA 	Keypress: 1
+1914.3020 	EXP 	textConf: autoDraw = False
+1914.3020 	EXP 	textConfScale: autoDraw = False
+1914.3020 	EXP 	textTestBlank: text = 'strength'
+1914.3020 	EXP 	textTestBlank: autoDraw = True
+1914.8200 	EXP 	textTestBlank: autoDraw = False
+1914.8200 	EXP 	textRKN: text = 'strength'
+1914.8200 	EXP 	textRKN: autoDraw = True
+1914.8200 	EXP 	textRKNScale: autoDraw = True
+1915.6413 	DATA 	Keypress: n
+1915.6678 	EXP 	textRKN: autoDraw = False
+1915.6678 	EXP 	textRKNScale: autoDraw = False
+1915.6678 	EXP 	textBlank500: autoDraw = True
+1916.1573 	EXP 	New trial (rep=17, index=0): None
+1916.1714 	EXP 	textBlank500: autoDraw = False
+1916.1714 	EXP 	textBlank500: autoDraw = False
+1916.1714 	EXP 	textConf: text = 'error'
+1916.1714 	EXP 	textConf: autoDraw = True
+1916.1714 	EXP 	textConfScale: autoDraw = True
+1919.4384 	DATA 	Keypress: 2
+1919.4409 	EXP 	textConf: autoDraw = False
+1919.4409 	EXP 	textConfScale: autoDraw = False
+1919.4409 	EXP 	textTestBlank: text = 'error'
+1919.4409 	EXP 	textTestBlank: autoDraw = True
+1919.9600 	EXP 	textTestBlank: autoDraw = False
+1919.9600 	EXP 	textRKN: text = 'error'
+1919.9600 	EXP 	textRKN: autoDraw = True
+1919.9600 	EXP 	textRKNScale: autoDraw = True
+1920.5013 	DATA 	Keypress: f
+1920.5060 	EXP 	textRKN: autoDraw = False
+1920.5060 	EXP 	textRKNScale: autoDraw = False
+1920.5060 	EXP 	textBlank500: autoDraw = True
+1920.9989 	EXP 	New trial (rep=18, index=0): None
+1921.0199 	EXP 	textBlank500: autoDraw = False
+1921.0199 	EXP 	textBlank500: autoDraw = False
+1921.0199 	EXP 	textConf: text = 'escape'
+1921.0199 	EXP 	textConf: autoDraw = True
+1921.0199 	EXP 	textConfScale: autoDraw = True
+1923.9345 	DATA 	Keypress: 6
+1923.9664 	EXP 	textConf: autoDraw = False
+1923.9664 	EXP 	textConfScale: autoDraw = False
+1923.9664 	EXP 	textTestBlank: text = 'escape'
+1923.9664 	EXP 	textTestBlank: autoDraw = True
+1924.4902 	EXP 	textTestBlank: autoDraw = False
+1924.4902 	EXP 	textRKN: text = 'escape'
+1924.4902 	EXP 	textRKN: autoDraw = True
+1924.4902 	EXP 	textRKNScale: autoDraw = True
+1924.9074 	DATA 	Keypress: r
+1924.9104 	EXP 	textRKN: autoDraw = False
+1924.9104 	EXP 	textRKNScale: autoDraw = False
+1924.9104 	EXP 	textBlank500: autoDraw = True
+1925.4027 	EXP 	New trial (rep=19, index=0): None
+1925.4230 	EXP 	textBlank500: autoDraw = False
+1925.4230 	EXP 	textBlank500: autoDraw = False
+1925.4230 	EXP 	textConf: text = 'crowd'
+1925.4230 	EXP 	textConf: autoDraw = True
+1925.4230 	EXP 	textConfScale: autoDraw = True
+1928.6063 	DATA 	Keypress: 6
+1928.6388 	EXP 	textConf: autoDraw = False
+1928.6388 	EXP 	textConfScale: autoDraw = False
+1928.6388 	EXP 	textTestBlank: text = 'crowd'
+1928.6388 	EXP 	textTestBlank: autoDraw = True
+1929.1485 	EXP 	textTestBlank: autoDraw = False
+1929.1485 	EXP 	textRKN: text = 'crowd'
+1929.1485 	EXP 	textRKN: autoDraw = True
+1929.1485 	EXP 	textRKNScale: autoDraw = True
+1929.4619 	DATA 	Keypress: r
+1929.4650 	EXP 	textRKN: autoDraw = False
+1929.4650 	EXP 	textRKNScale: autoDraw = False
+1929.4650 	EXP 	textBlank500: autoDraw = True
+1929.9580 	EXP 	New trial (rep=20, index=0): None
+1929.9801 	EXP 	textBlank500: autoDraw = False
+1929.9801 	EXP 	textBlank500: autoDraw = False
+1929.9801 	EXP 	textConf: text = 'quantity'
+1929.9801 	EXP 	textConf: autoDraw = True
+1929.9801 	EXP 	textConfScale: autoDraw = True
+1931.7585 	DATA 	Keypress: 1
+1931.7906 	EXP 	textConf: autoDraw = False
+1931.7906 	EXP 	textConfScale: autoDraw = False
+1931.7906 	EXP 	textTestBlank: text = 'quantity'
+1931.7906 	EXP 	textTestBlank: autoDraw = True
+1932.3082 	EXP 	textTestBlank: autoDraw = False
+1932.3082 	EXP 	textRKN: text = 'quantity'
+1932.3082 	EXP 	textRKN: autoDraw = True
+1932.3082 	EXP 	textRKNScale: autoDraw = True
+1932.7247 	DATA 	Keypress: n
+1932.7514 	EXP 	textRKN: autoDraw = False
+1932.7514 	EXP 	textRKNScale: autoDraw = False
+1932.7514 	EXP 	textBlank500: autoDraw = True
+1933.2451 	EXP 	New trial (rep=21, index=0): None
+1933.2651 	EXP 	textBlank500: autoDraw = False
+1933.2651 	EXP 	textBlank500: autoDraw = False
+1933.2651 	EXP 	textConf: text = 'guard'
+1933.2651 	EXP 	textConf: autoDraw = True
+1933.2651 	EXP 	textConfScale: autoDraw = True
+1937.7067 	DATA 	Keypress: 1
+1937.7092 	EXP 	textConf: autoDraw = False
+1937.7092 	EXP 	textConfScale: autoDraw = False
+1937.7092 	EXP 	textTestBlank: text = 'guard'
+1937.7092 	EXP 	textTestBlank: autoDraw = True
+1938.2296 	EXP 	textTestBlank: autoDraw = False
+1938.2296 	EXP 	textRKN: text = 'guard'
+1938.2296 	EXP 	textRKN: autoDraw = True
+1938.2296 	EXP 	textRKNScale: autoDraw = True
+1938.8219 	DATA 	Keypress: n
+1938.8243 	EXP 	textRKN: autoDraw = False
+1938.8243 	EXP 	textRKNScale: autoDraw = False
+1938.8243 	EXP 	textBlank500: autoDraw = True
+1939.3166 	EXP 	New trial (rep=22, index=0): None
+1939.3369 	EXP 	textBlank500: autoDraw = False
+1939.3369 	EXP 	textBlank500: autoDraw = False
+1939.3369 	EXP 	textConf: text = 'principal'
+1939.3369 	EXP 	textConf: autoDraw = True
+1939.3369 	EXP 	textConfScale: autoDraw = True
+1940.8176 	DATA 	Keypress: 6
+1940.8519 	EXP 	textConf: autoDraw = False
+1940.8519 	EXP 	textConfScale: autoDraw = False
+1940.8519 	EXP 	textTestBlank: text = 'principal'
+1940.8519 	EXP 	textTestBlank: autoDraw = True
+1941.3604 	EXP 	textTestBlank: autoDraw = False
+1941.3604 	EXP 	textRKN: text = 'principal'
+1941.3604 	EXP 	textRKN: autoDraw = True
+1941.3604 	EXP 	textRKNScale: autoDraw = True
+1942.1415 	DATA 	Keypress: r
+1942.1441 	EXP 	textRKN: autoDraw = False
+1942.1441 	EXP 	textRKNScale: autoDraw = False
+1942.1441 	EXP 	textBlank500: autoDraw = True
+1942.6351 	EXP 	New trial (rep=23, index=0): None
+1942.6491 	EXP 	textBlank500: autoDraw = False
+1942.6491 	EXP 	textBlank500: autoDraw = False
+1942.6491 	EXP 	textConf: text = 'exchange'
+1942.6491 	EXP 	textConf: autoDraw = True
+1942.6491 	EXP 	textConfScale: autoDraw = True
+1945.3376 	DATA 	Keypress: 4
+1945.3659 	EXP 	textConf: autoDraw = False
+1945.3659 	EXP 	textConfScale: autoDraw = False
+1945.3659 	EXP 	textTestBlank: text = 'exchange'
+1945.3659 	EXP 	textTestBlank: autoDraw = True
+1945.8814 	EXP 	textTestBlank: autoDraw = False
+1945.8814 	EXP 	textRKN: text = 'exchange'
+1945.8814 	EXP 	textRKN: autoDraw = True
+1945.8814 	EXP 	textRKNScale: autoDraw = True
+1946.2100 	DATA 	Keypress: f
+1946.2149 	EXP 	textRKN: autoDraw = False
+1946.2149 	EXP 	textRKNScale: autoDraw = False
+1946.2149 	EXP 	textBlank500: autoDraw = True
+1946.7077 	EXP 	New trial (rep=24, index=0): None
+1946.7275 	EXP 	textBlank500: autoDraw = False
+1946.7275 	EXP 	textBlank500: autoDraw = False
+1946.7275 	EXP 	textConf: text = 'silence'
+1946.7275 	EXP 	textConf: autoDraw = True
+1946.7275 	EXP 	textConfScale: autoDraw = True
+1948.7573 	DATA 	Keypress: 6
+1948.7856 	EXP 	textConf: autoDraw = False
+1948.7856 	EXP 	textConfScale: autoDraw = False
+1948.7856 	EXP 	textTestBlank: text = 'silence'
+1948.7856 	EXP 	textTestBlank: autoDraw = True
+1949.2909 	EXP 	textTestBlank: autoDraw = False
+1949.2909 	EXP 	textTestBlank: autoDraw = False
+1949.2909 	EXP 	textRKN: text = 'silence'
+1949.2909 	EXP 	textRKN: autoDraw = True
+1949.2909 	EXP 	textRKNScale: autoDraw = True
+1949.8260 	DATA 	Keypress: r
+1949.8520 	EXP 	textRKN: autoDraw = False
+1949.8520 	EXP 	textRKNScale: autoDraw = False
+1949.8520 	EXP 	textBlank500: autoDraw = True
+1950.3429 	EXP 	New trial (rep=25, index=0): None
+1950.3636 	EXP 	textBlank500: autoDraw = False
+1950.3636 	EXP 	textBlank500: autoDraw = False
+1950.3636 	EXP 	textConf: text = 'shock'
+1950.3636 	EXP 	textConf: autoDraw = True
+1950.3636 	EXP 	textConfScale: autoDraw = True
+1952.1144 	DATA 	Keypress: 2
+1952.1170 	EXP 	textConf: autoDraw = False
+1952.1170 	EXP 	textConfScale: autoDraw = False
+1952.1170 	EXP 	textTestBlank: text = 'shock'
+1952.1170 	EXP 	textTestBlank: autoDraw = True
+1952.6262 	EXP 	textTestBlank: autoDraw = False
+1952.6262 	EXP 	textRKN: text = 'shock'
+1952.6262 	EXP 	textRKN: autoDraw = True
+1952.6262 	EXP 	textRKNScale: autoDraw = True
+1953.8533 	DATA 	Keypress: f
+1953.8558 	EXP 	textRKN: autoDraw = False
+1953.8558 	EXP 	textRKNScale: autoDraw = False
+1953.8558 	EXP 	textBlank500: autoDraw = True
+1954.3474 	EXP 	New trial (rep=26, index=0): None
+1954.3663 	EXP 	textBlank500: autoDraw = False
+1954.3663 	EXP 	textBlank500: autoDraw = False
+1954.3663 	EXP 	textConf: text = 'incident'
+1954.3663 	EXP 	textConf: autoDraw = True
+1954.3663 	EXP 	textConfScale: autoDraw = True
+1957.3916 	DATA 	Keypress: 1
+1957.3940 	EXP 	textConf: autoDraw = False
+1957.3940 	EXP 	textConfScale: autoDraw = False
+1957.3940 	EXP 	textTestBlank: text = 'incident'
+1957.3940 	EXP 	textTestBlank: autoDraw = True
+1957.8935 	EXP 	textTestBlank: autoDraw = False
+1957.8935 	EXP 	textTestBlank: autoDraw = False
+1957.8935 	EXP 	textRKN: text = 'incident'
+1957.8935 	EXP 	textRKN: autoDraw = True
+1957.8935 	EXP 	textRKNScale: autoDraw = True
+1958.4353 	DATA 	Keypress: n
+1958.4603 	EXP 	textRKN: autoDraw = False
+1958.4603 	EXP 	textRKNScale: autoDraw = False
+1958.4603 	EXP 	textBlank500: autoDraw = True
+1958.9497 	EXP 	New trial (rep=27, index=0): None
+1958.9643 	EXP 	textBlank500: autoDraw = False
+1958.9643 	EXP 	textBlank500: autoDraw = False
+1958.9643 	EXP 	textConf: text = 'display'
+1958.9643 	EXP 	textConf: autoDraw = True
+1958.9643 	EXP 	textConfScale: autoDraw = True
+1960.7939 	DATA 	Keypress: 1
+1960.7962 	EXP 	textConf: autoDraw = False
+1960.7962 	EXP 	textConfScale: autoDraw = False
+1960.7962 	EXP 	textTestBlank: text = 'display'
+1960.7962 	EXP 	textTestBlank: autoDraw = True
+1961.3038 	EXP 	textTestBlank: autoDraw = False
+1961.3038 	EXP 	textTestBlank: autoDraw = False
+1961.3038 	EXP 	textRKN: text = 'display'
+1961.3038 	EXP 	textRKN: autoDraw = True
+1961.3038 	EXP 	textRKNScale: autoDraw = True
+1961.6931 	DATA 	Keypress: n
+1961.6971 	EXP 	textRKN: autoDraw = False
+1961.6971 	EXP 	textRKNScale: autoDraw = False
+1961.6971 	EXP 	textBlank500: autoDraw = True
+1962.1907 	EXP 	New trial (rep=28, index=0): None
+1962.2093 	EXP 	textBlank500: autoDraw = False
+1962.2093 	EXP 	textBlank500: autoDraw = False
+1962.2093 	EXP 	textConf: text = 'private'
+1962.2093 	EXP 	textConf: autoDraw = True
+1962.2093 	EXP 	textConfScale: autoDraw = True
+1964.3164 	DATA 	Keypress: 3
+1964.3188 	EXP 	textConf: autoDraw = False
+1964.3188 	EXP 	textConfScale: autoDraw = False
+1964.3188 	EXP 	textTestBlank: text = 'private'
+1964.3188 	EXP 	textTestBlank: autoDraw = True
+1964.8338 	EXP 	textTestBlank: autoDraw = False
+1964.8338 	EXP 	textRKN: text = 'private'
+1964.8338 	EXP 	textRKN: autoDraw = True
+1964.8338 	EXP 	textRKNScale: autoDraw = True
+1965.2254 	DATA 	Keypress: f
+1965.2506 	EXP 	textRKN: autoDraw = False
+1965.2506 	EXP 	textRKNScale: autoDraw = False
+1965.2506 	EXP 	textBlank500: autoDraw = True
+1965.7417 	EXP 	New trial (rep=29, index=0): None
+1965.7621 	EXP 	textBlank500: autoDraw = False
+1965.7621 	EXP 	textBlank500: autoDraw = False
+1965.7621 	EXP 	textConf: text = 'passage'
+1965.7621 	EXP 	textConf: autoDraw = True
+1965.7621 	EXP 	textConfScale: autoDraw = True
+1969.8698 	DATA 	Keypress: 2
+1969.8721 	EXP 	textConf: autoDraw = False
+1969.8721 	EXP 	textConfScale: autoDraw = False
+1969.8721 	EXP 	textTestBlank: text = 'passage'
+1969.8721 	EXP 	textTestBlank: autoDraw = True
+1970.3727 	EXP 	textTestBlank: autoDraw = False
+1970.3727 	EXP 	textTestBlank: autoDraw = False
+1970.3727 	EXP 	textRKN: text = 'passage'
+1970.3727 	EXP 	textRKN: autoDraw = True
+1970.3727 	EXP 	textRKNScale: autoDraw = True
+1971.4875 	DATA 	Keypress: f
+1971.4903 	EXP 	textRKN: autoDraw = False
+1971.4903 	EXP 	textRKNScale: autoDraw = False
+1971.4903 	EXP 	textBlank500: autoDraw = True
+1971.9808 	EXP 	New trial (rep=30, index=0): None
+1971.9980 	EXP 	textBlank500: autoDraw = False
+1971.9980 	EXP 	textBlank500: autoDraw = False
+1971.9980 	EXP 	textConf: text = 'drink'
+1971.9980 	EXP 	textConf: autoDraw = True
+1971.9980 	EXP 	textConfScale: autoDraw = True
+1973.3328 	DATA 	Keypress: 6
+1973.3623 	EXP 	textConf: autoDraw = False
+1973.3623 	EXP 	textConfScale: autoDraw = False
+1973.3623 	EXP 	textTestBlank: text = 'drink'
+1973.3623 	EXP 	textTestBlank: autoDraw = True
+1973.8828 	EXP 	textTestBlank: autoDraw = False
+1973.8828 	EXP 	textRKN: text = 'drink'
+1973.8828 	EXP 	textRKN: autoDraw = True
+1973.8828 	EXP 	textRKNScale: autoDraw = True
+1974.1541 	DATA 	Keypress: r
+1974.1594 	EXP 	textRKN: autoDraw = False
+1974.1594 	EXP 	textRKNScale: autoDraw = False
+1974.1594 	EXP 	textBlank500: autoDraw = True
+1974.6477 	EXP 	New trial (rep=31, index=0): None
+1974.6616 	EXP 	textBlank500: autoDraw = False
+1974.6616 	EXP 	textBlank500: autoDraw = False
+1974.6616 	EXP 	textConf: text = 'quick'
+1974.6616 	EXP 	textConf: autoDraw = True
+1974.6616 	EXP 	textConfScale: autoDraw = True
+1976.7111 	DATA 	Keypress: 2
+1976.7135 	EXP 	textConf: autoDraw = False
+1976.7135 	EXP 	textConfScale: autoDraw = False
+1976.7135 	EXP 	textTestBlank: text = 'quick'
+1976.7135 	EXP 	textTestBlank: autoDraw = True
+1977.2197 	EXP 	textTestBlank: autoDraw = False
+1977.2197 	EXP 	textTestBlank: autoDraw = False
+1977.2197 	EXP 	textRKN: text = 'quick'
+1977.2197 	EXP 	textRKN: autoDraw = True
+1977.2197 	EXP 	textRKNScale: autoDraw = True
+1977.4758 	DATA 	Keypress: f
+1977.4797 	EXP 	textRKN: autoDraw = False
+1977.4797 	EXP 	textRKNScale: autoDraw = False
+1977.4797 	EXP 	textBlank500: autoDraw = True
+1977.9695 	EXP 	New trial (rep=32, index=0): None
+1977.9848 	EXP 	textBlank500: autoDraw = False
+1977.9848 	EXP 	textBlank500: autoDraw = False
+1977.9848 	EXP 	textConf: text = 'interview'
+1977.9848 	EXP 	textConf: autoDraw = True
+1977.9848 	EXP 	textConfScale: autoDraw = True
+1979.4331 	DATA 	Keypress: 6
+1979.4356 	EXP 	textConf: autoDraw = False
+1979.4356 	EXP 	textConfScale: autoDraw = False
+1979.4356 	EXP 	textTestBlank: text = 'interview'
+1979.4356 	EXP 	textTestBlank: autoDraw = True
+1979.9590 	EXP 	textTestBlank: autoDraw = False
+1979.9590 	EXP 	textRKN: text = 'interview'
+1979.9590 	EXP 	textRKN: autoDraw = True
+1979.9590 	EXP 	textRKNScale: autoDraw = True
+1980.0740 	DATA 	Keypress: r
+1980.0986 	EXP 	textRKN: autoDraw = False
+1980.0986 	EXP 	textRKNScale: autoDraw = False
+1980.0986 	EXP 	textBlank500: autoDraw = True
+1980.5894 	EXP 	New trial (rep=33, index=0): None
+1980.6055 	EXP 	textBlank500: autoDraw = False
+1980.6055 	EXP 	textBlank500: autoDraw = False
+1980.6055 	EXP 	textConf: text = 'military'
+1980.6055 	EXP 	textConf: autoDraw = True
+1980.6055 	EXP 	textConfScale: autoDraw = True
+1982.4005 	DATA 	Keypress: 1
+1982.4029 	EXP 	textConf: autoDraw = False
+1982.4029 	EXP 	textConfScale: autoDraw = False
+1982.4029 	EXP 	textTestBlank: text = 'military'
+1982.4029 	EXP 	textTestBlank: autoDraw = True
+1982.9185 	EXP 	textTestBlank: autoDraw = False
+1982.9185 	EXP 	textRKN: text = 'military'
+1982.9185 	EXP 	textRKN: autoDraw = True
+1982.9185 	EXP 	textRKNScale: autoDraw = True
+1983.1636 	DATA 	Keypress: n
+1983.1686 	EXP 	textRKN: autoDraw = False
+1983.1686 	EXP 	textRKNScale: autoDraw = False
+1983.1686 	EXP 	textBlank500: autoDraw = True
+1983.6596 	EXP 	New trial (rep=34, index=0): None
+1983.6791 	EXP 	textBlank500: autoDraw = False
+1983.6791 	EXP 	textBlank500: autoDraw = False
+1983.6791 	EXP 	textConf: text = 'finish'
+1983.6791 	EXP 	textConf: autoDraw = True
+1983.6791 	EXP 	textConfScale: autoDraw = True
+1985.1943 	DATA 	Keypress: 1
+1985.2219 	EXP 	textConf: autoDraw = False
+1985.2219 	EXP 	textConfScale: autoDraw = False
+1985.2219 	EXP 	textTestBlank: text = 'finish'
+1985.2219 	EXP 	textTestBlank: autoDraw = True
+1985.7210 	EXP 	textTestBlank: autoDraw = False
+1985.7210 	EXP 	textTestBlank: autoDraw = False
+1985.7210 	EXP 	textRKN: text = 'finish'
+1985.7210 	EXP 	textRKN: autoDraw = True
+1985.7210 	EXP 	textRKNScale: autoDraw = True
+1985.8037 	DATA 	Keypress: n
+1985.8063 	EXP 	textRKN: autoDraw = False
+1985.8063 	EXP 	textRKNScale: autoDraw = False
+1985.8063 	EXP 	textBlank500: autoDraw = True
+1986.3087 	EXP 	New trial (rep=35, index=0): None
+1986.3219 	EXP 	textBlank500: autoDraw = False
+1986.3219 	EXP 	textConf: text = 'income'
+1986.3219 	EXP 	textConf: autoDraw = True
+1986.3219 	EXP 	textConfScale: autoDraw = True
+1988.9575 	DATA 	Keypress: 2
+1988.9601 	EXP 	textConf: autoDraw = False
+1988.9601 	EXP 	textConfScale: autoDraw = False
+1988.9601 	EXP 	textTestBlank: text = 'income'
+1988.9601 	EXP 	textTestBlank: autoDraw = True
+1989.4751 	EXP 	textTestBlank: autoDraw = False
+1989.4751 	EXP 	textRKN: text = 'income'
+1989.4751 	EXP 	textRKN: autoDraw = True
+1989.4751 	EXP 	textRKNScale: autoDraw = True
+1989.6068 	DATA 	Keypress: f
+1989.6093 	EXP 	textRKN: autoDraw = False
+1989.6093 	EXP 	textRKNScale: autoDraw = False
+1989.6093 	EXP 	textBlank500: autoDraw = True
+1990.0972 	EXP 	New trial (rep=36, index=0): None
+1990.1103 	EXP 	textBlank500: autoDraw = False
+1990.1103 	EXP 	textBlank500: autoDraw = False
+1990.1103 	EXP 	textConf: text = 'edition'
+1990.1103 	EXP 	textConf: autoDraw = True
+1990.1103 	EXP 	textConfScale: autoDraw = True
+1992.5022 	DATA 	Keypress: 1
+1992.5046 	EXP 	textConf: autoDraw = False
+1992.5046 	EXP 	textConfScale: autoDraw = False
+1992.5046 	EXP 	textTestBlank: text = 'edition'
+1992.5046 	EXP 	textTestBlank: autoDraw = True
+1993.0142 	EXP 	textTestBlank: autoDraw = False
+1993.0142 	EXP 	textRKN: text = 'edition'
+1993.0142 	EXP 	textRKN: autoDraw = True
+1993.0142 	EXP 	textRKNScale: autoDraw = True
+1993.2081 	DATA 	Keypress: n
+1993.2120 	EXP 	textRKN: autoDraw = False
+1993.2120 	EXP 	textRKNScale: autoDraw = False
+1993.2120 	EXP 	textBlank500: autoDraw = True
+1993.7044 	EXP 	New trial (rep=37, index=0): None
+1993.7245 	EXP 	textBlank500: autoDraw = False
+1993.7245 	EXP 	textBlank500: autoDraw = False
+1993.7245 	EXP 	textConf: text = 'birth'
+1993.7245 	EXP 	textConf: autoDraw = True
+1993.7245 	EXP 	textConfScale: autoDraw = True
+1994.9294 	DATA 	Keypress: 6
+1994.9319 	EXP 	textConf: autoDraw = False
+1994.9319 	EXP 	textConfScale: autoDraw = False
+1994.9319 	EXP 	textTestBlank: text = 'birth'
+1994.9319 	EXP 	textTestBlank: autoDraw = True
+1995.4338 	EXP 	textTestBlank: autoDraw = False
+1995.4338 	EXP 	textTestBlank: autoDraw = False
+1995.4338 	EXP 	textRKN: text = 'birth'
+1995.4338 	EXP 	textRKN: autoDraw = True
+1995.4338 	EXP 	textRKNScale: autoDraw = True
+1996.0609 	DATA 	Keypress: r
+1996.0648 	EXP 	textRKN: autoDraw = False
+1996.0648 	EXP 	textRKNScale: autoDraw = False
+1996.0648 	EXP 	textBlank500: autoDraw = True
+1996.5558 	EXP 	New trial (rep=38, index=0): None
+1996.5750 	EXP 	textBlank500: autoDraw = False
+1996.5750 	EXP 	textBlank500: autoDraw = False
+1996.5750 	EXP 	textConf: text = 'bitter'
+1996.5750 	EXP 	textConf: autoDraw = True
+1996.5750 	EXP 	textConfScale: autoDraw = True
+1998.5978 	DATA 	Keypress: 2
+1998.6007 	EXP 	textConf: autoDraw = False
+1998.6007 	EXP 	textConfScale: autoDraw = False
+1998.6007 	EXP 	textTestBlank: text = 'bitter'
+1998.6007 	EXP 	textTestBlank: autoDraw = True
+1999.1065 	EXP 	textTestBlank: autoDraw = False
+1999.1065 	EXP 	textTestBlank: autoDraw = False
+1999.1065 	EXP 	textRKN: text = 'bitter'
+1999.1065 	EXP 	textRKN: autoDraw = True
+1999.1065 	EXP 	textRKNScale: autoDraw = True
+1999.2103 	DATA 	Keypress: f
+1999.2356 	EXP 	textRKN: autoDraw = False
+1999.2356 	EXP 	textRKNScale: autoDraw = False
+1999.2356 	EXP 	textBlank500: autoDraw = True
+1999.7260 	EXP 	New trial (rep=39, index=0): None
+1999.7424 	EXP 	textBlank500: autoDraw = False
+1999.7424 	EXP 	textBlank500: autoDraw = False
+1999.7424 	EXP 	textConf: text = 'quarter'
+1999.7424 	EXP 	textConf: autoDraw = True
+1999.7424 	EXP 	textConfScale: autoDraw = True
+2001.5208 	DATA 	Keypress: 6
+2001.5233 	EXP 	textConf: autoDraw = False
+2001.5233 	EXP 	textConfScale: autoDraw = False
+2001.5233 	EXP 	textTestBlank: text = 'quarter'
+2001.5233 	EXP 	textTestBlank: autoDraw = True
+2002.0420 	EXP 	textTestBlank: autoDraw = False
+2002.0420 	EXP 	textRKN: text = 'quarter'
+2002.0420 	EXP 	textRKN: autoDraw = True
+2002.0420 	EXP 	textRKNScale: autoDraw = True
+2002.2446 	DATA 	Keypress: r
+2002.2710 	EXP 	textRKN: autoDraw = False
+2002.2710 	EXP 	textRKNScale: autoDraw = False
+2002.2710 	EXP 	textBlank500: autoDraw = True
+2002.7622 	EXP 	New trial (rep=40, index=0): None
+2002.7822 	EXP 	textBlank500: autoDraw = False
+2002.7822 	EXP 	textBlank500: autoDraw = False
+2002.7822 	EXP 	textConf: text = 'master'
+2002.7822 	EXP 	textConf: autoDraw = True
+2002.7822 	EXP 	textConfScale: autoDraw = True
+2004.1135 	DATA 	Keypress: 6
+2004.1407 	EXP 	textConf: autoDraw = False
+2004.1407 	EXP 	textConfScale: autoDraw = False
+2004.1407 	EXP 	textTestBlank: text = 'master'
+2004.1407 	EXP 	textTestBlank: autoDraw = True
+2004.6524 	EXP 	textTestBlank: autoDraw = False
+2004.6524 	EXP 	textTestBlank: autoDraw = False
+2004.6524 	EXP 	textRKN: text = 'master'
+2004.6524 	EXP 	textRKN: autoDraw = True
+2004.6524 	EXP 	textRKNScale: autoDraw = True
+2004.8980 	DATA 	Keypress: r
+2004.9237 	EXP 	textRKN: autoDraw = False
+2004.9237 	EXP 	textRKNScale: autoDraw = False
+2004.9237 	EXP 	textBlank500: autoDraw = True
+2005.4145 	EXP 	New trial (rep=41, index=0): None
+2005.4336 	EXP 	textBlank500: autoDraw = False
+2005.4336 	EXP 	textBlank500: autoDraw = False
+2005.4336 	EXP 	textConf: text = 'watch'
+2005.4336 	EXP 	textConf: autoDraw = True
+2005.4336 	EXP 	textConfScale: autoDraw = True
+2007.1327 	DATA 	Keypress: 1
+2007.1606 	EXP 	textConf: autoDraw = False
+2007.1606 	EXP 	textConfScale: autoDraw = False
+2007.1606 	EXP 	textTestBlank: text = 'watch'
+2007.1606 	EXP 	textTestBlank: autoDraw = True
+2007.6687 	EXP 	textTestBlank: autoDraw = False
+2007.6687 	EXP 	textTestBlank: autoDraw = False
+2007.6687 	EXP 	textRKN: text = 'watch'
+2007.6687 	EXP 	textRKN: autoDraw = True
+2007.6687 	EXP 	textRKNScale: autoDraw = True
+2007.7340 	DATA 	Keypress: n
+2007.7608 	EXP 	textRKN: autoDraw = False
+2007.7608 	EXP 	textRKNScale: autoDraw = False
+2007.7608 	EXP 	textBlank500: autoDraw = True
+2008.2493 	EXP 	New trial (rep=42, index=0): None
+2008.2618 	EXP 	textBlank500: autoDraw = False
+2008.2618 	EXP 	textBlank500: autoDraw = False
+2008.2618 	EXP 	textConf: text = 'reach'
+2008.2618 	EXP 	textConf: autoDraw = True
+2008.2618 	EXP 	textConfScale: autoDraw = True
+2010.6488 	DATA 	Keypress: 1
+2010.6515 	EXP 	textConf: autoDraw = False
+2010.6515 	EXP 	textConfScale: autoDraw = False
+2010.6515 	EXP 	textTestBlank: text = 'reach'
+2010.6515 	EXP 	textTestBlank: autoDraw = True
+2011.1638 	EXP 	textTestBlank: autoDraw = False
+2011.1638 	EXP 	textRKN: text = 'reach'
+2011.1638 	EXP 	textRKN: autoDraw = True
+2011.1638 	EXP 	textRKNScale: autoDraw = True
+2011.5931 	DATA 	Keypress: n
+2011.5970 	EXP 	textRKN: autoDraw = False
+2011.5970 	EXP 	textRKNScale: autoDraw = False
+2011.5970 	EXP 	textBlank500: autoDraw = True
+2012.0871 	EXP 	New trial (rep=43, index=0): None
+2012.1032 	EXP 	textBlank500: autoDraw = False
+2012.1032 	EXP 	textBlank500: autoDraw = False
+2012.1032 	EXP 	textConf: text = 'discovery'
+2012.1032 	EXP 	textConf: autoDraw = True
+2012.1032 	EXP 	textConfScale: autoDraw = True
+2013.7897 	DATA 	Keypress: 6
+2013.8209 	EXP 	textConf: autoDraw = False
+2013.8209 	EXP 	textConfScale: autoDraw = False
+2013.8209 	EXP 	textTestBlank: text = 'discovery'
+2013.8209 	EXP 	textTestBlank: autoDraw = True
+2014.3400 	EXP 	textTestBlank: autoDraw = False
+2014.3400 	EXP 	textRKN: text = 'discovery'
+2014.3400 	EXP 	textRKN: autoDraw = True
+2014.3400 	EXP 	textRKNScale: autoDraw = True
+2014.5242 	DATA 	Keypress: r
+2014.5497 	EXP 	textRKN: autoDraw = False
+2014.5497 	EXP 	textRKNScale: autoDraw = False
+2014.5497 	EXP 	textBlank500: autoDraw = True
+2015.0418 	EXP 	New trial (rep=44, index=0): None
+2015.0636 	EXP 	textBlank500: autoDraw = False
+2015.0636 	EXP 	textBlank500: autoDraw = False
+2015.0636 	EXP 	textConf: text = 'religion'
+2015.0636 	EXP 	textConf: autoDraw = True
+2015.0636 	EXP 	textConfScale: autoDraw = True
+2016.6754 	DATA 	Keypress: 1
+2016.7022 	EXP 	textConf: autoDraw = False
+2016.7022 	EXP 	textConfScale: autoDraw = False
+2016.7022 	EXP 	textTestBlank: text = 'religion'
+2016.7022 	EXP 	textTestBlank: autoDraw = True
+2017.2033 	EXP 	textTestBlank: autoDraw = False
+2017.2033 	EXP 	textTestBlank: autoDraw = False
+2017.2033 	EXP 	textRKN: text = 'religion'
+2017.2033 	EXP 	textRKN: autoDraw = True
+2017.2033 	EXP 	textRKNScale: autoDraw = True
+2017.3499 	DATA 	Keypress: n
+2017.3528 	EXP 	textRKN: autoDraw = False
+2017.3528 	EXP 	textRKNScale: autoDraw = False
+2017.3528 	EXP 	textBlank500: autoDraw = True
+2017.8443 	EXP 	New trial (rep=45, index=0): None
+2017.8593 	EXP 	textBlank500: autoDraw = False
+2017.8593 	EXP 	textBlank500: autoDraw = False
+2017.8593 	EXP 	textConf: text = 'charter'
+2017.8593 	EXP 	textConf: autoDraw = True
+2017.8593 	EXP 	textConfScale: autoDraw = True
+2019.5051 	DATA 	Keypress: 1
+2019.5076 	EXP 	textConf: autoDraw = False
+2019.5076 	EXP 	textConfScale: autoDraw = False
+2019.5076 	EXP 	textTestBlank: text = 'charter'
+2019.5076 	EXP 	textTestBlank: autoDraw = True
+2020.0279 	EXP 	textTestBlank: autoDraw = False
+2020.0279 	EXP 	textRKN: text = 'charter'
+2020.0279 	EXP 	textRKN: autoDraw = True
+2020.0279 	EXP 	textRKNScale: autoDraw = True
+2020.1137 	DATA 	Keypress: n
+2020.1403 	EXP 	textRKN: autoDraw = False
+2020.1403 	EXP 	textRKNScale: autoDraw = False
+2020.1403 	EXP 	textBlank500: autoDraw = True
+2020.6434 	EXP 	New trial (rep=46, index=0): None
+2020.6589 	EXP 	textBlank500: autoDraw = False
+2020.6589 	EXP 	textConf: text = 'smell'
+2020.6589 	EXP 	textConf: autoDraw = True
+2020.6589 	EXP 	textConfScale: autoDraw = True
+2022.1235 	DATA 	Keypress: 1
+2022.1259 	EXP 	textConf: autoDraw = False
+2022.1259 	EXP 	textConfScale: autoDraw = False
+2022.1259 	EXP 	textTestBlank: text = 'smell'
+2022.1259 	EXP 	textTestBlank: autoDraw = True
+2022.6284 	EXP 	textTestBlank: autoDraw = False
+2022.6284 	EXP 	textTestBlank: autoDraw = False
+2022.6284 	EXP 	textRKN: text = 'smell'
+2022.6284 	EXP 	textRKN: autoDraw = True
+2022.6284 	EXP 	textRKNScale: autoDraw = True
+2022.7922 	DATA 	Keypress: n
+2022.7947 	EXP 	textRKN: autoDraw = False
+2022.7947 	EXP 	textRKNScale: autoDraw = False
+2022.7947 	EXP 	textBlank500: autoDraw = True
+2023.2956 	EXP 	New trial (rep=47, index=0): None
+2023.3106 	EXP 	textBlank500: autoDraw = False
+2023.3106 	EXP 	textConf: text = 'concern'
+2023.3106 	EXP 	textConf: autoDraw = True
+2023.3106 	EXP 	textConfScale: autoDraw = True
+2026.5927 	DATA 	Keypress: 1
+2026.5951 	EXP 	textConf: autoDraw = False
+2026.5951 	EXP 	textConfScale: autoDraw = False
+2026.5951 	EXP 	textTestBlank: text = 'concern'
+2026.5951 	EXP 	textTestBlank: autoDraw = True
+2027.1002 	EXP 	textTestBlank: autoDraw = False
+2027.1002 	EXP 	textTestBlank: autoDraw = False
+2027.1002 	EXP 	textRKN: text = 'concern'
+2027.1002 	EXP 	textRKN: autoDraw = True
+2027.1002 	EXP 	textRKNScale: autoDraw = True
+2027.2928 	DATA 	Keypress: n
+2027.2956 	EXP 	textRKN: autoDraw = False
+2027.2956 	EXP 	textRKNScale: autoDraw = False
+2027.2956 	EXP 	textBlank500: autoDraw = True
+2027.7873 	EXP 	New trial (rep=48, index=0): None
+2027.8043 	EXP 	textBlank500: autoDraw = False
+2027.8043 	EXP 	textBlank500: autoDraw = False
+2027.8043 	EXP 	textConf: text = 'store'
+2027.8043 	EXP 	textConf: autoDraw = True
+2027.8043 	EXP 	textConfScale: autoDraw = True
+2030.8822 	DATA 	Keypress: 2
+2030.8847 	EXP 	textConf: autoDraw = False
+2030.8847 	EXP 	textConfScale: autoDraw = False
+2030.8847 	EXP 	textTestBlank: text = 'store'
+2030.8847 	EXP 	textTestBlank: autoDraw = True
+2031.4005 	EXP 	textTestBlank: autoDraw = False
+2031.4005 	EXP 	textRKN: text = 'store'
+2031.4005 	EXP 	textRKN: autoDraw = True
+2031.4005 	EXP 	textRKNScale: autoDraw = True
+2031.4427 	DATA 	Keypress: f
+2031.4720 	EXP 	textRKN: autoDraw = False
+2031.4720 	EXP 	textRKNScale: autoDraw = False
+2031.4720 	EXP 	textBlank500: autoDraw = True
+2031.9725 	EXP 	New trial (rep=49, index=0): None
+2031.9871 	EXP 	textBlank500: autoDraw = False
+2031.9871 	EXP 	textConf: text = 'track'
+2031.9871 	EXP 	textConf: autoDraw = True
+2031.9871 	EXP 	textConfScale: autoDraw = True
+2034.8438 	DATA 	Keypress: 1
+2034.8906 	EXP 	textConf: autoDraw = False
+2034.8906 	EXP 	textConfScale: autoDraw = False
+2034.8906 	EXP 	textTestBlank: text = 'track'
+2034.8906 	EXP 	textTestBlank: autoDraw = True
+2035.4051 	EXP 	textTestBlank: autoDraw = False
+2035.4051 	EXP 	textRKN: text = 'track'
+2035.4051 	EXP 	textRKN: autoDraw = True
+2035.4051 	EXP 	textRKNScale: autoDraw = True
+2035.7791 	DATA 	Keypress: n
+2035.8046 	EXP 	textRKN: autoDraw = False
+2035.8046 	EXP 	textRKNScale: autoDraw = False
+2035.8046 	EXP 	textBlank500: autoDraw = True
+2036.2931 	EXP 	New trial (rep=50, index=0): None
+2036.3052 	EXP 	textBlank500: autoDraw = False
+2036.3052 	EXP 	textBlank500: autoDraw = False
+2036.3052 	EXP 	textConf: text = 'build'
+2036.3052 	EXP 	textConf: autoDraw = True
+2036.3052 	EXP 	textConfScale: autoDraw = True
+2037.9640 	DATA 	Keypress: 1
+2037.9915 	EXP 	textConf: autoDraw = False
+2037.9915 	EXP 	textConfScale: autoDraw = False
+2037.9915 	EXP 	textTestBlank: text = 'build'
+2037.9915 	EXP 	textTestBlank: autoDraw = True
+2038.4938 	EXP 	textTestBlank: autoDraw = False
+2038.4938 	EXP 	textTestBlank: autoDraw = False
+2038.4938 	EXP 	textRKN: text = 'build'
+2038.4938 	EXP 	textRKN: autoDraw = True
+2038.4938 	EXP 	textRKNScale: autoDraw = True
+2038.8569 	DATA 	Keypress: n
+2038.8595 	EXP 	textRKN: autoDraw = False
+2038.8595 	EXP 	textRKNScale: autoDraw = False
+2038.8595 	EXP 	textBlank500: autoDraw = True
+2039.3650 	EXP 	New trial (rep=51, index=0): None
+2039.3814 	EXP 	textBlank500: autoDraw = False
+2039.3814 	EXP 	textConf: text = 'level'
+2039.3814 	EXP 	textConf: autoDraw = True
+2039.3814 	EXP 	textConfScale: autoDraw = True
+2040.8667 	DATA 	Keypress: 6
+2040.8949 	EXP 	textConf: autoDraw = False
+2040.8949 	EXP 	textConfScale: autoDraw = False
+2040.8949 	EXP 	textTestBlank: text = 'level'
+2040.8949 	EXP 	textTestBlank: autoDraw = True
+2041.4103 	EXP 	textTestBlank: autoDraw = False
+2041.4103 	EXP 	textRKN: text = 'level'
+2041.4103 	EXP 	textRKN: autoDraw = True
+2041.4103 	EXP 	textRKNScale: autoDraw = True
+2041.4571 	DATA 	Keypress: r
+2041.4600 	EXP 	textRKN: autoDraw = False
+2041.4600 	EXP 	textRKNScale: autoDraw = False
+2041.4600 	EXP 	textBlank500: autoDraw = True
+2041.9482 	EXP 	New trial (rep=52, index=0): None
+2041.9607 	EXP 	textBlank500: autoDraw = False
+2041.9607 	EXP 	textBlank500: autoDraw = False
+2041.9607 	EXP 	textConf: text = 'waste'
+2041.9607 	EXP 	textConf: autoDraw = True
+2041.9607 	EXP 	textConfScale: autoDraw = True
+2044.1268 	DATA 	Keypress: 2
+2044.1294 	EXP 	textConf: autoDraw = False
+2044.1294 	EXP 	textConfScale: autoDraw = False
+2044.1294 	EXP 	textTestBlank: text = 'waste'
+2044.1294 	EXP 	textTestBlank: autoDraw = True
+2044.6470 	EXP 	textTestBlank: autoDraw = False
+2044.6470 	EXP 	textTestBlank: autoDraw = False
+2044.6470 	EXP 	textRKN: text = 'waste'
+2044.6470 	EXP 	textRKN: autoDraw = True
+2044.6470 	EXP 	textRKNScale: autoDraw = True
+2044.6885 	DATA 	Keypress: f
+2044.6915 	EXP 	textRKN: autoDraw = False
+2044.6915 	EXP 	textRKNScale: autoDraw = False
+2044.6915 	EXP 	textBlank500: autoDraw = True
+2045.1842 	EXP 	New trial (rep=53, index=0): None
+2045.1973 	EXP 	textBlank500: autoDraw = False
+2045.1973 	EXP 	textBlank500: autoDraw = False
+2045.1973 	EXP 	textConf: text = 'hearing'
+2045.1973 	EXP 	textConf: autoDraw = True
+2045.1973 	EXP 	textConfScale: autoDraw = True
+2046.6042 	DATA 	Keypress: 1
+2046.6065 	EXP 	textConf: autoDraw = False
+2046.6065 	EXP 	textConfScale: autoDraw = False
+2046.6065 	EXP 	textTestBlank: text = 'hearing'
+2046.6065 	EXP 	textTestBlank: autoDraw = True
+2047.1171 	EXP 	textTestBlank: autoDraw = False
+2047.1171 	EXP 	textRKN: text = 'hearing'
+2047.1171 	EXP 	textRKN: autoDraw = True
+2047.1171 	EXP 	textRKNScale: autoDraw = True
+2047.1895 	DATA 	Keypress: n
+2047.2159 	EXP 	textRKN: autoDraw = False
+2047.2159 	EXP 	textRKNScale: autoDraw = False
+2047.2159 	EXP 	textBlank500: autoDraw = True
+2047.7065 	EXP 	New trial (rep=54, index=0): None
+2047.7240 	EXP 	textBlank500: autoDraw = False
+2047.7240 	EXP 	textBlank500: autoDraw = False
+2047.7240 	EXP 	textConf: text = 'split'
+2047.7240 	EXP 	textConf: autoDraw = True
+2047.7240 	EXP 	textConfScale: autoDraw = True
+2049.2340 	DATA 	Keypress: 1
+2049.2363 	EXP 	textConf: autoDraw = False
+2049.2363 	EXP 	textConfScale: autoDraw = False
+2049.2363 	EXP 	textTestBlank: text = 'split'
+2049.2363 	EXP 	textTestBlank: autoDraw = True
+2049.7605 	EXP 	textTestBlank: autoDraw = False
+2049.7605 	EXP 	textRKN: text = 'split'
+2049.7605 	EXP 	textRKN: autoDraw = True
+2049.7605 	EXP 	textRKNScale: autoDraw = True
+2049.8100 	DATA 	Keypress: n
+2049.8352 	EXP 	textRKN: autoDraw = False
+2049.8352 	EXP 	textRKNScale: autoDraw = False
+2049.8352 	EXP 	textBlank500: autoDraw = True
+2050.3245 	EXP 	New trial (rep=55, index=0): None
+2050.3395 	EXP 	textBlank500: autoDraw = False
+2050.3395 	EXP 	textBlank500: autoDraw = False
+2050.3395 	EXP 	textConf: text = 'research'
+2050.3395 	EXP 	textConf: autoDraw = True
+2050.3395 	EXP 	textConfScale: autoDraw = True
+2052.3975 	DATA 	Keypress: 1
+2052.4311 	EXP 	textConf: autoDraw = False
+2052.4311 	EXP 	textConfScale: autoDraw = False
+2052.4311 	EXP 	textTestBlank: text = 'research'
+2052.4311 	EXP 	textTestBlank: autoDraw = True
+2052.9405 	EXP 	textTestBlank: autoDraw = False
+2052.9405 	EXP 	textRKN: text = 'research'
+2052.9405 	EXP 	textRKN: autoDraw = True
+2052.9405 	EXP 	textRKNScale: autoDraw = True
+2053.0309 	DATA 	Keypress: n
+2053.0572 	EXP 	textRKN: autoDraw = False
+2053.0572 	EXP 	textRKNScale: autoDraw = False
+2053.0572 	EXP 	textBlank500: autoDraw = True
+2053.5610 	EXP 	New trial (rep=56, index=0): None
+2053.5782 	EXP 	textBlank500: autoDraw = False
+2053.5782 	EXP 	textConf: text = 'curve'
+2053.5782 	EXP 	textConf: autoDraw = True
+2053.5782 	EXP 	textConfScale: autoDraw = True
+2055.9417 	DATA 	Keypress: 1
+2055.9441 	EXP 	textConf: autoDraw = False
+2055.9441 	EXP 	textConfScale: autoDraw = False
+2055.9441 	EXP 	textTestBlank: text = 'curve'
+2055.9441 	EXP 	textTestBlank: autoDraw = True
+2056.4586 	EXP 	textTestBlank: autoDraw = False
+2056.4586 	EXP 	textRKN: text = 'curve'
+2056.4586 	EXP 	textRKN: autoDraw = True
+2056.4586 	EXP 	textRKNScale: autoDraw = True
+2056.6048 	DATA 	Keypress: n
+2056.6086 	EXP 	textRKN: autoDraw = False
+2056.6086 	EXP 	textRKNScale: autoDraw = False
+2056.6086 	EXP 	textBlank500: autoDraw = True
+2057.1006 	EXP 	New trial (rep=57, index=0): None
+2057.1226 	EXP 	textBlank500: autoDraw = False
+2057.1226 	EXP 	textBlank500: autoDraw = False
+2057.1226 	EXP 	textConf: text = 'degree'
+2057.1226 	EXP 	textConf: autoDraw = True
+2057.1226 	EXP 	textConfScale: autoDraw = True
+2058.8973 	DATA 	Keypress: 1
+2058.8999 	EXP 	textConf: autoDraw = False
+2058.8999 	EXP 	textConfScale: autoDraw = False
+2058.8999 	EXP 	textTestBlank: text = 'degree'
+2058.8999 	EXP 	textTestBlank: autoDraw = True
+2059.4117 	EXP 	textTestBlank: autoDraw = False
+2059.4117 	EXP 	textRKN: text = 'degree'
+2059.4117 	EXP 	textRKN: autoDraw = True
+2059.4117 	EXP 	textRKNScale: autoDraw = True
+2059.5273 	DATA 	Keypress: n
+2059.5298 	EXP 	textRKN: autoDraw = False
+2059.5298 	EXP 	textRKNScale: autoDraw = False
+2059.5298 	EXP 	textBlank500: autoDraw = True
+2060.0178 	EXP 	New trial (rep=58, index=0): None
+2060.0329 	EXP 	textBlank500: autoDraw = False
+2060.0329 	EXP 	textBlank500: autoDraw = False
+2060.0329 	EXP 	textConf: text = 'citizen'
+2060.0329 	EXP 	textConf: autoDraw = True
+2060.0329 	EXP 	textConfScale: autoDraw = True
+2062.2967 	DATA 	Keypress: 1
+2062.2992 	EXP 	textConf: autoDraw = False
+2062.2992 	EXP 	textConfScale: autoDraw = False
+2062.2992 	EXP 	textTestBlank: text = 'citizen'
+2062.2992 	EXP 	textTestBlank: autoDraw = True
+2062.8034 	EXP 	textTestBlank: autoDraw = False
+2062.8034 	EXP 	textTestBlank: autoDraw = False
+2062.8034 	EXP 	textRKN: text = 'citizen'
+2062.8034 	EXP 	textRKN: autoDraw = True
+2062.8034 	EXP 	textRKNScale: autoDraw = True
+2062.8662 	DATA 	Keypress: n
+2062.8689 	EXP 	textRKN: autoDraw = False
+2062.8689 	EXP 	textRKNScale: autoDraw = False
+2062.8689 	EXP 	textBlank500: autoDraw = True
+2063.3718 	EXP 	New trial (rep=59, index=0): None
+2063.3918 	EXP 	textBlank500: autoDraw = False
+2063.3918 	EXP 	textConf: text = 'fellow'
+2063.3918 	EXP 	textConf: autoDraw = True
+2063.3918 	EXP 	textConfScale: autoDraw = True
+2064.8323 	DATA 	Keypress: 1
+2064.8348 	EXP 	textConf: autoDraw = False
+2064.8348 	EXP 	textConfScale: autoDraw = False
+2064.8348 	EXP 	textTestBlank: text = 'fellow'
+2064.8348 	EXP 	textTestBlank: autoDraw = True
+2065.3345 	EXP 	textTestBlank: autoDraw = False
+2065.3345 	EXP 	textTestBlank: autoDraw = False
+2065.3345 	EXP 	textRKN: text = 'fellow'
+2065.3345 	EXP 	textRKN: autoDraw = True
+2065.3345 	EXP 	textRKNScale: autoDraw = True
+2065.4645 	DATA 	Keypress: n
+2065.4675 	EXP 	textRKN: autoDraw = False
+2065.4675 	EXP 	textRKNScale: autoDraw = False
+2065.4675 	EXP 	textBlank500: autoDraw = True
+2065.9591 	EXP 	New trial (rep=60, index=0): None
+2065.9838 	EXP 	textBlank500: autoDraw = False
+2065.9838 	EXP 	textBlank500: autoDraw = False
+2065.9838 	EXP 	textConf: text = 'dozen'
+2065.9838 	EXP 	textConf: autoDraw = True
+2065.9838 	EXP 	textConfScale: autoDraw = True
+2067.5514 	DATA 	Keypress: 1
+2067.5538 	EXP 	textConf: autoDraw = False
+2067.5538 	EXP 	textConfScale: autoDraw = False
+2067.5538 	EXP 	textTestBlank: text = 'dozen'
+2067.5538 	EXP 	textTestBlank: autoDraw = True
+2068.0619 	EXP 	textTestBlank: autoDraw = False
+2068.0619 	EXP 	textTestBlank: autoDraw = False
+2068.0619 	EXP 	textRKN: text = 'dozen'
+2068.0619 	EXP 	textRKN: autoDraw = True
+2068.0619 	EXP 	textRKNScale: autoDraw = True
+2068.0947 	DATA 	Keypress: n
+2068.1202 	EXP 	textRKN: autoDraw = False
+2068.1202 	EXP 	textRKNScale: autoDraw = False
+2068.1202 	EXP 	textBlank500: autoDraw = True
+2068.6092 	EXP 	New trial (rep=61, index=0): None
+2068.6243 	EXP 	textBlank500: autoDraw = False
+2068.6243 	EXP 	textBlank500: autoDraw = False
+2068.6243 	EXP 	textConf: text = 'society'
+2068.6243 	EXP 	textConf: autoDraw = True
+2068.6243 	EXP 	textConfScale: autoDraw = True
+2070.6626 	DATA 	Keypress: 1
+2070.6652 	EXP 	textConf: autoDraw = False
+2070.6652 	EXP 	textConfScale: autoDraw = False
+2070.6652 	EXP 	textTestBlank: text = 'society'
+2070.6652 	EXP 	textTestBlank: autoDraw = True
+2071.1748 	DATA 	Keypress: n
+2071.1776 	EXP 	textTestBlank: autoDraw = False
+2071.1776 	EXP 	textRKN: text = 'society'
+2071.1776 	EXP 	textRKN: autoDraw = True
+2071.1776 	EXP 	textRKNScale: autoDraw = True
+2072.7652 	DATA 	Keypress: n
+2072.7916 	EXP 	textRKN: autoDraw = False
+2072.7916 	EXP 	textRKNScale: autoDraw = False
+2072.7916 	EXP 	textBlank500: autoDraw = True
+2073.2803 	EXP 	New trial (rep=62, index=0): None
+2073.2932 	EXP 	textBlank500: autoDraw = False
+2073.2932 	EXP 	textBlank500: autoDraw = False
+2073.2932 	EXP 	textConf: text = 'contract'
+2073.2932 	EXP 	textConf: autoDraw = True
+2073.2932 	EXP 	textConfScale: autoDraw = True
+2075.0421 	DATA 	Keypress: 6
+2075.0446 	EXP 	textConf: autoDraw = False
+2075.0446 	EXP 	textConfScale: autoDraw = False
+2075.0446 	EXP 	textTestBlank: text = 'contract'
+2075.0446 	EXP 	textTestBlank: autoDraw = True
+2075.5457 	DATA 	Keypress: r
+2075.5485 	EXP 	textTestBlank: autoDraw = False
+2075.5485 	EXP 	textTestBlank: autoDraw = False
+2075.5485 	EXP 	textRKN: text = 'contract'
+2075.5485 	EXP 	textRKN: autoDraw = True
+2075.5485 	EXP 	textRKNScale: autoDraw = True
+2076.6905 	DATA 	Keypress: r
+2076.6954 	EXP 	textRKN: autoDraw = False
+2076.6954 	EXP 	textRKNScale: autoDraw = False
+2076.6954 	EXP 	textBlank500: autoDraw = True
+2077.1843 	EXP 	New trial (rep=63, index=0): None
+2077.1994 	EXP 	textBlank500: autoDraw = False
+2077.1994 	EXP 	textBlank500: autoDraw = False
+2077.1994 	EXP 	textConf: text = 'south'
+2077.1994 	EXP 	textConf: autoDraw = True
+2077.1994 	EXP 	textConfScale: autoDraw = True
+2078.7988 	DATA 	Keypress: 6
+2078.8013 	EXP 	textConf: autoDraw = False
+2078.8013 	EXP 	textConfScale: autoDraw = False
+2078.8013 	EXP 	textTestBlank: text = 'south'
+2078.8013 	EXP 	textTestBlank: autoDraw = True
+2079.3148 	EXP 	textTestBlank: autoDraw = False
+2079.3148 	EXP 	textRKN: text = 'south'
+2079.3148 	EXP 	textRKN: autoDraw = True
+2079.3148 	EXP 	textRKNScale: autoDraw = True
+2079.6219 	DATA 	Keypress: r
+2079.6483 	EXP 	textRKN: autoDraw = False
+2079.6483 	EXP 	textRKNScale: autoDraw = False
+2079.6483 	EXP 	textBlank500: autoDraw = True
+2080.1392 	EXP 	New trial (rep=64, index=0): None
+2080.1594 	EXP 	textBlank500: autoDraw = False
+2080.1594 	EXP 	textBlank500: autoDraw = False
+2080.1594 	EXP 	textConf: text = 'stranger'
+2080.1594 	EXP 	textConf: autoDraw = True
+2080.1594 	EXP 	textConfScale: autoDraw = True
+2081.2919 	DATA 	Keypress: 6
+2081.3238 	EXP 	textConf: autoDraw = False
+2081.3238 	EXP 	textConfScale: autoDraw = False
+2081.3238 	EXP 	textTestBlank: text = 'stranger'
+2081.3238 	EXP 	textTestBlank: autoDraw = True
+2081.8381 	EXP 	textTestBlank: autoDraw = False
+2081.8381 	EXP 	textRKN: text = 'stranger'
+2081.8381 	EXP 	textRKN: autoDraw = True
+2081.8381 	EXP 	textRKNScale: autoDraw = True
+2082.1089 	DATA 	Keypress: r
+2082.1366 	EXP 	textRKN: autoDraw = False
+2082.1366 	EXP 	textRKNScale: autoDraw = False
+2082.1366 	EXP 	textBlank500: autoDraw = True
+2082.6418 	EXP 	New trial (rep=65, index=0): None
+2082.6571 	EXP 	textBlank500: autoDraw = False
+2082.6571 	EXP 	textConf: text = 'nation'
+2082.6571 	EXP 	textConf: autoDraw = True
+2082.6571 	EXP 	textConfScale: autoDraw = True
+2084.0603 	DATA 	Keypress: 1
+2084.0878 	EXP 	textConf: autoDraw = False
+2084.0878 	EXP 	textConfScale: autoDraw = False
+2084.0878 	EXP 	textTestBlank: text = 'nation'
+2084.0878 	EXP 	textTestBlank: autoDraw = True
+2084.6035 	EXP 	textTestBlank: autoDraw = False
+2084.6035 	EXP 	textRKN: text = 'nation'
+2084.6035 	EXP 	textRKN: autoDraw = True
+2084.6035 	EXP 	textRKNScale: autoDraw = True
+2084.8773 	DATA 	Keypress: n
+2084.9036 	EXP 	textRKN: autoDraw = False
+2084.9036 	EXP 	textRKNScale: autoDraw = False
+2084.9036 	EXP 	textBlank500: autoDraw = True
+2085.3934 	EXP 	New trial (rep=66, index=0): None
+2085.4116 	EXP 	textBlank500: autoDraw = False
+2085.4116 	EXP 	textBlank500: autoDraw = False
+2085.4116 	EXP 	textConf: text = 'weight'
+2085.4116 	EXP 	textConf: autoDraw = True
+2085.4116 	EXP 	textConfScale: autoDraw = True
+2086.7960 	DATA 	Keypress: 1
+2086.8237 	EXP 	textConf: autoDraw = False
+2086.8237 	EXP 	textConfScale: autoDraw = False
+2086.8237 	EXP 	textTestBlank: text = 'weight'
+2086.8237 	EXP 	textTestBlank: autoDraw = True
+2087.3322 	EXP 	textTestBlank: autoDraw = False
+2087.3322 	EXP 	textTestBlank: autoDraw = False
+2087.3322 	EXP 	textRKN: text = 'weight'
+2087.3322 	EXP 	textRKN: autoDraw = True
+2087.3322 	EXP 	textRKNScale: autoDraw = True
+2087.6138 	DATA 	Keypress: n
+2087.6397 	EXP 	textRKN: autoDraw = False
+2087.6397 	EXP 	textRKNScale: autoDraw = False
+2087.6397 	EXP 	textBlank500: autoDraw = True
+2088.1297 	EXP 	New trial (rep=67, index=0): None
+2088.1429 	EXP 	textBlank500: autoDraw = False
+2088.1429 	EXP 	textBlank500: autoDraw = False
+2088.1429 	EXP 	textConf: text = 'material'
+2088.1429 	EXP 	textConf: autoDraw = True
+2088.1429 	EXP 	textConfScale: autoDraw = True
+2089.7506 	DATA 	Keypress: 1
+2089.7866 	EXP 	textConf: autoDraw = False
+2089.7866 	EXP 	textConfScale: autoDraw = False
+2089.7866 	EXP 	textTestBlank: text = 'material'
+2089.7866 	EXP 	textTestBlank: autoDraw = True
+2090.2925 	EXP 	textTestBlank: autoDraw = False
+2090.2925 	EXP 	textRKN: text = 'material'
+2090.2925 	EXP 	textRKN: autoDraw = True
+2090.2925 	EXP 	textRKNScale: autoDraw = True
+2090.8069 	DATA 	Keypress: n
+2090.8093 	EXP 	textRKN: autoDraw = False
+2090.8093 	EXP 	textRKNScale: autoDraw = False
+2090.8093 	EXP 	textBlank500: autoDraw = True
+2091.2989 	EXP 	New trial (rep=68, index=0): None
+2091.3163 	EXP 	textBlank500: autoDraw = False
+2091.3163 	EXP 	textBlank500: autoDraw = False
+2091.3163 	EXP 	textConf: text = 'substance'
+2091.3163 	EXP 	textConf: autoDraw = True
+2091.3163 	EXP 	textConfScale: autoDraw = True
+2093.3963 	DATA 	Keypress: 2
+2093.3988 	EXP 	textConf: autoDraw = False
+2093.3988 	EXP 	textConfScale: autoDraw = False
+2093.3988 	EXP 	textTestBlank: text = 'substance'
+2093.3988 	EXP 	textTestBlank: autoDraw = True
+2093.9171 	EXP 	textTestBlank: autoDraw = False
+2093.9171 	EXP 	textRKN: text = 'substance'
+2093.9171 	EXP 	textRKN: autoDraw = True
+2093.9171 	EXP 	textRKNScale: autoDraw = True
+2094.0113 	DATA 	Keypress: f
+2094.0138 	EXP 	textRKN: autoDraw = False
+2094.0138 	EXP 	textRKNScale: autoDraw = False
+2094.0138 	EXP 	textBlank500: autoDraw = True
+2094.5096 	EXP 	New trial (rep=69, index=0): None
+2094.5260 	EXP 	textBlank500: autoDraw = False
+2094.5260 	EXP 	textBlank500: autoDraw = False
+2094.5260 	EXP 	textConf: text = 'opening'
+2094.5260 	EXP 	textConf: autoDraw = True
+2094.5260 	EXP 	textConfScale: autoDraw = True
+2097.2145 	DATA 	Keypress: 1
+2097.2170 	EXP 	textConf: autoDraw = False
+2097.2170 	EXP 	textConfScale: autoDraw = False
+2097.2170 	EXP 	textTestBlank: text = 'opening'
+2097.2170 	EXP 	textTestBlank: autoDraw = True
+2097.7182 	EXP 	textTestBlank: autoDraw = False
+2097.7182 	EXP 	textTestBlank: autoDraw = False
+2097.7182 	EXP 	textRKN: text = 'opening'
+2097.7182 	EXP 	textRKN: autoDraw = True
+2097.7182 	EXP 	textRKNScale: autoDraw = True
+2097.8123 	DATA 	Keypress: n
+2097.8163 	EXP 	textRKN: autoDraw = False
+2097.8163 	EXP 	textRKNScale: autoDraw = False
+2097.8163 	EXP 	textBlank500: autoDraw = True
+2098.3090 	EXP 	New trial (rep=70, index=0): None
+2098.3272 	EXP 	textBlank500: autoDraw = False
+2098.3272 	EXP 	textBlank500: autoDraw = False
+2098.3272 	EXP 	textConf: text = 'touch'
+2098.3272 	EXP 	textConf: autoDraw = True
+2098.3272 	EXP 	textConfScale: autoDraw = True
+2100.9002 	DATA 	Keypress: 6
+2100.9029 	EXP 	textConf: autoDraw = False
+2100.9029 	EXP 	textConfScale: autoDraw = False
+2100.9029 	EXP 	textTestBlank: text = 'touch'
+2100.9029 	EXP 	textTestBlank: autoDraw = True
+2101.4068 	EXP 	textTestBlank: autoDraw = False
+2101.4068 	EXP 	textTestBlank: autoDraw = False
+2101.4068 	EXP 	textRKN: text = 'touch'
+2101.4068 	EXP 	textRKN: autoDraw = True
+2101.4068 	EXP 	textRKNScale: autoDraw = True
+2101.8446 	DATA 	Keypress: r
+2101.8715 	EXP 	textRKN: autoDraw = False
+2101.8715 	EXP 	textRKNScale: autoDraw = False
+2101.8715 	EXP 	textBlank500: autoDraw = True
+2102.3615 	EXP 	New trial (rep=71, index=0): None
+2102.3797 	EXP 	textBlank500: autoDraw = False
+2102.3797 	EXP 	textBlank500: autoDraw = False
+2102.3797 	EXP 	textConf: text = 'colonel'
+2102.3797 	EXP 	textConf: autoDraw = True
+2102.3797 	EXP 	textConfScale: autoDraw = True
+2103.7556 	DATA 	Keypress: 1
+2103.7580 	EXP 	textConf: autoDraw = False
+2103.7580 	EXP 	textConfScale: autoDraw = False
+2103.7580 	EXP 	textTestBlank: text = 'colonel'
+2103.7580 	EXP 	textTestBlank: autoDraw = True
+2104.2731 	EXP 	textTestBlank: autoDraw = False
+2104.2731 	EXP 	textRKN: text = 'colonel'
+2104.2731 	EXP 	textRKN: autoDraw = True
+2104.2731 	EXP 	textRKNScale: autoDraw = True
+2104.6168 	DATA 	Keypress: n
+2104.6233 	EXP 	textRKN: autoDraw = False
+2104.6233 	EXP 	textRKNScale: autoDraw = False
+2104.6233 	EXP 	textBlank500: autoDraw = True
+2105.1118 	EXP 	New trial (rep=72, index=0): None
+2105.1247 	EXP 	textBlank500: autoDraw = False
+2105.1247 	EXP 	textBlank500: autoDraw = False
+2105.1247 	EXP 	textConf: text = 'throw'
+2105.1247 	EXP 	textConf: autoDraw = True
+2105.1247 	EXP 	textConfScale: autoDraw = True
+2108.1259 	DATA 	Keypress: 1
+2108.1283 	EXP 	textConf: autoDraw = False
+2108.1283 	EXP 	textConfScale: autoDraw = False
+2108.1283 	EXP 	textTestBlank: text = 'throw'
+2108.1283 	EXP 	textTestBlank: autoDraw = True
+2108.6342 	EXP 	textTestBlank: autoDraw = False
+2108.6342 	EXP 	textTestBlank: autoDraw = False
+2108.6342 	EXP 	textRKN: text = 'throw'
+2108.6342 	EXP 	textRKN: autoDraw = True
+2108.6342 	EXP 	textRKNScale: autoDraw = True
+2108.9693 	DATA 	Keypress: n
+2108.9943 	EXP 	textRKN: autoDraw = False
+2108.9943 	EXP 	textRKNScale: autoDraw = False
+2108.9943 	EXP 	textBlank500: autoDraw = True
+2109.4852 	EXP 	New trial (rep=73, index=0): None
+2109.5033 	EXP 	textBlank500: autoDraw = False
+2109.5033 	EXP 	textBlank500: autoDraw = False
+2109.5033 	EXP 	textConf: text = 'beginning'
+2109.5033 	EXP 	textConf: autoDraw = True
+2109.5033 	EXP 	textConfScale: autoDraw = True
+2110.9639 	DATA 	Keypress: 1
+2110.9665 	EXP 	textConf: autoDraw = False
+2110.9665 	EXP 	textConfScale: autoDraw = False
+2110.9665 	EXP 	textTestBlank: text = 'beginning'
+2110.9665 	EXP 	textTestBlank: autoDraw = True
+2111.4857 	EXP 	textTestBlank: autoDraw = False
+2111.4857 	EXP 	textRKN: text = 'beginning'
+2111.4857 	EXP 	textRKN: autoDraw = True
+2111.4857 	EXP 	textRKNScale: autoDraw = True
+2111.8388 	DATA 	Keypress: n
+2111.8639 	EXP 	textRKN: autoDraw = False
+2111.8639 	EXP 	textRKNScale: autoDraw = False
+2111.8639 	EXP 	textBlank500: autoDraw = True
+2112.3532 	EXP 	New trial (rep=74, index=0): None
+2112.3699 	EXP 	textBlank500: autoDraw = False
+2112.3699 	EXP 	textBlank500: autoDraw = False
+2112.3699 	EXP 	textConf: text = 'object'
+2112.3699 	EXP 	textConf: autoDraw = True
+2112.3699 	EXP 	textConfScale: autoDraw = True
+2114.0362 	DATA 	Keypress: 1
+2114.0387 	EXP 	textConf: autoDraw = False
+2114.0387 	EXP 	textConfScale: autoDraw = False
+2114.0387 	EXP 	textTestBlank: text = 'object'
+2114.0387 	EXP 	textTestBlank: autoDraw = True
+2114.5648 	EXP 	textTestBlank: autoDraw = False
+2114.5648 	EXP 	textRKN: text = 'object'
+2114.5648 	EXP 	textRKN: autoDraw = True
+2114.5648 	EXP 	textRKNScale: autoDraw = True
+2114.7127 	DATA 	Keypress: n
+2114.7168 	EXP 	textRKN: autoDraw = False
+2114.7168 	EXP 	textRKNScale: autoDraw = False
+2114.7168 	EXP 	textBlank500: autoDraw = True
+2115.2126 	EXP 	New trial (rep=75, index=0): None
+2115.2360 	EXP 	textBlank500: autoDraw = False
+2115.2360 	EXP 	textBlank500: autoDraw = False
+2115.2360 	EXP 	textConf: text = 'narrow'
+2115.2360 	EXP 	textConf: autoDraw = True
+2115.2360 	EXP 	textConfScale: autoDraw = True
+2117.6940 	DATA 	Keypress: 1
+2117.7229 	EXP 	textConf: autoDraw = False
+2117.7229 	EXP 	textConfScale: autoDraw = False
+2117.7229 	EXP 	textTestBlank: text = 'narrow'
+2117.7229 	EXP 	textTestBlank: autoDraw = True
+2118.2395 	EXP 	textTestBlank: autoDraw = False
+2118.2395 	EXP 	textRKN: text = 'narrow'
+2118.2395 	EXP 	textRKN: autoDraw = True
+2118.2395 	EXP 	textRKNScale: autoDraw = True
+2118.3780 	DATA 	Keypress: n
+2118.4044 	EXP 	textRKN: autoDraw = False
+2118.4044 	EXP 	textRKNScale: autoDraw = False
+2118.4044 	EXP 	textBlank500: autoDraw = True
+2118.8940 	EXP 	New trial (rep=76, index=0): None
+2118.9082 	EXP 	textBlank500: autoDraw = False
+2118.9082 	EXP 	textBlank500: autoDraw = False
+2118.9082 	EXP 	textConf: text = 'republic'
+2118.9082 	EXP 	textConf: autoDraw = True
+2118.9082 	EXP 	textConfScale: autoDraw = True
+2120.4458 	DATA 	Keypress: 1
+2120.4736 	EXP 	textConf: autoDraw = False
+2120.4736 	EXP 	textConfScale: autoDraw = False
+2120.4736 	EXP 	textTestBlank: text = 'republic'
+2120.4736 	EXP 	textTestBlank: autoDraw = True
+2120.9794 	EXP 	textTestBlank: autoDraw = False
+2120.9794 	EXP 	textTestBlank: autoDraw = False
+2120.9794 	EXP 	textRKN: text = 'republic'
+2120.9794 	EXP 	textRKN: autoDraw = True
+2120.9794 	EXP 	textRKNScale: autoDraw = True
+2121.2145 	DATA 	Keypress: n
+2121.2399 	EXP 	textRKN: autoDraw = False
+2121.2399 	EXP 	textRKNScale: autoDraw = False
+2121.2399 	EXP 	textBlank500: autoDraw = True
+2121.7295 	EXP 	New trial (rep=77, index=0): None
+2121.7421 	EXP 	textBlank500: autoDraw = False
+2121.7421 	EXP 	textBlank500: autoDraw = False
+2121.7421 	EXP 	textConf: text = 'angle'
+2121.7421 	EXP 	textConf: autoDraw = True
+2121.7421 	EXP 	textConfScale: autoDraw = True
+2122.9590 	DATA 	Keypress: 1
+2122.9616 	EXP 	textConf: autoDraw = False
+2122.9616 	EXP 	textConfScale: autoDraw = False
+2122.9616 	EXP 	textTestBlank: text = 'angle'
+2122.9616 	EXP 	textTestBlank: autoDraw = True
+2123.4781 	EXP 	textTestBlank: autoDraw = False
+2123.4781 	EXP 	textRKN: text = 'angle'
+2123.4781 	EXP 	textRKN: autoDraw = True
+2123.4781 	EXP 	textRKNScale: autoDraw = True
+2123.6998 	DATA 	Keypress: n
+2123.7261 	EXP 	textRKN: autoDraw = False
+2123.7261 	EXP 	textRKNScale: autoDraw = False
+2123.7261 	EXP 	textBlank500: autoDraw = True
+2124.2145 	EXP 	New trial (rep=78, index=0): None
+2124.2293 	EXP 	textBlank500: autoDraw = False
+2124.2293 	EXP 	textBlank500: autoDraw = False
+2124.2293 	EXP 	textConf: text = 'group'
+2124.2293 	EXP 	textConf: autoDraw = True
+2124.2293 	EXP 	textConfScale: autoDraw = True
+2126.2023 	DATA 	Keypress: 1
+2126.2292 	EXP 	textConf: autoDraw = False
+2126.2292 	EXP 	textConfScale: autoDraw = False
+2126.2292 	EXP 	textTestBlank: text = 'group'
+2126.2292 	EXP 	textTestBlank: autoDraw = True
+2126.7288 	EXP 	textTestBlank: autoDraw = False
+2126.7288 	EXP 	textTestBlank: autoDraw = False
+2126.7288 	EXP 	textRKN: text = 'group'
+2126.7288 	EXP 	textRKN: autoDraw = True
+2126.7288 	EXP 	textRKNScale: autoDraw = True
+2127.0621 	DATA 	Keypress: n
+2127.0646 	EXP 	textRKN: autoDraw = False
+2127.0646 	EXP 	textRKNScale: autoDraw = False
+2127.0646 	EXP 	textBlank500: autoDraw = True
+2127.5668 	EXP 	New trial (rep=79, index=0): None
+2127.5824 	EXP 	textBlank500: autoDraw = False
+2127.5824 	EXP 	textConf: text = 'brief'
+2127.5824 	EXP 	textConf: autoDraw = True
+2127.5824 	EXP 	textConfScale: autoDraw = True
+2129.3623 	DATA 	Keypress: 6
+2129.3650 	EXP 	textConf: autoDraw = False
+2129.3650 	EXP 	textConfScale: autoDraw = False
+2129.3650 	EXP 	textTestBlank: text = 'brief'
+2129.3650 	EXP 	textTestBlank: autoDraw = True
+2129.8697 	EXP 	textTestBlank: autoDraw = False
+2129.8697 	EXP 	textTestBlank: autoDraw = False
+2129.8697 	EXP 	textRKN: text = 'brief'
+2129.8697 	EXP 	textRKN: autoDraw = True
+2129.8697 	EXP 	textRKNScale: autoDraw = True
+2130.0672 	DATA 	Keypress: r
+2130.0698 	EXP 	textRKN: autoDraw = False
+2130.0698 	EXP 	textRKNScale: autoDraw = False
+2130.0698 	EXP 	textBlank500: autoDraw = True
+2130.5738 	EXP 	New trial (rep=80, index=0): None
+2130.5924 	EXP 	textBlank500: autoDraw = False
+2130.5924 	EXP 	textConf: text = 'debate'
+2130.5924 	EXP 	textConf: autoDraw = True
+2130.5924 	EXP 	textConfScale: autoDraw = True
+2132.0263 	DATA 	Keypress: 1
+2132.0290 	EXP 	textConf: autoDraw = False
+2132.0290 	EXP 	textConfScale: autoDraw = False
+2132.0290 	EXP 	textTestBlank: text = 'debate'
+2132.0290 	EXP 	textTestBlank: autoDraw = True
+2132.5357 	EXP 	textTestBlank: autoDraw = False
+2132.5357 	EXP 	textRKN: text = 'debate'
+2132.5357 	EXP 	textRKN: autoDraw = True
+2132.5357 	EXP 	textRKNScale: autoDraw = True
+2132.6297 	DATA 	Keypress: n
+2132.6347 	EXP 	textRKN: autoDraw = False
+2132.6347 	EXP 	textRKNScale: autoDraw = False
+2132.6347 	EXP 	textBlank500: autoDraw = True
+2133.1265 	EXP 	New trial (rep=81, index=0): None
+2133.1469 	EXP 	textBlank500: autoDraw = False
+2133.1469 	EXP 	textBlank500: autoDraw = False
+2133.1469 	EXP 	textConf: text = 'husband'
+2133.1469 	EXP 	textConf: autoDraw = True
+2133.1469 	EXP 	textConfScale: autoDraw = True
+2134.3944 	DATA 	Keypress: 1
+2134.4233 	EXP 	textConf: autoDraw = False
+2134.4233 	EXP 	textConfScale: autoDraw = False
+2134.4233 	EXP 	textTestBlank: text = 'husband'
+2134.4233 	EXP 	textTestBlank: autoDraw = True
+2134.9443 	EXP 	textTestBlank: autoDraw = False
+2134.9443 	EXP 	textRKN: text = 'husband'
+2134.9443 	EXP 	textRKN: autoDraw = True
+2134.9443 	EXP 	textRKNScale: autoDraw = True
+2135.1655 	DATA 	Keypress: n
+2135.1705 	EXP 	textRKN: autoDraw = False
+2135.1705 	EXP 	textRKNScale: autoDraw = False
+2135.1705 	EXP 	textBlank500: autoDraw = True
+2135.6584 	EXP 	New trial (rep=82, index=0): None
+2135.6708 	EXP 	textBlank500: autoDraw = False
+2135.6708 	EXP 	textBlank500: autoDraw = False
+2135.6708 	EXP 	textConf: text = 'motion'
+2135.6708 	EXP 	textConf: autoDraw = True
+2135.6708 	EXP 	textConfScale: autoDraw = True
+2136.9392 	DATA 	Keypress: 6
+2136.9417 	EXP 	textConf: autoDraw = False
+2136.9417 	EXP 	textConfScale: autoDraw = False
+2136.9417 	EXP 	textTestBlank: text = 'motion'
+2136.9417 	EXP 	textTestBlank: autoDraw = True
+2137.4594 	EXP 	textTestBlank: autoDraw = False
+2137.4594 	EXP 	textRKN: text = 'motion'
+2137.4594 	EXP 	textRKN: autoDraw = True
+2137.4594 	EXP 	textRKNScale: autoDraw = True
+2137.7446 	DATA 	Keypress: r
+2137.7473 	EXP 	textRKN: autoDraw = False
+2137.7473 	EXP 	textRKNScale: autoDraw = False
+2137.7473 	EXP 	textBlank500: autoDraw = True
+2138.2466 	EXP 	New trial (rep=83, index=0): None
+2138.2634 	EXP 	textBlank500: autoDraw = False
+2138.2634 	EXP 	textConf: text = 'cousin'
+2138.2634 	EXP 	textConf: autoDraw = True
+2138.2634 	EXP 	textConfScale: autoDraw = True
+2139.4962 	DATA 	Keypress: 1
+2139.4987 	EXP 	textConf: autoDraw = False
+2139.4987 	EXP 	textConfScale: autoDraw = False
+2139.4987 	EXP 	textTestBlank: text = 'cousin'
+2139.4987 	EXP 	textTestBlank: autoDraw = True
+2140.0088 	EXP 	textTestBlank: autoDraw = False
+2140.0088 	EXP 	textRKN: text = 'cousin'
+2140.0088 	EXP 	textRKN: autoDraw = True
+2140.0088 	EXP 	textRKNScale: autoDraw = True
+2140.0834 	DATA 	Keypress: n
+2140.1104 	EXP 	textRKN: autoDraw = False
+2140.1104 	EXP 	textRKNScale: autoDraw = False
+2140.1104 	EXP 	textBlank500: autoDraw = True
+2140.6137 	EXP 	New trial (rep=84, index=0): None
+2140.6276 	EXP 	textBlank500: autoDraw = False
+2140.6276 	EXP 	textConf: text = 'education'
+2140.6276 	EXP 	textConf: autoDraw = True
+2140.6276 	EXP 	textConfScale: autoDraw = True
+2142.0482 	DATA 	Keypress: 1
+2142.0507 	EXP 	textConf: autoDraw = False
+2142.0507 	EXP 	textConfScale: autoDraw = False
+2142.0507 	EXP 	textTestBlank: text = 'education'
+2142.0507 	EXP 	textTestBlank: autoDraw = True
+2142.5614 	EXP 	textTestBlank: autoDraw = False
+2142.5614 	EXP 	textRKN: text = 'education'
+2142.5614 	EXP 	textRKN: autoDraw = True
+2142.5614 	EXP 	textRKNScale: autoDraw = True
+2142.7032 	DATA 	Keypress: n
+2142.7290 	EXP 	textRKN: autoDraw = False
+2142.7290 	EXP 	textRKNScale: autoDraw = False
+2142.7290 	EXP 	textBlank500: autoDraw = True
+2143.2199 	EXP 	New trial (rep=85, index=0): None
+2143.2370 	EXP 	textBlank500: autoDraw = False
+2143.2370 	EXP 	textBlank500: autoDraw = False
+2143.2370 	EXP 	textConf: text = 'instrument'
+2143.2370 	EXP 	textConf: autoDraw = True
+2143.2370 	EXP 	textConfScale: autoDraw = True
+2144.6137 	DATA 	Keypress: 1
+2144.6163 	EXP 	textConf: autoDraw = False
+2144.6163 	EXP 	textConfScale: autoDraw = False
+2144.6163 	EXP 	textTestBlank: text = 'instrument'
+2144.6163 	EXP 	textTestBlank: autoDraw = True
+2145.1364 	EXP 	textTestBlank: autoDraw = False
+2145.1364 	EXP 	textRKN: text = 'instrument'
+2145.1364 	EXP 	textRKN: autoDraw = True
+2145.1364 	EXP 	textRKNScale: autoDraw = True
+2145.4459 	DATA 	Keypress: n
+2145.4484 	EXP 	textRKN: autoDraw = False
+2145.4484 	EXP 	textRKNScale: autoDraw = False
+2145.4484 	EXP 	textBlank500: autoDraw = True
+2145.9362 	EXP 	New trial (rep=86, index=0): None
+2145.9492 	EXP 	textBlank500: autoDraw = False
+2145.9492 	EXP 	textBlank500: autoDraw = False
+2145.9492 	EXP 	textConf: text = 'accident'
+2145.9492 	EXP 	textConf: autoDraw = True
+2145.9492 	EXP 	textConfScale: autoDraw = True
+2148.3490 	DATA 	Keypress: 6
+2148.3515 	EXP 	textConf: autoDraw = False
+2148.3515 	EXP 	textConfScale: autoDraw = False
+2148.3515 	EXP 	textTestBlank: text = 'accident'
+2148.3515 	EXP 	textTestBlank: autoDraw = True
+2148.8538 	EXP 	textTestBlank: autoDraw = False
+2148.8538 	EXP 	textTestBlank: autoDraw = False
+2148.8538 	EXP 	textRKN: text = 'accident'
+2148.8538 	EXP 	textRKN: autoDraw = True
+2148.8538 	EXP 	textRKNScale: autoDraw = True
+2149.1962 	DATA 	Keypress: r
+2149.2012 	EXP 	textRKN: autoDraw = False
+2149.2012 	EXP 	textRKNScale: autoDraw = False
+2149.2012 	EXP 	textBlank500: autoDraw = True
+2149.6915 	EXP 	New trial (rep=87, index=0): None
+2149.7106 	EXP 	textBlank500: autoDraw = False
+2149.7106 	EXP 	textBlank500: autoDraw = False
+2149.7106 	EXP 	textConf: text = 'spoke'
+2149.7106 	EXP 	textConf: autoDraw = True
+2149.7106 	EXP 	textConfScale: autoDraw = True
+2150.9523 	DATA 	Keypress: 1
+2150.9547 	EXP 	textConf: autoDraw = False
+2150.9547 	EXP 	textConfScale: autoDraw = False
+2150.9547 	EXP 	textTestBlank: text = 'spoke'
+2150.9547 	EXP 	textTestBlank: autoDraw = True
+2151.4757 	EXP 	textTestBlank: autoDraw = False
+2151.4757 	EXP 	textRKN: text = 'spoke'
+2151.4757 	EXP 	textRKN: autoDraw = True
+2151.4757 	EXP 	textRKNScale: autoDraw = True
+2152.5463 	DATA 	Keypress: n
+2152.5713 	EXP 	textRKN: autoDraw = False
+2152.5713 	EXP 	textRKNScale: autoDraw = False
+2152.5713 	EXP 	textBlank500: autoDraw = True
+2153.0606 	EXP 	New trial (rep=88, index=0): None
+2153.0758 	EXP 	textBlank500: autoDraw = False
+2153.0758 	EXP 	textBlank500: autoDraw = False
+2153.0758 	EXP 	textConf: text = 'dispute'
+2153.0758 	EXP 	textConf: autoDraw = True
+2153.0758 	EXP 	textConfScale: autoDraw = True
+2155.6557 	DATA 	Keypress: 1
+2155.6583 	EXP 	textConf: autoDraw = False
+2155.6583 	EXP 	textConfScale: autoDraw = False
+2155.6583 	EXP 	textTestBlank: text = 'dispute'
+2155.6583 	EXP 	textTestBlank: autoDraw = True
+2156.1580 	EXP 	textTestBlank: autoDraw = False
+2156.1580 	EXP 	textTestBlank: autoDraw = False
+2156.1580 	EXP 	textRKN: text = 'dispute'
+2156.1580 	EXP 	textRKN: autoDraw = True
+2156.1580 	EXP 	textRKNScale: autoDraw = True
+2156.8539 	DATA 	Keypress: n
+2156.8589 	EXP 	textRKN: autoDraw = False
+2156.8589 	EXP 	textRKNScale: autoDraw = False
+2156.8589 	EXP 	textBlank500: autoDraw = True
+2157.3505 	EXP 	New trial (rep=89, index=0): None
+2157.3628 	EXP 	textBlank500: autoDraw = False
+2157.3628 	EXP 	textBlank500: autoDraw = False
+2157.3628 	EXP 	textConf: text = 'write'
+2157.3628 	EXP 	textConf: autoDraw = True
+2157.3628 	EXP 	textConfScale: autoDraw = True
+2159.0351 	DATA 	Keypress: 6
+2159.0630 	EXP 	textConf: autoDraw = False
+2159.0630 	EXP 	textConfScale: autoDraw = False
+2159.0630 	EXP 	textTestBlank: text = 'write'
+2159.0630 	EXP 	textTestBlank: autoDraw = True
+2159.5785 	EXP 	textTestBlank: autoDraw = False
+2159.5785 	EXP 	textRKN: text = 'write'
+2159.5785 	EXP 	textRKN: autoDraw = True
+2159.5785 	EXP 	textRKNScale: autoDraw = True
+2159.8955 	DATA 	Keypress: r
+2159.8980 	EXP 	textRKN: autoDraw = False
+2159.8980 	EXP 	textRKNScale: autoDraw = False
+2159.8980 	EXP 	textBlank500: autoDraw = True
+2160.3989 	EXP 	New trial (rep=90, index=0): None
+2160.4126 	EXP 	textBlank500: autoDraw = False
+2160.4126 	EXP 	textConf: text = 'medicine'
+2160.4126 	EXP 	textConf: autoDraw = True
+2160.4126 	EXP 	textConfScale: autoDraw = True
+2161.7802 	DATA 	Keypress: 1
+2161.7828 	EXP 	textConf: autoDraw = False
+2161.7828 	EXP 	textConfScale: autoDraw = False
+2161.7828 	EXP 	textTestBlank: text = 'medicine'
+2161.7828 	EXP 	textTestBlank: autoDraw = True
+2162.2978 	EXP 	textTestBlank: autoDraw = False
+2162.2978 	EXP 	textRKN: text = 'medicine'
+2162.2978 	EXP 	textRKN: autoDraw = True
+2162.2978 	EXP 	textRKNScale: autoDraw = True
+2162.5287 	DATA 	Keypress: n
+2162.5311 	EXP 	textRKN: autoDraw = False
+2162.5311 	EXP 	textRKNScale: autoDraw = False
+2162.5311 	EXP 	textBlank500: autoDraw = True
+2163.0199 	EXP 	New trial (rep=91, index=0): None
+2163.0339 	EXP 	textBlank500: autoDraw = False
+2163.0339 	EXP 	textBlank500: autoDraw = False
+2163.0339 	EXP 	textConf: text = 'cover'
+2163.0339 	EXP 	textConf: autoDraw = True
+2163.0339 	EXP 	textConfScale: autoDraw = True
+2165.4519 	DATA 	Keypress: 1
+2165.4548 	EXP 	textConf: autoDraw = False
+2165.4548 	EXP 	textConfScale: autoDraw = False
+2165.4548 	EXP 	textTestBlank: text = 'cover'
+2165.4548 	EXP 	textTestBlank: autoDraw = True
+2165.9679 	EXP 	textTestBlank: autoDraw = False
+2165.9679 	EXP 	textRKN: text = 'cover'
+2165.9679 	EXP 	textRKN: autoDraw = True
+2165.9679 	EXP 	textRKNScale: autoDraw = True
+2166.2778 	DATA 	Keypress: n
+2166.2848 	EXP 	textRKN: autoDraw = False
+2166.2848 	EXP 	textRKNScale: autoDraw = False
+2166.2848 	EXP 	textBlank500: autoDraw = True
+2166.7784 	EXP 	New trial (rep=92, index=0): None
+2166.7977 	EXP 	textBlank500: autoDraw = False
+2166.7977 	EXP 	textBlank500: autoDraw = False
+2166.7977 	EXP 	textConf: text = 'clean'
+2166.7977 	EXP 	textConf: autoDraw = True
+2166.7977 	EXP 	textConfScale: autoDraw = True
+2168.4104 	DATA 	Keypress: 1
+2168.4426 	EXP 	textConf: autoDraw = False
+2168.4426 	EXP 	textConfScale: autoDraw = False
+2168.4426 	EXP 	textTestBlank: text = 'clean'
+2168.4426 	EXP 	textTestBlank: autoDraw = True
+2168.9543 	EXP 	textTestBlank: autoDraw = False
+2168.9543 	EXP 	textRKN: text = 'clean'
+2168.9543 	EXP 	textRKN: autoDraw = True
+2168.9543 	EXP 	textRKNScale: autoDraw = True
+2169.1663 	DATA 	Keypress: n
+2169.1711 	EXP 	textRKN: autoDraw = False
+2169.1711 	EXP 	textRKNScale: autoDraw = False
+2169.1711 	EXP 	textBlank500: autoDraw = True
+2169.6620 	EXP 	New trial (rep=93, index=0): None
+2169.6818 	EXP 	textBlank500: autoDraw = False
+2169.6818 	EXP 	textBlank500: autoDraw = False
+2169.6818 	EXP 	textConf: text = 'clear'
+2169.6818 	EXP 	textConf: autoDraw = True
+2169.6818 	EXP 	textConfScale: autoDraw = True
+2171.5148 	DATA 	Keypress: 6
+2171.5438 	EXP 	textConf: autoDraw = False
+2171.5438 	EXP 	textConfScale: autoDraw = False
+2171.5438 	EXP 	textTestBlank: text = 'clear'
+2171.5438 	EXP 	textTestBlank: autoDraw = True
+2172.0593 	EXP 	textTestBlank: autoDraw = False
+2172.0593 	EXP 	textRKN: text = 'clear'
+2172.0593 	EXP 	textRKN: autoDraw = True
+2172.0593 	EXP 	textRKNScale: autoDraw = True
+2172.3047 	DATA 	Keypress: r
+2172.3077 	EXP 	textRKN: autoDraw = False
+2172.3077 	EXP 	textRKNScale: autoDraw = False
+2172.3077 	EXP 	textBlank500: autoDraw = True
+2172.7974 	EXP 	New trial (rep=94, index=0): None
+2172.8129 	EXP 	textBlank500: autoDraw = False
+2172.8129 	EXP 	textBlank500: autoDraw = False
+2172.8129 	EXP 	textConf: text = 'number'
+2172.8129 	EXP 	textConf: autoDraw = True
+2172.8129 	EXP 	textConfScale: autoDraw = True
+2174.1517 	DATA 	Keypress: 1
+2174.1850 	EXP 	textConf: autoDraw = False
+2174.1850 	EXP 	textConfScale: autoDraw = False
+2174.1850 	EXP 	textTestBlank: text = 'number'
+2174.1850 	EXP 	textTestBlank: autoDraw = True
+2174.6990 	EXP 	textTestBlank: autoDraw = False
+2174.6990 	EXP 	textRKN: text = 'number'
+2174.6990 	EXP 	textRKN: autoDraw = True
+2174.6990 	EXP 	textRKNScale: autoDraw = True
+2174.8268 	DATA 	Keypress: n
+2174.8294 	EXP 	textRKN: autoDraw = False
+2174.8294 	EXP 	textRKNScale: autoDraw = False
+2174.8294 	EXP 	textBlank500: autoDraw = True
+2175.3318 	EXP 	New trial (rep=95, index=0): None
+2175.3474 	EXP 	textBlank500: autoDraw = False
+2175.3474 	EXP 	textConf: text = 'dream'
+2175.3474 	EXP 	textConf: autoDraw = True
+2175.3474 	EXP 	textConfScale: autoDraw = True
+2176.7588 	DATA 	Keypress: 1
+2176.7622 	EXP 	textConf: autoDraw = False
+2176.7622 	EXP 	textConfScale: autoDraw = False
+2176.7622 	EXP 	textTestBlank: text = 'dream'
+2176.7622 	EXP 	textTestBlank: autoDraw = True
+2177.2659 	EXP 	textTestBlank: autoDraw = False
+2177.2659 	EXP 	textTestBlank: autoDraw = False
+2177.2659 	EXP 	textRKN: text = 'dream'
+2177.2659 	EXP 	textRKN: autoDraw = True
+2177.2659 	EXP 	textRKNScale: autoDraw = True
+2177.5582 	DATA 	Keypress: n
+2177.5629 	EXP 	textRKN: autoDraw = False
+2177.5629 	EXP 	textRKNScale: autoDraw = False
+2177.5629 	EXP 	textBlank500: autoDraw = True
+2178.0563 	EXP 	New trial (rep=96, index=0): None
+2178.0823 	EXP 	textBlank500: autoDraw = False
+2178.0823 	EXP 	textBlank500: autoDraw = False
+2178.0823 	EXP 	textConf: text = 'orchestra'
+2178.0823 	EXP 	textConf: autoDraw = True
+2178.0823 	EXP 	textConfScale: autoDraw = True
+2179.3302 	DATA 	Keypress: 1
+2179.3328 	EXP 	textConf: autoDraw = False
+2179.3328 	EXP 	textConfScale: autoDraw = False
+2179.3328 	EXP 	textTestBlank: text = 'orchestra'
+2179.3328 	EXP 	textTestBlank: autoDraw = True
+2179.8385 	EXP 	textTestBlank: autoDraw = False
+2179.8385 	EXP 	textTestBlank: autoDraw = False
+2179.8385 	EXP 	textRKN: text = 'orchestra'
+2179.8385 	EXP 	textRKN: autoDraw = True
+2179.8385 	EXP 	textRKNScale: autoDraw = True
+2180.0601 	DATA 	Keypress: n
+2180.0654 	EXP 	textRKN: autoDraw = False
+2180.0654 	EXP 	textRKNScale: autoDraw = False
+2180.0654 	EXP 	textBlank500: autoDraw = True
+2180.5584 	EXP 	New trial (rep=97, index=0): None
+2180.5752 	EXP 	textBlank500: autoDraw = False
+2180.5752 	EXP 	textBlank500: autoDraw = False
+2180.5752 	EXP 	textConf: text = 'testimony'
+2180.5752 	EXP 	textConf: autoDraw = True
+2180.5752 	EXP 	textConfScale: autoDraw = True
+2181.9491 	DATA 	Keypress: 1
+2181.9521 	EXP 	textConf: autoDraw = False
+2181.9521 	EXP 	textConfScale: autoDraw = False
+2181.9521 	EXP 	textTestBlank: text = 'testimony'
+2181.9521 	EXP 	textTestBlank: autoDraw = True
+2182.4512 	EXP 	textTestBlank: autoDraw = False
+2182.4512 	EXP 	textRKN: text = 'testimony'
+2182.4512 	EXP 	textRKN: autoDraw = True
+2182.4512 	EXP 	textRKNScale: autoDraw = True
+2182.6317 	DATA 	Keypress: n
+2182.6347 	EXP 	textRKN: autoDraw = False
+2182.6347 	EXP 	textRKNScale: autoDraw = False
+2182.6347 	EXP 	textBlank500: autoDraw = True
+2183.1272 	EXP 	New trial (rep=98, index=0): None
+2183.1495 	EXP 	textBlank500: autoDraw = False
+2183.1495 	EXP 	textBlank500: autoDraw = False
+2183.1495 	EXP 	textConf: text = 'department'
+2183.1495 	EXP 	textConf: autoDraw = True
+2183.1495 	EXP 	textConfScale: autoDraw = True
+2184.8873 	DATA 	Keypress: 1
+2184.8898 	EXP 	textConf: autoDraw = False
+2184.8898 	EXP 	textConfScale: autoDraw = False
+2184.8898 	EXP 	textTestBlank: text = 'department'
+2184.8898 	EXP 	textTestBlank: autoDraw = True
+2185.4071 	EXP 	textTestBlank: autoDraw = False
+2185.4071 	EXP 	textRKN: text = 'department'
+2185.4071 	EXP 	textRKN: autoDraw = True
+2185.4071 	EXP 	textRKNScale: autoDraw = True
+2185.5045 	DATA 	Keypress: n
+2185.5070 	EXP 	textRKN: autoDraw = False
+2185.5070 	EXP 	textRKNScale: autoDraw = False
+2185.5070 	EXP 	textBlank500: autoDraw = True
+2186.0088 	EXP 	New trial (rep=99, index=0): None
+2186.0253 	EXP 	textBlank500: autoDraw = False
+2186.0253 	EXP 	textConf: text = 'working'
+2186.0253 	EXP 	textConf: autoDraw = True
+2186.0253 	EXP 	textConfScale: autoDraw = True
+2187.5299 	DATA 	Keypress: 1
+2187.5600 	EXP 	textConf: autoDraw = False
+2187.5600 	EXP 	textConfScale: autoDraw = False
+2187.5600 	EXP 	textTestBlank: text = 'working'
+2187.5600 	EXP 	textTestBlank: autoDraw = True
+2188.0844 	EXP 	textTestBlank: autoDraw = False
+2188.0844 	EXP 	textRKN: text = 'working'
+2188.0844 	EXP 	textRKN: autoDraw = True
+2188.0844 	EXP 	textRKNScale: autoDraw = True
+2188.3321 	DATA 	Keypress: n
+2188.3595 	EXP 	textRKN: autoDraw = False
+2188.3595 	EXP 	textRKNScale: autoDraw = False
+2188.3595 	EXP 	textBlank500: autoDraw = True
+2188.8652 	EXP 	New trial (rep=100, index=0): None
+2188.8838 	EXP 	textBlank500: autoDraw = False
+2188.8838 	EXP 	textConf: text = 'oxygen'
+2188.8838 	EXP 	textConf: autoDraw = True
+2188.8838 	EXP 	textConfScale: autoDraw = True
+2190.1496 	DATA 	Keypress: 1
+2190.1523 	EXP 	textConf: autoDraw = False
+2190.1523 	EXP 	textConfScale: autoDraw = False
+2190.1523 	EXP 	textTestBlank: text = 'oxygen'
+2190.1523 	EXP 	textTestBlank: autoDraw = True
+2190.6592 	EXP 	textTestBlank: autoDraw = False
+2190.6592 	EXP 	textRKN: text = 'oxygen'
+2190.6592 	EXP 	textRKN: autoDraw = True
+2190.6592 	EXP 	textRKNScale: autoDraw = True
+2190.9337 	DATA 	Keypress: n
+2190.9612 	EXP 	textRKN: autoDraw = False
+2190.9612 	EXP 	textRKNScale: autoDraw = False
+2190.9612 	EXP 	textBlank500: autoDraw = True
+2191.4500 	EXP 	New trial (rep=101, index=0): None
+2191.4693 	EXP 	textBlank500: autoDraw = False
+2191.4693 	EXP 	textBlank500: autoDraw = False
+2191.4693 	EXP 	textConf: text = 'company'
+2191.4693 	EXP 	textConf: autoDraw = True
+2191.4693 	EXP 	textConfScale: autoDraw = True
+2194.1622 	DATA 	Keypress: 1
+2194.1646 	EXP 	textConf: autoDraw = False
+2194.1646 	EXP 	textConfScale: autoDraw = False
+2194.1646 	EXP 	textTestBlank: text = 'company'
+2194.1646 	EXP 	textTestBlank: autoDraw = True
+2194.6854 	EXP 	textTestBlank: autoDraw = False
+2194.6854 	EXP 	textRKN: text = 'company'
+2194.6854 	EXP 	textRKN: autoDraw = True
+2194.6854 	EXP 	textRKNScale: autoDraw = True
+2195.2828 	DATA 	Keypress: n
+2195.2854 	EXP 	textRKN: autoDraw = False
+2195.2854 	EXP 	textRKNScale: autoDraw = False
+2195.2854 	EXP 	textBlank500: autoDraw = True
+2195.7861 	EXP 	New trial (rep=102, index=0): None
+2195.8016 	EXP 	textBlank500: autoDraw = False
+2195.8016 	EXP 	textConf: text = 'answer'
+2195.8016 	EXP 	textConf: autoDraw = True
+2195.8016 	EXP 	textConfScale: autoDraw = True
+2197.5498 	DATA 	Keypress: 1
+2197.5523 	EXP 	textConf: autoDraw = False
+2197.5523 	EXP 	textConfScale: autoDraw = False
+2197.5523 	EXP 	textTestBlank: text = 'answer'
+2197.5523 	EXP 	textTestBlank: autoDraw = True
+2198.0678 	EXP 	textTestBlank: autoDraw = False
+2198.0678 	EXP 	textRKN: text = 'answer'
+2198.0678 	EXP 	textRKN: autoDraw = True
+2198.0678 	EXP 	textRKNScale: autoDraw = True
+2198.5747 	DATA 	Keypress: n
+2198.6006 	EXP 	textRKN: autoDraw = False
+2198.6006 	EXP 	textRKNScale: autoDraw = False
+2198.6006 	EXP 	textBlank500: autoDraw = True
+2199.0956 	EXP 	New trial (rep=103, index=0): None
+2199.1165 	EXP 	textBlank500: autoDraw = False
+2199.1165 	EXP 	textBlank500: autoDraw = False
+2199.1165 	EXP 	textConf: text = 'institute'
+2199.1165 	EXP 	textConf: autoDraw = True
+2199.1165 	EXP 	textConfScale: autoDraw = True
+2201.5712 	DATA 	Keypress: 4
+2201.5738 	EXP 	textConf: autoDraw = False
+2201.5738 	EXP 	textConfScale: autoDraw = False
+2201.5738 	EXP 	textTestBlank: text = 'institute'
+2201.5738 	EXP 	textTestBlank: autoDraw = True
+2202.0875 	EXP 	textTestBlank: autoDraw = False
+2202.0875 	EXP 	textRKN: text = 'institute'
+2202.0875 	EXP 	textRKN: autoDraw = True
+2202.0875 	EXP 	textRKNScale: autoDraw = True
+2202.3618 	DATA 	Keypress: f
+2202.3879 	EXP 	textRKN: autoDraw = False
+2202.3879 	EXP 	textRKNScale: autoDraw = False
+2202.3879 	EXP 	textBlank500: autoDraw = True
+2202.8773 	EXP 	New trial (rep=104, index=0): None
+2202.8899 	EXP 	textBlank500: autoDraw = False
+2202.8899 	EXP 	textBlank500: autoDraw = False
+2202.8899 	EXP 	textConf: text = 'addition'
+2202.8899 	EXP 	textConf: autoDraw = True
+2202.8899 	EXP 	textConfScale: autoDraw = True
+2206.6052 	DATA 	Keypress: 3
+2206.6088 	EXP 	textConf: autoDraw = False
+2206.6088 	EXP 	textConfScale: autoDraw = False
+2206.6088 	EXP 	textTestBlank: text = 'addition'
+2206.6088 	EXP 	textTestBlank: autoDraw = True
+2207.1132 	EXP 	textTestBlank: autoDraw = False
+2207.1132 	EXP 	textTestBlank: autoDraw = False
+2207.1132 	EXP 	textRKN: text = 'addition'
+2207.1132 	EXP 	textRKN: autoDraw = True
+2207.1132 	EXP 	textRKNScale: autoDraw = True
+2207.4399 	DATA 	Keypress: f
+2207.4428 	EXP 	textRKN: autoDraw = False
+2207.4428 	EXP 	textRKNScale: autoDraw = False
+2207.4428 	EXP 	textBlank500: autoDraw = True
+2207.9364 	EXP 	New trial (rep=105, index=0): None
+2207.9557 	EXP 	textBlank500: autoDraw = False
+2207.9557 	EXP 	textBlank500: autoDraw = False
+2207.9557 	EXP 	textConf: text = 'color'
+2207.9557 	EXP 	textConf: autoDraw = True
+2207.9557 	EXP 	textConfScale: autoDraw = True
+2209.3488 	DATA 	Keypress: 1
+2209.3513 	EXP 	textConf: autoDraw = False
+2209.3513 	EXP 	textConfScale: autoDraw = False
+2209.3513 	EXP 	textTestBlank: text = 'color'
+2209.3513 	EXP 	textTestBlank: autoDraw = True
+2209.8620 	EXP 	textTestBlank: autoDraw = False
+2209.8620 	EXP 	textRKN: text = 'color'
+2209.8620 	EXP 	textRKN: autoDraw = True
+2209.8620 	EXP 	textRKNScale: autoDraw = True
+2210.1071 	DATA 	Keypress: n
+2210.1121 	EXP 	textRKN: autoDraw = False
+2210.1121 	EXP 	textRKNScale: autoDraw = False
+2210.1121 	EXP 	textBlank500: autoDraw = True
+2210.6062 	EXP 	New trial (rep=106, index=0): None
+2210.6277 	EXP 	textBlank500: autoDraw = False
+2210.6277 	EXP 	textBlank500: autoDraw = False
+2210.6277 	EXP 	textConf: text = 'bucket'
+2210.6277 	EXP 	textConf: autoDraw = True
+2210.6277 	EXP 	textConfScale: autoDraw = True
+2212.0985 	DATA 	Keypress: 1
+2212.1010 	EXP 	textConf: autoDraw = False
+2212.1010 	EXP 	textConfScale: autoDraw = False
+2212.1010 	EXP 	textTestBlank: text = 'bucket'
+2212.1010 	EXP 	textTestBlank: autoDraw = True
+2212.6199 	EXP 	textTestBlank: autoDraw = False
+2212.6199 	EXP 	textRKN: text = 'bucket'
+2212.6199 	EXP 	textRKN: autoDraw = True
+2212.6199 	EXP 	textRKNScale: autoDraw = True
+2212.9720 	DATA 	Keypress: n
+2212.9984 	EXP 	textRKN: autoDraw = False
+2212.9984 	EXP 	textRKNScale: autoDraw = False
+2212.9984 	EXP 	textBlank500: autoDraw = True
+2213.4914 	EXP 	New trial (rep=107, index=0): None
+2213.5116 	EXP 	textBlank500: autoDraw = False
+2213.5116 	EXP 	textBlank500: autoDraw = False
+2213.5116 	EXP 	textConf: text = 'smooth'
+2213.5116 	EXP 	textConf: autoDraw = True
+2213.5116 	EXP 	textConfScale: autoDraw = True
+2215.4497 	DATA 	Keypress: 6
+2215.4523 	EXP 	textConf: autoDraw = False
+2215.4523 	EXP 	textConfScale: autoDraw = False
+2215.4523 	EXP 	textTestBlank: text = 'smooth'
+2215.4523 	EXP 	textTestBlank: autoDraw = True
+2215.9538 	EXP 	textTestBlank: autoDraw = False
+2215.9538 	EXP 	textTestBlank: autoDraw = False
+2215.9538 	EXP 	textRKN: text = 'smooth'
+2215.9538 	EXP 	textRKN: autoDraw = True
+2215.9538 	EXP 	textRKNScale: autoDraw = True
+2216.2441 	DATA 	Keypress: r
+2216.2704 	EXP 	textRKN: autoDraw = False
+2216.2704 	EXP 	textRKNScale: autoDraw = False
+2216.2704 	EXP 	textBlank500: autoDraw = True
+2216.7779 	EXP 	New trial (rep=108, index=0): None
+2216.7958 	EXP 	textBlank500: autoDraw = False
+2216.7958 	EXP 	textConf: text = 'pretty'
+2216.7958 	EXP 	textConf: autoDraw = True
+2216.7958 	EXP 	textConfScale: autoDraw = True
+2217.9542 	DATA 	Keypress: 1
+2217.9567 	EXP 	textConf: autoDraw = False
+2217.9567 	EXP 	textConfScale: autoDraw = False
+2217.9567 	EXP 	textTestBlank: text = 'pretty'
+2217.9567 	EXP 	textTestBlank: autoDraw = True
+2218.4793 	EXP 	textTestBlank: autoDraw = False
+2218.4793 	EXP 	textRKN: text = 'pretty'
+2218.4793 	EXP 	textRKN: autoDraw = True
+2218.4793 	EXP 	textRKNScale: autoDraw = True
+2218.7081 	DATA 	Keypress: n
+2218.7109 	EXP 	textRKN: autoDraw = False
+2218.7109 	EXP 	textRKNScale: autoDraw = False
+2218.7109 	EXP 	textBlank500: autoDraw = True
+2219.2113 	EXP 	New trial (rep=109, index=0): None
+2219.2290 	EXP 	textBlank500: autoDraw = False
+2219.2290 	EXP 	textConf: text = 'drama'
+2219.2290 	EXP 	textConf: autoDraw = True
+2219.2290 	EXP 	textConfScale: autoDraw = True
+2220.4363 	DATA 	Keypress: 1
+2220.4391 	EXP 	textConf: autoDraw = False
+2220.4391 	EXP 	textConfScale: autoDraw = False
+2220.4391 	EXP 	textTestBlank: text = 'drama'
+2220.4391 	EXP 	textTestBlank: autoDraw = True
+2220.9397 	EXP 	textTestBlank: autoDraw = False
+2220.9397 	EXP 	textTestBlank: autoDraw = False
+2220.9397 	EXP 	textRKN: text = 'drama'
+2220.9397 	EXP 	textRKN: autoDraw = True
+2220.9397 	EXP 	textRKNScale: autoDraw = True
+2221.1302 	DATA 	Keypress: n
+2221.1565 	EXP 	textRKN: autoDraw = False
+2221.1565 	EXP 	textRKNScale: autoDraw = False
+2221.1565 	EXP 	textBlank500: autoDraw = True
+2221.6472 	EXP 	New trial (rep=110, index=0): None
+2221.6697 	EXP 	textBlank500: autoDraw = False
+2221.6697 	EXP 	textBlank500: autoDraw = False
+2221.6697 	EXP 	textConf: text = 'equipment'
+2221.6697 	EXP 	textConf: autoDraw = True
+2221.6697 	EXP 	textConfScale: autoDraw = True
+2223.3915 	DATA 	Keypress: 3
+2223.3939 	EXP 	textConf: autoDraw = False
+2223.3939 	EXP 	textConfScale: autoDraw = False
+2223.3939 	EXP 	textTestBlank: text = 'equipment'
+2223.3939 	EXP 	textTestBlank: autoDraw = True
+2223.9094 	EXP 	textTestBlank: autoDraw = False
+2223.9094 	EXP 	textRKN: text = 'equipment'
+2223.9094 	EXP 	textRKN: autoDraw = True
+2223.9094 	EXP 	textRKNScale: autoDraw = True
+2224.0388 	DATA 	Keypress: f
+2224.0427 	EXP 	textRKN: autoDraw = False
+2224.0427 	EXP 	textRKNScale: autoDraw = False
+2224.0427 	EXP 	textBlank500: autoDraw = True
+2224.5328 	EXP 	New trial (rep=111, index=0): None
+2224.5508 	EXP 	textBlank500: autoDraw = False
+2224.5508 	EXP 	textBlank500: autoDraw = False
+2224.5508 	EXP 	textConf: text = 'short'
+2224.5508 	EXP 	textConf: autoDraw = True
+2224.5508 	EXP 	textConfScale: autoDraw = True
+2226.4777 	DATA 	Keypress: 1
+2226.4802 	EXP 	textConf: autoDraw = False
+2226.4802 	EXP 	textConfScale: autoDraw = False
+2226.4802 	EXP 	textTestBlank: text = 'short'
+2226.4802 	EXP 	textTestBlank: autoDraw = True
+2226.9970 	EXP 	textTestBlank: autoDraw = False
+2226.9970 	EXP 	textRKN: text = 'short'
+2226.9970 	EXP 	textRKN: autoDraw = True
+2226.9970 	EXP 	textRKNScale: autoDraw = True
+2227.2280 	DATA 	Keypress: n
+2227.2304 	EXP 	textRKN: autoDraw = False
+2227.2304 	EXP 	textRKNScale: autoDraw = False
+2227.2304 	EXP 	textBlank500: autoDraw = True
+2227.7188 	EXP 	New trial (rep=112, index=0): None
+2227.7321 	EXP 	textBlank500: autoDraw = False
+2227.7321 	EXP 	textBlank500: autoDraw = False
+2227.7321 	EXP 	textConf: text = 'center'
+2227.7321 	EXP 	textConf: autoDraw = True
+2227.7321 	EXP 	textConfScale: autoDraw = True
+2230.1895 	DATA 	Keypress: 1
+2230.1898 	DATA 	Keypress: 2
+2230.2158 	EXP 	textConf: autoDraw = False
+2230.2158 	EXP 	textConfScale: autoDraw = False
+2230.2158 	EXP 	textTestBlank: text = 'center'
+2230.2158 	EXP 	textTestBlank: autoDraw = True
+2230.7158 	EXP 	textTestBlank: autoDraw = False
+2230.7158 	EXP 	textTestBlank: autoDraw = False
+2230.7158 	EXP 	textRKN: text = 'center'
+2230.7158 	EXP 	textRKN: autoDraw = True
+2230.7158 	EXP 	textRKNScale: autoDraw = True
+2233.0581 	DATA 	Keypress: n
+2233.0849 	EXP 	textRKN: autoDraw = False
+2233.0849 	EXP 	textRKNScale: autoDraw = False
+2233.0849 	EXP 	textBlank500: autoDraw = True
+2233.5764 	EXP 	New trial (rep=113, index=0): None
+2233.5952 	EXP 	textBlank500: autoDraw = False
+2233.5952 	EXP 	textBlank500: autoDraw = False
+2233.5952 	EXP 	textConf: text = 'range'
+2233.5952 	EXP 	textConf: autoDraw = True
+2233.5952 	EXP 	textConfScale: autoDraw = True
+2235.3681 	DATA 	Keypress: 1
+2235.3705 	EXP 	textConf: autoDraw = False
+2235.3705 	EXP 	textConfScale: autoDraw = False
+2235.3705 	EXP 	textTestBlank: text = 'range'
+2235.3705 	EXP 	textTestBlank: autoDraw = True
+2235.8713 	EXP 	textTestBlank: autoDraw = False
+2235.8713 	EXP 	textTestBlank: autoDraw = False
+2235.8713 	EXP 	textRKN: text = 'range'
+2235.8713 	EXP 	textRKN: autoDraw = True
+2235.8713 	EXP 	textRKNScale: autoDraw = True
+2236.2019 	DATA 	Keypress: n
+2236.2049 	EXP 	textRKN: autoDraw = False
+2236.2049 	EXP 	textRKNScale: autoDraw = False
+2236.2049 	EXP 	textBlank500: autoDraw = True
+2236.6955 	EXP 	New trial (rep=114, index=0): None
+2236.7129 	EXP 	textBlank500: autoDraw = False
+2236.7129 	EXP 	textBlank500: autoDraw = False
+2236.7129 	EXP 	textConf: text = 'interior'
+2236.7129 	EXP 	textConf: autoDraw = True
+2236.7129 	EXP 	textConfScale: autoDraw = True
+2239.6632 	DATA 	Keypress: 1
+2239.6657 	EXP 	textConf: autoDraw = False
+2239.6657 	EXP 	textConfScale: autoDraw = False
+2239.6657 	EXP 	textTestBlank: text = 'interior'
+2239.6657 	EXP 	textTestBlank: autoDraw = True
+2240.1756 	EXP 	textTestBlank: autoDraw = False
+2240.1756 	EXP 	textRKN: text = 'interior'
+2240.1756 	EXP 	textRKN: autoDraw = True
+2240.1756 	EXP 	textRKNScale: autoDraw = True
+2240.3053 	DATA 	Keypress: n
+2240.3090 	EXP 	textRKN: autoDraw = False
+2240.3090 	EXP 	textRKNScale: autoDraw = False
+2240.3090 	EXP 	textBlank500: autoDraw = True
+2240.7976 	EXP 	New trial (rep=115, index=0): None
+2240.8131 	EXP 	textBlank500: autoDraw = False
+2240.8131 	EXP 	textBlank500: autoDraw = False
+2240.8131 	EXP 	textConf: text = 'division'
+2240.8131 	EXP 	textConf: autoDraw = True
+2240.8131 	EXP 	textConfScale: autoDraw = True
+2242.6183 	DATA 	Keypress: 6
+2242.6462 	EXP 	textConf: autoDraw = False
+2242.6462 	EXP 	textConfScale: autoDraw = False
+2242.6462 	EXP 	textTestBlank: text = 'division'
+2242.6462 	EXP 	textTestBlank: autoDraw = True
+2243.1514 	EXP 	textTestBlank: autoDraw = False
+2243.1514 	EXP 	textTestBlank: autoDraw = False
+2243.1514 	EXP 	textRKN: text = 'division'
+2243.1514 	EXP 	textRKN: autoDraw = True
+2243.1514 	EXP 	textRKNScale: autoDraw = True
+2243.2236 	DATA 	Keypress: r
+2243.2285 	EXP 	textRKN: autoDraw = False
+2243.2285 	EXP 	textRKNScale: autoDraw = False
+2243.2285 	EXP 	textBlank500: autoDraw = True
+2243.7201 	EXP 	New trial (rep=116, index=0): None
+2243.7400 	EXP 	textBlank500: autoDraw = False
+2243.7400 	EXP 	textBlank500: autoDraw = False
+2243.7400 	EXP 	textConf: text = 'congress'
+2243.7400 	EXP 	textConf: autoDraw = True
+2243.7400 	EXP 	textConfScale: autoDraw = True
+2244.9623 	DATA 	Keypress: 1
+2244.9647 	EXP 	textConf: autoDraw = False
+2244.9647 	EXP 	textConfScale: autoDraw = False
+2244.9647 	EXP 	textTestBlank: text = 'congress'
+2244.9647 	EXP 	textTestBlank: autoDraw = True
+2245.4642 	EXP 	textTestBlank: autoDraw = False
+2245.4642 	EXP 	textTestBlank: autoDraw = False
+2245.4642 	EXP 	textRKN: text = 'congress'
+2245.4642 	EXP 	textRKN: autoDraw = True
+2245.4642 	EXP 	textRKNScale: autoDraw = True
+2245.7593 	DATA 	Keypress: n
+2245.7642 	EXP 	textRKN: autoDraw = False
+2245.7642 	EXP 	textRKNScale: autoDraw = False
+2245.7642 	EXP 	textBlank500: autoDraw = True
+2246.2575 	EXP 	New trial (rep=117, index=0): None
+2246.2785 	EXP 	textBlank500: autoDraw = False
+2246.2785 	EXP 	textBlank500: autoDraw = False
+2246.2785 	EXP 	textConf: text = 'primary'
+2246.2785 	EXP 	textConf: autoDraw = True
+2246.2785 	EXP 	textConfScale: autoDraw = True
+2248.1258 	DATA 	Keypress: 1
+2248.1575 	EXP 	textConf: autoDraw = False
+2248.1575 	EXP 	textConfScale: autoDraw = False
+2248.1575 	EXP 	textTestBlank: text = 'primary'
+2248.1575 	EXP 	textTestBlank: autoDraw = True
+2248.6715 	EXP 	textTestBlank: autoDraw = False
+2248.6715 	EXP 	textRKN: text = 'primary'
+2248.6715 	EXP 	textRKN: autoDraw = True
+2248.6715 	EXP 	textRKNScale: autoDraw = True
+2248.7658 	DATA 	Keypress: n
+2248.7684 	EXP 	textRKN: autoDraw = False
+2248.7684 	EXP 	textRKNScale: autoDraw = False
+2248.7684 	EXP 	textBlank500: autoDraw = True
+2249.2562 	EXP 	New trial (rep=118, index=0): None
+2249.2712 	EXP 	textBlank500: autoDraw = False
+2249.2712 	EXP 	textBlank500: autoDraw = False
+2249.2712 	EXP 	textConf: text = 'prime'
+2249.2712 	EXP 	textConf: autoDraw = True
+2249.2712 	EXP 	textConfScale: autoDraw = True
+2250.5540 	DATA 	Keypress: 1
+2250.5565 	EXP 	textConf: autoDraw = False
+2250.5565 	EXP 	textConfScale: autoDraw = False
+2250.5565 	EXP 	textTestBlank: text = 'prime'
+2250.5565 	EXP 	textTestBlank: autoDraw = True
+2251.0697 	EXP 	textTestBlank: autoDraw = False
+2251.0697 	EXP 	textRKN: text = 'prime'
+2251.0697 	EXP 	textRKN: autoDraw = True
+2251.0697 	EXP 	textRKNScale: autoDraw = True
+2251.0934 	DATA 	Keypress: n
+2251.1197 	EXP 	textRKN: autoDraw = False
+2251.1197 	EXP 	textRKNScale: autoDraw = False
+2251.1197 	EXP 	textBlank500: autoDraw = True
+2251.6115 	EXP 	New trial (rep=119, index=0): None
+2251.6322 	EXP 	textBlank500: autoDraw = False
+2251.6322 	EXP 	textBlank500: autoDraw = False
+2251.6322 	EXP 	textConf: text = 'period'
+2251.6322 	EXP 	textConf: autoDraw = True
+2251.6322 	EXP 	textConfScale: autoDraw = True
+2253.7211 	DATA 	Keypress: 1
+2253.7235 	EXP 	textConf: autoDraw = False
+2253.7235 	EXP 	textConfScale: autoDraw = False
+2253.7235 	EXP 	textTestBlank: text = 'period'
+2253.7235 	EXP 	textTestBlank: autoDraw = True
+2254.2254 	EXP 	textTestBlank: autoDraw = False
+2254.2254 	EXP 	textTestBlank: autoDraw = False
+2254.2254 	EXP 	textRKN: text = 'period'
+2254.2254 	EXP 	textRKN: autoDraw = True
+2254.2254 	EXP 	textRKNScale: autoDraw = True
+2254.2860 	DATA 	Keypress: n
+2254.2896 	EXP 	textRKN: autoDraw = False
+2254.2896 	EXP 	textRKNScale: autoDraw = False
+2254.2896 	EXP 	textBlank500: autoDraw = True
+2254.7851 	EXP 	New trial (rep=120, index=0): None
+2254.8029 	EXP 	textBlank500: autoDraw = False
+2254.8029 	EXP 	textBlank500: autoDraw = False
+2254.8029 	EXP 	textConf: text = 'machinery'
+2254.8029 	EXP 	textConf: autoDraw = True
+2254.8029 	EXP 	textConfScale: autoDraw = True
+2256.0818 	DATA 	Keypress: 1
+2256.1121 	EXP 	textConf: autoDraw = False
+2256.1121 	EXP 	textConfScale: autoDraw = False
+2256.1121 	EXP 	textTestBlank: text = 'machinery'
+2256.1121 	EXP 	textTestBlank: autoDraw = True
+2256.6253 	EXP 	textTestBlank: autoDraw = False
+2256.6253 	EXP 	textRKN: text = 'machinery'
+2256.6253 	EXP 	textRKN: autoDraw = True
+2256.6253 	EXP 	textRKNScale: autoDraw = True
+2256.6344 	DATA 	Keypress: n
+2256.6586 	EXP 	textRKN: autoDraw = False
+2256.6586 	EXP 	textRKNScale: autoDraw = False
+2256.6586 	EXP 	textBlank500: autoDraw = True
+2257.1500 	EXP 	New trial (rep=121, index=0): None
+2257.1670 	EXP 	textBlank500: autoDraw = False
+2257.1670 	EXP 	textBlank500: autoDraw = False
+2257.1670 	EXP 	textConf: text = 'stand'
+2257.1670 	EXP 	textConf: autoDraw = True
+2257.1670 	EXP 	textConfScale: autoDraw = True
+2260.3945 	DATA 	Keypress: 3
+2260.3969 	EXP 	textConf: autoDraw = False
+2260.3969 	EXP 	textConfScale: autoDraw = False
+2260.3969 	EXP 	textTestBlank: text = 'stand'
+2260.3969 	EXP 	textTestBlank: autoDraw = True
+2260.9011 	EXP 	textTestBlank: autoDraw = False
+2260.9011 	EXP 	textTestBlank: autoDraw = False
+2260.9011 	EXP 	textRKN: text = 'stand'
+2260.9011 	EXP 	textRKN: autoDraw = True
+2260.9011 	EXP 	textRKNScale: autoDraw = True
+2260.9455 	DATA 	Keypress: f
+2260.9479 	EXP 	textRKN: autoDraw = False
+2260.9479 	EXP 	textRKNScale: autoDraw = False
+2260.9479 	EXP 	textBlank500: autoDraw = True
+2261.4393 	EXP 	New trial (rep=122, index=0): None
+2261.4612 	EXP 	textBlank500: autoDraw = False
+2261.4612 	EXP 	textBlank500: autoDraw = False
+2261.4612 	EXP 	textConf: text = 'question'
+2261.4612 	EXP 	textConf: autoDraw = True
+2261.4612 	EXP 	textConfScale: autoDraw = True
+2263.2056 	DATA 	Keypress: 1
+2263.2343 	EXP 	textConf: autoDraw = False
+2263.2343 	EXP 	textConfScale: autoDraw = False
+2263.2343 	EXP 	textTestBlank: text = 'question'
+2263.2343 	EXP 	textTestBlank: autoDraw = True
+2263.7526 	EXP 	textTestBlank: autoDraw = False
+2263.7526 	EXP 	textRKN: text = 'question'
+2263.7526 	EXP 	textRKN: autoDraw = True
+2263.7526 	EXP 	textRKNScale: autoDraw = True
+2263.8148 	DATA 	Keypress: n
+2263.8174 	EXP 	textRKN: autoDraw = False
+2263.8174 	EXP 	textRKNScale: autoDraw = False
+2263.8174 	EXP 	textBlank500: autoDraw = True
+2264.3087 	EXP 	New trial (rep=123, index=0): None
+2264.3292 	EXP 	textBlank500: autoDraw = False
+2264.3292 	EXP 	textBlank500: autoDraw = False
+2264.3292 	EXP 	textConf: text = 'profession'
+2264.3292 	EXP 	textConf: autoDraw = True
+2264.3292 	EXP 	textConfScale: autoDraw = True
+2267.1515 	DATA 	Keypress: 1
+2267.1539 	EXP 	textConf: autoDraw = False
+2267.1539 	EXP 	textConfScale: autoDraw = False
+2267.1539 	EXP 	textTestBlank: text = 'profession'
+2267.1539 	EXP 	textTestBlank: autoDraw = True
+2267.6533 	EXP 	textTestBlank: autoDraw = False
+2267.6533 	EXP 	textTestBlank: autoDraw = False
+2267.6533 	EXP 	textRKN: text = 'profession'
+2267.6533 	EXP 	textRKN: autoDraw = True
+2267.6533 	EXP 	textRKNScale: autoDraw = True
+2267.7314 	DATA 	Keypress: n
+2267.7364 	EXP 	textRKN: autoDraw = False
+2267.7364 	EXP 	textRKNScale: autoDraw = False
+2267.7364 	EXP 	textBlank500: autoDraw = True
+2268.2298 	EXP 	New trial (rep=124, index=0): None
+2268.2466 	EXP 	textBlank500: autoDraw = False
+2268.2466 	EXP 	textBlank500: autoDraw = False
+2268.2466 	EXP 	textConf: text = 'break'
+2268.2466 	EXP 	textConf: autoDraw = True
+2268.2466 	EXP 	textConfScale: autoDraw = True
+2269.7540 	DATA 	Keypress: 6
+2269.7564 	EXP 	textConf: autoDraw = False
+2269.7564 	EXP 	textConfScale: autoDraw = False
+2269.7564 	EXP 	textTestBlank: text = 'break'
+2269.7564 	EXP 	textTestBlank: autoDraw = True
+2270.2620 	EXP 	textTestBlank: autoDraw = False
+2270.2620 	EXP 	textTestBlank: autoDraw = False
+2270.2620 	EXP 	textRKN: text = 'break'
+2270.2620 	EXP 	textRKN: autoDraw = True
+2270.2620 	EXP 	textRKNScale: autoDraw = True
+2270.5195 	DATA 	Keypress: r
+2270.5224 	EXP 	textRKN: autoDraw = False
+2270.5224 	EXP 	textRKNScale: autoDraw = False
+2270.5224 	EXP 	textBlank500: autoDraw = True
+2271.0132 	EXP 	New trial (rep=125, index=0): None
+2271.0329 	EXP 	textBlank500: autoDraw = False
+2271.0329 	EXP 	textBlank500: autoDraw = False
+2271.0329 	EXP 	textConf: text = 'design'
+2271.0329 	EXP 	textConf: autoDraw = True
+2271.0329 	EXP 	textConfScale: autoDraw = True
+2272.4815 	DATA 	Keypress: 1
+2272.5089 	EXP 	textConf: autoDraw = False
+2272.5089 	EXP 	textConfScale: autoDraw = False
+2272.5089 	EXP 	textTestBlank: text = 'design'
+2272.5089 	EXP 	textTestBlank: autoDraw = True
+2273.0070 	DATA 	Keypress: n
+2273.0096 	EXP 	textTestBlank: autoDraw = False
+2273.0096 	EXP 	textTestBlank: autoDraw = False
+2273.0096 	EXP 	textRKN: text = 'design'
+2273.0096 	EXP 	textRKN: autoDraw = True
+2273.0096 	EXP 	textRKNScale: autoDraw = True
+2273.8839 	DATA 	Keypress: n
+2273.9092 	EXP 	textRKN: autoDraw = False
+2273.9092 	EXP 	textRKNScale: autoDraw = False
+2273.9092 	EXP 	textBlank500: autoDraw = True
+2274.4002 	EXP 	New trial (rep=126, index=0): None
+2274.4153 	EXP 	textBlank500: autoDraw = False
+2274.4153 	EXP 	textBlank500: autoDraw = False
+2274.4153 	EXP 	textConf: text = 'count'
+2274.4153 	EXP 	textConf: autoDraw = True
+2274.4153 	EXP 	textConfScale: autoDraw = True
+2276.3770 	DATA 	Keypress: 6
+2276.3794 	EXP 	textConf: autoDraw = False
+2276.3794 	EXP 	textConfScale: autoDraw = False
+2276.3794 	EXP 	textTestBlank: text = 'count'
+2276.3794 	EXP 	textTestBlank: autoDraw = True
+2276.7838 	DATA 	Keypress: r
+2276.8825 	EXP 	textTestBlank: autoDraw = False
+2276.8825 	EXP 	textTestBlank: autoDraw = False
+2276.8825 	EXP 	textRKN: text = 'count'
+2276.8825 	EXP 	textRKN: autoDraw = True
+2276.8825 	EXP 	textRKNScale: autoDraw = True
+2277.8712 	DATA 	Keypress: r
+2279.6600 	DATA 	Keypress: r
+2279.6649 	EXP 	textRKN: autoDraw = False
+2279.6649 	EXP 	textRKNScale: autoDraw = False
+2279.6649 	EXP 	textBlank500: autoDraw = True
+2280.1554 	EXP 	New trial (rep=127, index=0): None
+2280.1729 	EXP 	textBlank500: autoDraw = False
+2280.1729 	EXP 	textBlank500: autoDraw = False
+2280.1729 	EXP 	textConf: text = 'country'
+2280.1729 	EXP 	textConf: autoDraw = True
+2280.1729 	EXP 	textConfScale: autoDraw = True
+2281.4966 	DATA 	Keypress: 1
+2281.4995 	EXP 	textConf: autoDraw = False
+2281.4995 	EXP 	textConfScale: autoDraw = False
+2281.4995 	EXP 	textTestBlank: text = 'country'
+2281.4995 	EXP 	textTestBlank: autoDraw = True
+2282.0035 	EXP 	textTestBlank: autoDraw = False
+2282.0035 	EXP 	textRKN: text = 'country'
+2282.0035 	EXP 	textRKN: autoDraw = True
+2282.0035 	EXP 	textRKNScale: autoDraw = True
+2282.7130 	DATA 	Keypress: n
+2282.7178 	EXP 	textRKN: autoDraw = False
+2282.7178 	EXP 	textRKNScale: autoDraw = False
+2282.7178 	EXP 	textBlank500: autoDraw = True
+2283.2087 	EXP 	New trial (rep=128, index=0): None
+2283.2280 	EXP 	textBlank500: autoDraw = False
+2283.2280 	EXP 	textBlank500: autoDraw = False
+2283.2280 	EXP 	textConf: text = 'owner'
+2283.2280 	EXP 	textConf: autoDraw = True
+2283.2280 	EXP 	textConfScale: autoDraw = True
+2284.4101 	DATA 	Keypress: 6
+2284.4366 	EXP 	textConf: autoDraw = False
+2284.4366 	EXP 	textConfScale: autoDraw = False
+2284.4366 	EXP 	textTestBlank: text = 'owner'
+2284.4366 	EXP 	textTestBlank: autoDraw = True
+2284.9399 	EXP 	textTestBlank: autoDraw = False
+2284.9399 	EXP 	textTestBlank: autoDraw = False
+2284.9399 	EXP 	textRKN: text = 'owner'
+2284.9399 	EXP 	textRKN: autoDraw = True
+2284.9399 	EXP 	textRKNScale: autoDraw = True
+2286.3690 	DATA 	Keypress: r
+2286.3714 	EXP 	textRKN: autoDraw = False
+2286.3714 	EXP 	textRKNScale: autoDraw = False
+2286.3714 	EXP 	textBlank500: autoDraw = True
+2286.8621 	EXP 	New trial (rep=129, index=0): None
+2286.8775 	EXP 	textBlank500: autoDraw = False
+2286.8775 	EXP 	textBlank500: autoDraw = False
+2286.8775 	EXP 	textConf: text = 'broke'
+2286.8775 	EXP 	textConf: autoDraw = True
+2286.8775 	EXP 	textConfScale: autoDraw = True
+2288.3482 	DATA 	Keypress: 6
+2288.3764 	EXP 	textConf: autoDraw = False
+2288.3764 	EXP 	textConfScale: autoDraw = False
+2288.3764 	EXP 	textTestBlank: text = 'broke'
+2288.3764 	EXP 	textTestBlank: autoDraw = True
+2288.8909 	EXP 	textTestBlank: autoDraw = False
+2288.8909 	EXP 	textRKN: text = 'broke'
+2288.8909 	EXP 	textRKN: autoDraw = True
+2288.8909 	EXP 	textRKNScale: autoDraw = True
+2289.3864 	DATA 	Keypress: r
+2289.3913 	EXP 	textRKN: autoDraw = False
+2289.3913 	EXP 	textRKNScale: autoDraw = False
+2289.3913 	EXP 	textBlank500: autoDraw = True
+2289.8851 	EXP 	New trial (rep=130, index=0): None
+2289.9011 	EXP 	textBlank500: autoDraw = False
+2289.9011 	EXP 	textBlank500: autoDraw = False
+2289.9011 	EXP 	textConf: text = 'rural'
+2289.9011 	EXP 	textConf: autoDraw = True
+2289.9011 	EXP 	textConfScale: autoDraw = True
+2291.1978 	DATA 	Keypress: 1
+2291.2002 	EXP 	textConf: autoDraw = False
+2291.2002 	EXP 	textConfScale: autoDraw = False
+2291.2002 	EXP 	textTestBlank: text = 'rural'
+2291.2002 	EXP 	textTestBlank: autoDraw = True
+2291.7105 	EXP 	textTestBlank: autoDraw = False
+2291.7105 	EXP 	textRKN: text = 'rural'
+2291.7105 	EXP 	textRKN: autoDraw = True
+2291.7105 	EXP 	textRKNScale: autoDraw = True
+2292.1175 	DATA 	Keypress: n
+2292.1440 	EXP 	textRKN: autoDraw = False
+2292.1440 	EXP 	textRKNScale: autoDraw = False
+2292.1440 	EXP 	textBlank500: autoDraw = True
+2292.6341 	EXP 	New trial (rep=131, index=0): None
+2292.6529 	EXP 	textBlank500: autoDraw = False
+2292.6529 	EXP 	textBlank500: autoDraw = False
+2292.6529 	EXP 	textConf: text = 'suspect'
+2292.6529 	EXP 	textConf: autoDraw = True
+2292.6529 	EXP 	textConfScale: autoDraw = True
+2294.5690 	DATA 	Keypress: 1
+2294.5715 	EXP 	textConf: autoDraw = False
+2294.5715 	EXP 	textConfScale: autoDraw = False
+2294.5715 	EXP 	textTestBlank: text = 'suspect'
+2294.5715 	EXP 	textTestBlank: autoDraw = True
+2295.0835 	EXP 	textTestBlank: autoDraw = False
+2295.0835 	EXP 	textRKN: text = 'suspect'
+2295.0835 	EXP 	textRKN: autoDraw = True
+2295.0835 	EXP 	textRKNScale: autoDraw = True
+2295.7096 	DATA 	Keypress: n
+2295.7143 	EXP 	textRKN: autoDraw = False
+2295.7143 	EXP 	textRKNScale: autoDraw = False
+2295.7143 	EXP 	textBlank500: autoDraw = True
+2296.2052 	EXP 	New trial (rep=132, index=0): None
+2296.2227 	EXP 	textBlank500: autoDraw = False
+2296.2227 	EXP 	textBlank500: autoDraw = False
+2296.2227 	EXP 	textConf: text = 'threat'
+2296.2227 	EXP 	textConf: autoDraw = True
+2296.2227 	EXP 	textConfScale: autoDraw = True
+2302.1014 	DATA 	Keypress: 6
+2302.1039 	EXP 	textConf: autoDraw = False
+2302.1039 	EXP 	textConfScale: autoDraw = False
+2302.1039 	EXP 	textTestBlank: text = 'threat'
+2302.1039 	EXP 	textTestBlank: autoDraw = True
+2302.6081 	EXP 	textTestBlank: autoDraw = False
+2302.6081 	EXP 	textTestBlank: autoDraw = False
+2302.6081 	EXP 	textRKN: text = 'threat'
+2302.6081 	EXP 	textRKN: autoDraw = True
+2302.6081 	EXP 	textRKNScale: autoDraw = True
+2303.4525 	DATA 	Keypress: r
+2303.4554 	EXP 	textRKN: autoDraw = False
+2303.4554 	EXP 	textRKNScale: autoDraw = False
+2303.4554 	EXP 	textBlank500: autoDraw = True
+2303.9469 	EXP 	New trial (rep=133, index=0): None
+2303.9650 	EXP 	textBlank500: autoDraw = False
+2303.9650 	EXP 	textBlank500: autoDraw = False
+2303.9650 	EXP 	textConf: text = 'weather'
+2303.9650 	EXP 	textConf: autoDraw = True
+2303.9650 	EXP 	textConfScale: autoDraw = True
+2305.1483 	DATA 	Keypress: 1
+2305.1770 	EXP 	textConf: autoDraw = False
+2305.1770 	EXP 	textConfScale: autoDraw = False
+2305.1770 	EXP 	textTestBlank: text = 'weather'
+2305.1770 	EXP 	textTestBlank: autoDraw = True
+2305.7022 	EXP 	textTestBlank: autoDraw = False
+2305.7022 	EXP 	textRKN: text = 'weather'
+2305.7022 	EXP 	textRKN: autoDraw = True
+2305.7022 	EXP 	textRKNScale: autoDraw = True
+2306.0659 	DATA 	Keypress: n
+2306.0913 	EXP 	textRKN: autoDraw = False
+2306.0913 	EXP 	textRKNScale: autoDraw = False
+2306.0913 	EXP 	textBlank500: autoDraw = True
+2306.5801 	EXP 	New trial (rep=134, index=0): None
+2306.5951 	EXP 	textBlank500: autoDraw = False
+2306.5951 	EXP 	textBlank500: autoDraw = False
+2306.5951 	EXP 	textConf: text = 'fashion'
+2306.5951 	EXP 	textConf: autoDraw = True
+2306.5951 	EXP 	textConfScale: autoDraw = True
+2307.8778 	DATA 	Keypress: 1
+2307.8803 	EXP 	textConf: autoDraw = False
+2307.8803 	EXP 	textConfScale: autoDraw = False
+2307.8803 	EXP 	textTestBlank: text = 'fashion'
+2307.8803 	EXP 	textTestBlank: autoDraw = True
+2308.3937 	EXP 	textTestBlank: autoDraw = False
+2308.3937 	EXP 	textRKN: text = 'fashion'
+2308.3937 	EXP 	textRKN: autoDraw = True
+2308.3937 	EXP 	textRKNScale: autoDraw = True
+2308.7726 	DATA 	Keypress: n
+2308.7773 	EXP 	textRKN: autoDraw = False
+2308.7773 	EXP 	textRKNScale: autoDraw = False
+2308.7773 	EXP 	textBlank500: autoDraw = True
+2309.2681 	EXP 	New trial (rep=135, index=0): None
+2309.2853 	EXP 	textBlank500: autoDraw = False
+2309.2853 	EXP 	textBlank500: autoDraw = False
+2309.2853 	EXP 	textConf: text = 'judge'
+2309.2853 	EXP 	textConf: autoDraw = True
+2309.2853 	EXP 	textConfScale: autoDraw = True
+2311.6129 	DATA 	Keypress: 3
+2311.6153 	EXP 	textConf: autoDraw = False
+2311.6153 	EXP 	textConfScale: autoDraw = False
+2311.6153 	EXP 	textTestBlank: text = 'judge'
+2311.6153 	EXP 	textTestBlank: autoDraw = True
+2312.1011 	DATA 	Keypress: f
+2312.1308 	EXP 	textTestBlank: autoDraw = False
+2312.1308 	EXP 	textRKN: text = 'judge'
+2312.1308 	EXP 	textRKN: autoDraw = True
+2312.1308 	EXP 	textRKNScale: autoDraw = True
+2312.8773 	DATA 	Keypress: f
+2312.8815 	EXP 	textRKN: autoDraw = False
+2312.8815 	EXP 	textRKNScale: autoDraw = False
+2312.8815 	EXP 	textBlank500: autoDraw = True
+2313.3727 	EXP 	New trial (rep=136, index=0): None
+2313.3906 	EXP 	textBlank500: autoDraw = False
+2313.3906 	EXP 	textBlank500: autoDraw = False
+2313.3906 	EXP 	textConf: text = 'conference'
+2313.3906 	EXP 	textConf: autoDraw = True
+2313.3906 	EXP 	textConfScale: autoDraw = True
+2314.7571 	DATA 	Keypress: 1
+2314.7845 	EXP 	textConf: autoDraw = False
+2314.7845 	EXP 	textConfScale: autoDraw = False
+2314.7845 	EXP 	textTestBlank: text = 'conference'
+2314.7845 	EXP 	textTestBlank: autoDraw = True
+2315.2910 	EXP 	textTestBlank: autoDraw = False
+2315.2910 	EXP 	textTestBlank: autoDraw = False
+2315.2910 	EXP 	textRKN: text = 'conference'
+2315.2910 	EXP 	textRKN: autoDraw = True
+2315.2910 	EXP 	textRKNScale: autoDraw = True
+2315.7206 	DATA 	Keypress: n
+2315.7230 	EXP 	textRKN: autoDraw = False
+2315.7230 	EXP 	textRKNScale: autoDraw = False
+2315.7230 	EXP 	textBlank500: autoDraw = True
+2316.2223 	EXP 	New trial (rep=137, index=0): None
+2316.2373 	EXP 	textBlank500: autoDraw = False
+2316.2373 	EXP 	textConf: text = 'strain'
+2316.2373 	EXP 	textConf: autoDraw = True
+2316.2373 	EXP 	textConfScale: autoDraw = True
+2317.9664 	DATA 	Keypress: 1
+2317.9700 	EXP 	textConf: autoDraw = False
+2317.9700 	EXP 	textConfScale: autoDraw = False
+2317.9700 	EXP 	textTestBlank: text = 'strain'
+2317.9700 	EXP 	textTestBlank: autoDraw = True
+2318.4773 	EXP 	textTestBlank: autoDraw = False
+2318.4773 	EXP 	textTestBlank: autoDraw = False
+2318.4773 	EXP 	textRKN: text = 'strain'
+2318.4773 	EXP 	textRKN: autoDraw = True
+2318.4773 	EXP 	textRKNScale: autoDraw = True
+2318.9493 	DATA 	Keypress: n
+2318.9542 	EXP 	textRKN: autoDraw = False
+2318.9542 	EXP 	textRKNScale: autoDraw = False
+2318.9542 	EXP 	textBlank500: autoDraw = True
+2319.4439 	EXP 	New trial (rep=138, index=0): None
+2319.4601 	EXP 	textBlank500: autoDraw = False
+2319.4601 	EXP 	textBlank500: autoDraw = False
+2319.4601 	EXP 	textConf: text = 'taste'
+2319.4601 	EXP 	textConf: autoDraw = True
+2319.4601 	EXP 	textConfScale: autoDraw = True
+2323.8665 	DATA 	Keypress: 1
+2323.8939 	EXP 	textConf: autoDraw = False
+2323.8939 	EXP 	textConfScale: autoDraw = False
+2323.8939 	EXP 	textTestBlank: text = 'taste'
+2323.8939 	EXP 	textTestBlank: autoDraw = True
+2324.3971 	EXP 	textTestBlank: autoDraw = False
+2324.3971 	EXP 	textTestBlank: autoDraw = False
+2324.3971 	EXP 	textRKN: text = 'taste'
+2324.3971 	EXP 	textRKN: autoDraw = True
+2324.3971 	EXP 	textRKNScale: autoDraw = True
+2324.8411 	DATA 	Keypress: n
+2324.8436 	EXP 	textRKN: autoDraw = False
+2324.8436 	EXP 	textRKNScale: autoDraw = False
+2324.8436 	EXP 	textBlank500: autoDraw = True
+2325.3326 	EXP 	New trial (rep=139, index=0): None
+2325.3478 	EXP 	textBlank500: autoDraw = False
+2325.3478 	EXP 	textBlank500: autoDraw = False
+2325.3478 	EXP 	textConf: text = 'population'
+2325.3478 	EXP 	textConf: autoDraw = True
+2325.3478 	EXP 	textConfScale: autoDraw = True
+2328.5801 	DATA 	Keypress: 6
+2328.5825 	EXP 	textConf: autoDraw = False
+2328.5825 	EXP 	textConfScale: autoDraw = False
+2328.5825 	EXP 	textTestBlank: text = 'population'
+2328.5825 	EXP 	textTestBlank: autoDraw = True
+2329.1025 	EXP 	textTestBlank: autoDraw = False
+2329.1025 	EXP 	textRKN: text = 'population'
+2329.1025 	EXP 	textRKN: autoDraw = True
+2329.1025 	EXP 	textRKNScale: autoDraw = True
+2329.4495 	DATA 	Keypress: r
+2329.4520 	EXP 	textRKN: autoDraw = False
+2329.4520 	EXP 	textRKNScale: autoDraw = False
+2329.4520 	EXP 	textBlank500: autoDraw = True
+2329.9511 	EXP 	New trial (rep=140, index=0): None
+2329.9651 	EXP 	textBlank500: autoDraw = False
+2329.9651 	EXP 	textConf: text = 'skill'
+2329.9651 	EXP 	textConf: autoDraw = True
+2329.9651 	EXP 	textConfScale: autoDraw = True
+2331.4162 	DATA 	Keypress: 1
+2331.4186 	EXP 	textConf: autoDraw = False
+2331.4186 	EXP 	textConfScale: autoDraw = False
+2331.4186 	EXP 	textTestBlank: text = 'skill'
+2331.4186 	EXP 	textTestBlank: autoDraw = True
+2331.9343 	EXP 	textTestBlank: autoDraw = False
+2331.9343 	EXP 	textRKN: text = 'skill'
+2331.9343 	EXP 	textRKN: autoDraw = True
+2331.9343 	EXP 	textRKNScale: autoDraw = True
+2332.0925 	DATA 	Keypress: n
+2332.1176 	EXP 	textRKN: autoDraw = False
+2332.1176 	EXP 	textRKNScale: autoDraw = False
+2332.1176 	EXP 	textBlank500: autoDraw = True
+2332.6076 	EXP 	New trial (rep=141, index=0): None
+2332.6222 	EXP 	textBlank500: autoDraw = False
+2332.6222 	EXP 	textBlank500: autoDraw = False
+2332.6222 	EXP 	textConf: text = 'management'
+2332.6222 	EXP 	textConf: autoDraw = True
+2332.6222 	EXP 	textConfScale: autoDraw = True
+2333.9181 	DATA 	Keypress: 1
+2333.9205 	EXP 	textConf: autoDraw = False
+2333.9205 	EXP 	textConfScale: autoDraw = False
+2333.9205 	EXP 	textTestBlank: text = 'management'
+2333.9205 	EXP 	textTestBlank: autoDraw = True
+2334.4236 	EXP 	textTestBlank: autoDraw = False
+2334.4236 	EXP 	textTestBlank: autoDraw = False
+2334.4236 	EXP 	textRKN: text = 'management'
+2334.4236 	EXP 	textRKN: autoDraw = True
+2334.4236 	EXP 	textRKNScale: autoDraw = True
+2334.7634 	DATA 	Keypress: n
+2334.7882 	EXP 	textRKN: autoDraw = False
+2334.7882 	EXP 	textRKNScale: autoDraw = False
+2334.7882 	EXP 	textBlank500: autoDraw = True
+2335.2910 	EXP 	New trial (rep=142, index=0): None
+2335.3065 	EXP 	textBlank500: autoDraw = False
+2335.3065 	EXP 	textConf: text = 'trash'
+2335.3065 	EXP 	textConf: autoDraw = True
+2335.3065 	EXP 	textConfScale: autoDraw = True
+2337.2710 	DATA 	Keypress: 1
+2337.2734 	EXP 	textConf: autoDraw = False
+2337.2734 	EXP 	textConfScale: autoDraw = False
+2337.2734 	EXP 	textTestBlank: text = 'trash'
+2337.2734 	EXP 	textTestBlank: autoDraw = True
+2337.7731 	EXP 	textTestBlank: autoDraw = False
+2337.7731 	EXP 	textTestBlank: autoDraw = False
+2337.7731 	EXP 	textRKN: text = 'trash'
+2337.7731 	EXP 	textRKN: autoDraw = True
+2337.7731 	EXP 	textRKNScale: autoDraw = True
+2338.0684 	DATA 	Keypress: n
+2338.0732 	EXP 	textRKN: autoDraw = False
+2338.0732 	EXP 	textRKNScale: autoDraw = False
+2338.0732 	EXP 	textBlank500: autoDraw = True
+2338.5751 	EXP 	New trial (rep=143, index=0): None
+2338.5925 	EXP 	textBlank500: autoDraw = False
+2338.5925 	EXP 	textBlank500: autoDraw = False
+2338.5925 	EXP 	textConf: text = 'carry'
+2338.5925 	EXP 	textConf: autoDraw = True
+2338.5925 	EXP 	textConfScale: autoDraw = True
+2340.2445 	DATA 	Keypress: 6
+2340.2470 	EXP 	textConf: autoDraw = False
+2340.2470 	EXP 	textConfScale: autoDraw = False
+2340.2470 	EXP 	textTestBlank: text = 'carry'
+2340.2470 	EXP 	textTestBlank: autoDraw = True
+2340.7651 	EXP 	textTestBlank: autoDraw = False
+2340.7651 	EXP 	textRKN: text = 'carry'
+2340.7651 	EXP 	textRKN: autoDraw = True
+2340.7651 	EXP 	textRKNScale: autoDraw = True
+2341.1035 	DATA 	Keypress: r
+2341.1098 	EXP 	textRKN: autoDraw = False
+2341.1098 	EXP 	textRKNScale: autoDraw = False
+2341.1098 	EXP 	textBlank500: autoDraw = True
+2341.6099 	EXP 	New trial (rep=144, index=0): None
+2341.6205 	EXP 	textBlank500: autoDraw = False
+2341.6205 	EXP 	textBlank500: autoDraw = False
+2341.6205 	EXP 	textConf: text = 'breath'
+2341.6205 	EXP 	textConf: autoDraw = True
+2341.6205 	EXP 	textConfScale: autoDraw = True
+2342.9923 	DATA 	Keypress: 1
+2342.9946 	EXP 	textConf: autoDraw = False
+2342.9946 	EXP 	textConfScale: autoDraw = False
+2342.9946 	EXP 	textTestBlank: text = 'breath'
+2342.9946 	EXP 	textTestBlank: autoDraw = True
+2343.5028 	EXP 	textTestBlank: autoDraw = False
+2343.5028 	EXP 	textTestBlank: autoDraw = False
+2343.5028 	EXP 	textRKN: text = 'breath'
+2343.5028 	EXP 	textRKN: autoDraw = True
+2343.5028 	EXP 	textRKNScale: autoDraw = True
+2343.8278 	DATA 	Keypress: n
+2343.8304 	EXP 	textRKN: autoDraw = False
+2343.8304 	EXP 	textRKNScale: autoDraw = False
+2343.8304 	EXP 	textBlank500: autoDraw = True
+2344.3219 	EXP 	New trial (rep=145, index=0): None
+2344.3452 	EXP 	textBlank500: autoDraw = False
+2344.3452 	EXP 	textBlank500: autoDraw = False
+2344.3452 	EXP 	textConf: text = 'gesture'
+2344.3452 	EXP 	textConf: autoDraw = True
+2344.3452 	EXP 	textConfScale: autoDraw = True
+2345.7056 	DATA 	Keypress: 1
+2345.7372 	EXP 	textConf: autoDraw = False
+2345.7372 	EXP 	textConfScale: autoDraw = False
+2345.7372 	EXP 	textTestBlank: text = 'gesture'
+2345.7372 	EXP 	textTestBlank: autoDraw = True
+2346.2481 	EXP 	textTestBlank: autoDraw = False
+2346.2481 	EXP 	textRKN: text = 'gesture'
+2346.2481 	EXP 	textRKN: autoDraw = True
+2346.2481 	EXP 	textRKNScale: autoDraw = True
+2346.4804 	DATA 	Keypress: n
+2346.4829 	EXP 	textRKN: autoDraw = False
+2346.4829 	EXP 	textRKNScale: autoDraw = False
+2346.4829 	EXP 	textBlank500: autoDraw = True
+2346.9746 	EXP 	New trial (rep=146, index=0): None
+2346.9950 	EXP 	textBlank500: autoDraw = False
+2346.9950 	EXP 	textBlank500: autoDraw = False
+2346.9950 	EXP 	textConf: text = 'defeat'
+2346.9950 	EXP 	textConf: autoDraw = True
+2346.9950 	EXP 	textConfScale: autoDraw = True
+2349.4187 	DATA 	Keypress: 2
+2349.4212 	EXP 	textConf: autoDraw = False
+2349.4212 	EXP 	textConfScale: autoDraw = False
+2349.4212 	EXP 	textTestBlank: text = 'defeat'
+2349.4212 	EXP 	textTestBlank: autoDraw = True
+2349.9352 	EXP 	textTestBlank: autoDraw = False
+2349.9352 	EXP 	textRKN: text = 'defeat'
+2349.9352 	EXP 	textRKN: autoDraw = True
+2349.9352 	EXP 	textRKNScale: autoDraw = True
+2350.0599 	DATA 	Keypress: f
+2350.0851 	EXP 	textRKN: autoDraw = False
+2350.0851 	EXP 	textRKNScale: autoDraw = False
+2350.0851 	EXP 	textBlank500: autoDraw = True
+2350.5777 	EXP 	New trial (rep=147, index=0): None
+2350.6011 	EXP 	textBlank500: autoDraw = False
+2350.6011 	EXP 	textBlank500: autoDraw = False
+2350.6011 	EXP 	textConf: text = 'property'
+2350.6011 	EXP 	textConf: autoDraw = True
+2350.6011 	EXP 	textConfScale: autoDraw = True
+2352.9756 	DATA 	Keypress: 1
+2352.9781 	EXP 	textConf: autoDraw = False
+2352.9781 	EXP 	textConfScale: autoDraw = False
+2352.9781 	EXP 	textTestBlank: text = 'property'
+2352.9781 	EXP 	textTestBlank: autoDraw = True
+2353.4887 	EXP 	textTestBlank: autoDraw = False
+2353.4887 	EXP 	textRKN: text = 'property'
+2353.4887 	EXP 	textRKN: autoDraw = True
+2353.4887 	EXP 	textRKNScale: autoDraw = True
+2353.9437 	DATA 	Keypress: n
+2353.9464 	EXP 	textRKN: autoDraw = False
+2353.9464 	EXP 	textRKNScale: autoDraw = False
+2353.9464 	EXP 	textBlank500: autoDraw = True
+2354.4475 	EXP 	New trial (rep=148, index=0): None
+2354.4733 	EXP 	textBlank500: autoDraw = False
+2354.4733 	EXP 	textBlank500: autoDraw = False
+2354.4733 	EXP 	textConf: text = 'impact'
+2354.4733 	EXP 	textConf: autoDraw = True
+2354.4733 	EXP 	textConfScale: autoDraw = True
+2355.7104 	DATA 	Keypress: 1
+2355.7128 	EXP 	textConf: autoDraw = False
+2355.7128 	EXP 	textConfScale: autoDraw = False
+2355.7128 	EXP 	textTestBlank: text = 'impact'
+2355.7128 	EXP 	textTestBlank: autoDraw = True
+2356.2269 	EXP 	textTestBlank: autoDraw = False
+2356.2269 	EXP 	textRKN: text = 'impact'
+2356.2269 	EXP 	textRKN: autoDraw = True
+2356.2269 	EXP 	textRKNScale: autoDraw = True
+2356.5819 	DATA 	Keypress: n
+2356.6084 	EXP 	textRKN: autoDraw = False
+2356.6084 	EXP 	textRKNScale: autoDraw = False
+2356.6084 	EXP 	textBlank500: autoDraw = True
+2357.0989 	EXP 	New trial (rep=149, index=0): None
+2357.1167 	EXP 	textBlank500: autoDraw = False
+2357.1167 	EXP 	textBlank500: autoDraw = False
+2357.1167 	EXP 	textConf: text = 'figure'
+2357.1167 	EXP 	textConf: autoDraw = True
+2357.1167 	EXP 	textConfScale: autoDraw = True
+2358.8177 	DATA 	Keypress: 1
+2358.8458 	EXP 	textConf: autoDraw = False
+2358.8458 	EXP 	textConfScale: autoDraw = False
+2358.8458 	EXP 	textTestBlank: text = 'figure'
+2358.8458 	EXP 	textTestBlank: autoDraw = True
+2359.3504 	EXP 	textTestBlank: autoDraw = False
+2359.3504 	EXP 	textTestBlank: autoDraw = False
+2359.3504 	EXP 	textRKN: text = 'figure'
+2359.3504 	EXP 	textRKN: autoDraw = True
+2359.3504 	EXP 	textRKNScale: autoDraw = True
+2359.6428 	DATA 	Keypress: n
+2359.6454 	EXP 	textRKN: autoDraw = False
+2359.6454 	EXP 	textRKNScale: autoDraw = False
+2359.6454 	EXP 	textBlank500: autoDraw = True
+2360.1340 	EXP 	New trial (rep=150, index=0): None
+2360.1497 	EXP 	textBlank500: autoDraw = False
+2360.1497 	EXP 	textBlank500: autoDraw = False
+2360.1497 	EXP 	textConf: text = 'people'
+2360.1497 	EXP 	textConf: autoDraw = True
+2360.1497 	EXP 	textConfScale: autoDraw = True
+2362.0368 	DATA 	Keypress: 1
+2362.0669 	EXP 	textConf: autoDraw = False
+2362.0669 	EXP 	textConfScale: autoDraw = False
+2362.0669 	EXP 	textTestBlank: text = 'people'
+2362.0669 	EXP 	textTestBlank: autoDraw = True
+2362.5847 	EXP 	textTestBlank: autoDraw = False
+2362.5847 	EXP 	textRKN: text = 'people'
+2362.5847 	EXP 	textRKN: autoDraw = True
+2362.5847 	EXP 	textRKNScale: autoDraw = True
+2362.8262 	DATA 	Keypress: n
+2362.8314 	EXP 	textRKN: autoDraw = False
+2362.8314 	EXP 	textRKNScale: autoDraw = False
+2362.8314 	EXP 	textBlank500: autoDraw = True
+2363.3207 	EXP 	New trial (rep=151, index=0): None
+2363.3357 	EXP 	textBlank500: autoDraw = False
+2363.3357 	EXP 	textBlank500: autoDraw = False
+2363.3357 	EXP 	textConf: text = 'sleep'
+2363.3357 	EXP 	textConf: autoDraw = True
+2363.3357 	EXP 	textConfScale: autoDraw = True
+2365.0425 	DATA 	Keypress: 1
+2365.0745 	EXP 	textConf: autoDraw = False
+2365.0745 	EXP 	textConfScale: autoDraw = False
+2365.0745 	EXP 	textTestBlank: text = 'sleep'
+2365.0745 	EXP 	textTestBlank: autoDraw = True
+2365.5880 	EXP 	textTestBlank: autoDraw = False
+2365.5880 	EXP 	textRKN: text = 'sleep'
+2365.5880 	EXP 	textRKN: autoDraw = True
+2365.5880 	EXP 	textRKNScale: autoDraw = True
+2365.8120 	DATA 	Keypress: n
+2365.8177 	EXP 	textRKN: autoDraw = False
+2365.8177 	EXP 	textRKNScale: autoDraw = False
+2365.8177 	EXP 	textBlank500: autoDraw = True
+2366.3094 	EXP 	New trial (rep=152, index=0): None
+2366.3298 	EXP 	textBlank500: autoDraw = False
+2366.3298 	EXP 	textBlank500: autoDraw = False
+2366.3298 	EXP 	textConf: text = 'trend'
+2366.3298 	EXP 	textConf: autoDraw = True
+2366.3298 	EXP 	textConfScale: autoDraw = True
+2368.0884 	DATA 	Keypress: 6
+2368.0910 	EXP 	textConf: autoDraw = False
+2368.0910 	EXP 	textConfScale: autoDraw = False
+2368.0910 	EXP 	textTestBlank: text = 'trend'
+2368.0910 	EXP 	textTestBlank: autoDraw = True
+2368.6059 	EXP 	textTestBlank: autoDraw = False
+2368.6059 	EXP 	textRKN: text = 'trend'
+2368.6059 	EXP 	textRKN: autoDraw = True
+2368.6059 	EXP 	textRKNScale: autoDraw = True
+2368.8940 	DATA 	Keypress: r
+2368.9209 	EXP 	textRKN: autoDraw = False
+2368.9209 	EXP 	textRKNScale: autoDraw = False
+2368.9209 	EXP 	textBlank500: autoDraw = True
+2369.4114 	EXP 	New trial (rep=153, index=0): None
+2369.4290 	EXP 	textBlank500: autoDraw = False
+2369.4290 	EXP 	textBlank500: autoDraw = False
+2369.4290 	EXP 	textConf: text = 'raise'
+2369.4290 	EXP 	textConf: autoDraw = True
+2369.4290 	EXP 	textConfScale: autoDraw = True
+2371.8081 	DATA 	Keypress: 6
+2371.8105 	EXP 	textConf: autoDraw = False
+2371.8105 	EXP 	textConfScale: autoDraw = False
+2371.8105 	EXP 	textTestBlank: text = 'raise'
+2371.8105 	EXP 	textTestBlank: autoDraw = True
+2372.3272 	EXP 	textTestBlank: autoDraw = False
+2372.3272 	EXP 	textRKN: text = 'raise'
+2372.3272 	EXP 	textRKN: autoDraw = True
+2372.3272 	EXP 	textRKNScale: autoDraw = True
+2372.5071 	DATA 	Keypress: r
+2372.5097 	EXP 	textRKN: autoDraw = False
+2372.5097 	EXP 	textRKNScale: autoDraw = False
+2372.5097 	EXP 	textBlank500: autoDraw = True
+2373.0112 	EXP 	New trial (rep=154, index=0): None
+2373.0250 	EXP 	textBlank500: autoDraw = False
+2373.0250 	EXP 	textConf: text = 'direction'
+2373.0250 	EXP 	textConf: autoDraw = True
+2373.0250 	EXP 	textConfScale: autoDraw = True
+2374.2435 	DATA 	Keypress: 6
+2374.2460 	EXP 	textConf: autoDraw = False
+2374.2460 	EXP 	textConfScale: autoDraw = False
+2374.2460 	EXP 	textTestBlank: text = 'direction'
+2374.2460 	EXP 	textTestBlank: autoDraw = True
+2374.7620 	EXP 	textTestBlank: autoDraw = False
+2374.7620 	EXP 	textRKN: text = 'direction'
+2374.7620 	EXP 	textRKN: autoDraw = True
+2374.7620 	EXP 	textRKNScale: autoDraw = True
+2374.8883 	DATA 	Keypress: r
+2374.8934 	EXP 	textRKN: autoDraw = False
+2374.8934 	EXP 	textRKNScale: autoDraw = False
+2374.8934 	EXP 	textBlank500: autoDraw = True
+2375.3852 	EXP 	New trial (rep=155, index=0): None
+2375.4032 	EXP 	textBlank500: autoDraw = False
+2375.4032 	EXP 	textBlank500: autoDraw = False
+2375.4032 	EXP 	textConf: text = 'ground'
+2375.4032 	EXP 	textConf: autoDraw = True
+2375.4032 	EXP 	textConfScale: autoDraw = True
+2376.6184 	DATA 	Keypress: 1
+2376.6457 	EXP 	textConf: autoDraw = False
+2376.6457 	EXP 	textConfScale: autoDraw = False
+2376.6457 	EXP 	textTestBlank: text = 'ground'
+2376.6457 	EXP 	textTestBlank: autoDraw = True
+2377.1500 	EXP 	textTestBlank: autoDraw = False
+2377.1500 	EXP 	textTestBlank: autoDraw = False
+2377.1500 	EXP 	textRKN: text = 'ground'
+2377.1500 	EXP 	textRKN: autoDraw = True
+2377.1500 	EXP 	textRKNScale: autoDraw = True
+2377.2037 	DATA 	Keypress: n
+2377.2292 	EXP 	textRKN: autoDraw = False
+2377.2292 	EXP 	textRKNScale: autoDraw = False
+2377.2292 	EXP 	textBlank500: autoDraw = True
+2377.7211 	EXP 	New trial (rep=156, index=0): None
+2377.7404 	EXP 	textBlank500: autoDraw = False
+2377.7404 	EXP 	textBlank500: autoDraw = False
+2377.7404 	EXP 	textConf: text = 'foundation'
+2377.7404 	EXP 	textConf: autoDraw = True
+2377.7404 	EXP 	textConfScale: autoDraw = True
+2379.1567 	DATA 	Keypress: 1
+2379.1927 	EXP 	textConf: autoDraw = False
+2379.1927 	EXP 	textConfScale: autoDraw = False
+2379.1927 	EXP 	textTestBlank: text = 'foundation'
+2379.1927 	EXP 	textTestBlank: autoDraw = True
+2379.7031 	EXP 	textTestBlank: autoDraw = False
+2379.7031 	EXP 	textRKN: text = 'foundation'
+2379.7031 	EXP 	textRKN: autoDraw = True
+2379.7031 	EXP 	textRKNScale: autoDraw = True
+2379.8934 	DATA 	Keypress: n
+2379.8985 	EXP 	textRKN: autoDraw = False
+2379.8985 	EXP 	textRKNScale: autoDraw = False
+2379.8985 	EXP 	textBlank500: autoDraw = True
+2380.3876 	EXP 	New trial (rep=157, index=0): None
+2380.4030 	EXP 	textBlank500: autoDraw = False
+2380.4030 	EXP 	textBlank500: autoDraw = False
+2380.4030 	EXP 	textConf: text = 'column'
+2380.4030 	EXP 	textConf: autoDraw = True
+2380.4030 	EXP 	textConfScale: autoDraw = True
+2381.8661 	DATA 	Keypress: 1
+2381.8685 	EXP 	textConf: autoDraw = False
+2381.8685 	EXP 	textConfScale: autoDraw = False
+2381.8685 	EXP 	textTestBlank: text = 'column'
+2381.8685 	EXP 	textTestBlank: autoDraw = True
+2382.3745 	EXP 	textTestBlank: autoDraw = False
+2382.3745 	EXP 	textTestBlank: autoDraw = False
+2382.3745 	EXP 	textRKN: text = 'column'
+2382.3745 	EXP 	textRKN: autoDraw = True
+2382.3745 	EXP 	textRKNScale: autoDraw = True
+2382.5311 	DATA 	Keypress: n
+2382.5344 	EXP 	textRKN: autoDraw = False
+2382.5344 	EXP 	textRKNScale: autoDraw = False
+2382.5344 	EXP 	textBlank500: autoDraw = True
+2383.0244 	EXP 	New trial (rep=158, index=0): None
+2383.0391 	EXP 	textBlank500: autoDraw = False
+2383.0391 	EXP 	textBlank500: autoDraw = False
+2383.0391 	EXP 	textConf: text = 'appeal'
+2383.0391 	EXP 	textConf: autoDraw = True
+2383.0391 	EXP 	textConfScale: autoDraw = True
+2384.2192 	DATA 	Keypress: 1
+2384.2217 	EXP 	textConf: autoDraw = False
+2384.2217 	EXP 	textConfScale: autoDraw = False
+2384.2217 	EXP 	textTestBlank: text = 'appeal'
+2384.2217 	EXP 	textTestBlank: autoDraw = True
+2384.7424 	EXP 	textTestBlank: autoDraw = False
+2384.7424 	EXP 	textRKN: text = 'appeal'
+2384.7424 	EXP 	textRKN: autoDraw = True
+2384.7424 	EXP 	textRKNScale: autoDraw = True
+2385.3000 	DATA 	Keypress: n
+2385.3039 	EXP 	textRKN: autoDraw = False
+2385.3039 	EXP 	textRKNScale: autoDraw = False
+2385.3039 	EXP 	textBlank500: autoDraw = True
+2385.7957 	EXP 	New trial (rep=159, index=0): None
+2385.8155 	EXP 	textBlank500: autoDraw = False
+2385.8155 	EXP 	textBlank500: autoDraw = False
+2385.8155 	EXP 	textConf: text = 'territory'
+2385.8155 	EXP 	textConf: autoDraw = True
+2385.8155 	EXP 	textConfScale: autoDraw = True
+2386.9409 	DATA 	Keypress: 1
+2386.9434 	EXP 	textConf: autoDraw = False
+2386.9434 	EXP 	textConfScale: autoDraw = False
+2386.9434 	EXP 	textTestBlank: text = 'territory'
+2386.9434 	EXP 	textTestBlank: autoDraw = True
+2387.4594 	EXP 	textTestBlank: autoDraw = False
+2387.4594 	EXP 	textRKN: text = 'territory'
+2387.4594 	EXP 	textRKN: autoDraw = True
+2387.4594 	EXP 	textRKNScale: autoDraw = True
+2387.8142 	DATA 	Keypress: n
+2387.8397 	EXP 	textRKN: autoDraw = False
+2387.8397 	EXP 	textRKNScale: autoDraw = False
+2387.8397 	EXP 	textBlank500: autoDraw = True
+2388.3297 	EXP 	New trial (rep=160, index=0): None
+2388.3429 	EXP 	textBlank500: autoDraw = False
+2388.3429 	EXP 	textBlank500: autoDraw = False
+2388.3429 	EXP 	textConf: text = 'minute'
+2388.3429 	EXP 	textConf: autoDraw = True
+2388.3429 	EXP 	textConfScale: autoDraw = True
+2390.3744 	DATA 	Keypress: 6
+2390.3767 	EXP 	textConf: autoDraw = False
+2390.3767 	EXP 	textConfScale: autoDraw = False
+2390.3767 	EXP 	textTestBlank: text = 'minute'
+2390.3767 	EXP 	textTestBlank: autoDraw = True
+2390.8794 	EXP 	textTestBlank: autoDraw = False
+2390.8794 	EXP 	textTestBlank: autoDraw = False
+2390.8794 	EXP 	textRKN: text = 'minute'
+2390.8794 	EXP 	textRKN: autoDraw = True
+2390.8794 	EXP 	textRKNScale: autoDraw = True
+2391.8065 	DATA 	Keypress: r
+2391.8104 	EXP 	textRKN: autoDraw = False
+2391.8104 	EXP 	textRKNScale: autoDraw = False
+2391.8104 	EXP 	textBlank500: autoDraw = True
+2392.3008 	EXP 	New trial (rep=161, index=0): None
+2392.3194 	EXP 	textBlank500: autoDraw = False
+2392.3194 	EXP 	textBlank500: autoDraw = False
+2392.3194 	EXP 	textConf: text = 'council'
+2392.3194 	EXP 	textConf: autoDraw = True
+2392.3194 	EXP 	textConfScale: autoDraw = True
+2394.2500 	DATA 	Keypress: 1
+2394.2525 	EXP 	textConf: autoDraw = False
+2394.2525 	EXP 	textConfScale: autoDraw = False
+2394.2525 	EXP 	textTestBlank: text = 'council'
+2394.2525 	EXP 	textTestBlank: autoDraw = True
+2394.7668 	EXP 	textTestBlank: autoDraw = False
+2394.7668 	EXP 	textRKN: text = 'council'
+2394.7668 	EXP 	textRKN: autoDraw = True
+2394.7668 	EXP 	textRKNScale: autoDraw = True
+2395.1388 	DATA 	Keypress: n
+2395.1663 	EXP 	textRKN: autoDraw = False
+2395.1663 	EXP 	textRKNScale: autoDraw = False
+2395.1663 	EXP 	textBlank500: autoDraw = True
+2395.6686 	EXP 	New trial (rep=162, index=0): None
+2395.6845 	EXP 	textBlank500: autoDraw = False
+2395.6845 	EXP 	textConf: text = 'suggestion'
+2395.6845 	EXP 	textConf: autoDraw = True
+2395.6845 	EXP 	textConfScale: autoDraw = True
+2399.4630 	DATA 	Keypress: 6
+2399.4656 	EXP 	textConf: autoDraw = False
+2399.4656 	EXP 	textConfScale: autoDraw = False
+2399.4656 	EXP 	textTestBlank: text = 'suggestion'
+2399.4656 	EXP 	textTestBlank: autoDraw = True
+2399.9756 	EXP 	textTestBlank: autoDraw = False
+2399.9756 	EXP 	textTestBlank: autoDraw = False
+2399.9756 	EXP 	textRKN: text = 'suggestion'
+2399.9756 	EXP 	textRKN: autoDraw = True
+2399.9756 	EXP 	textRKNScale: autoDraw = True
+2400.3328 	DATA 	Keypress: r
+2400.3354 	EXP 	textRKN: autoDraw = False
+2400.3354 	EXP 	textRKNScale: autoDraw = False
+2400.3354 	EXP 	textBlank500: autoDraw = True
+2400.8278 	EXP 	New trial (rep=163, index=0): None
+2400.8443 	EXP 	textBlank500: autoDraw = False
+2400.8443 	EXP 	textBlank500: autoDraw = False
+2400.8443 	EXP 	textConf: text = 'goose'
+2400.8443 	EXP 	textConf: autoDraw = True
+2400.8443 	EXP 	textConfScale: autoDraw = True
+2402.2379 	DATA 	Keypress: 1
+2402.2404 	EXP 	textConf: autoDraw = False
+2402.2404 	EXP 	textConfScale: autoDraw = False
+2402.2404 	EXP 	textTestBlank: text = 'goose'
+2402.2404 	EXP 	textTestBlank: autoDraw = True
+2402.7628 	EXP 	textTestBlank: autoDraw = False
+2402.7628 	EXP 	textRKN: text = 'goose'
+2402.7628 	EXP 	textRKN: autoDraw = True
+2402.7628 	EXP 	textRKNScale: autoDraw = True
+2403.0010 	DATA 	Keypress: n
+2403.0050 	EXP 	textRKN: autoDraw = False
+2403.0050 	EXP 	textRKNScale: autoDraw = False
+2403.0050 	EXP 	textBlank500: autoDraw = True
+2403.4933 	EXP 	New trial (rep=164, index=0): None
+2403.5061 	EXP 	textBlank500: autoDraw = False
+2403.5061 	EXP 	textBlank500: autoDraw = False
+2403.5061 	EXP 	textConf: text = 'place'
+2403.5061 	EXP 	textConf: autoDraw = True
+2403.5061 	EXP 	textConfScale: autoDraw = True
+2404.7472 	DATA 	Keypress: 1
+2404.7939 	EXP 	textConf: autoDraw = False
+2404.7939 	EXP 	textConfScale: autoDraw = False
+2404.7939 	EXP 	textTestBlank: text = 'place'
+2404.7939 	EXP 	textTestBlank: autoDraw = True
+2405.3081 	EXP 	textTestBlank: autoDraw = False
+2405.3081 	EXP 	textRKN: text = 'place'
+2405.3081 	EXP 	textRKN: autoDraw = True
+2405.3081 	EXP 	textRKNScale: autoDraw = True
+2405.5826 	DATA 	Keypress: n
+2405.6084 	EXP 	textRKN: autoDraw = False
+2405.6084 	EXP 	textRKNScale: autoDraw = False
+2405.6084 	EXP 	textBlank500: autoDraw = True
+2406.0952 	EXP 	New trial (rep=165, index=0): None
+2406.1100 	EXP 	textBlank500: autoDraw = False
+2406.1100 	EXP 	textBlank500: autoDraw = False
+2406.1100 	EXP 	textConf: text = 'household'
+2406.1100 	EXP 	textConf: autoDraw = True
+2406.1100 	EXP 	textConfScale: autoDraw = True
+2407.2997 	DATA 	Keypress: 1
+2407.3269 	EXP 	textConf: autoDraw = False
+2407.3269 	EXP 	textConfScale: autoDraw = False
+2407.3269 	EXP 	textTestBlank: text = 'household'
+2407.3269 	EXP 	textTestBlank: autoDraw = True
+2407.8311 	EXP 	textTestBlank: autoDraw = False
+2407.8311 	EXP 	textTestBlank: autoDraw = False
+2407.8311 	EXP 	textRKN: text = 'household'
+2407.8311 	EXP 	textRKN: autoDraw = True
+2407.8311 	EXP 	textRKNScale: autoDraw = True
+2408.1539 	DATA 	Keypress: n
+2408.1599 	EXP 	textRKN: autoDraw = False
+2408.1599 	EXP 	textRKNScale: autoDraw = False
+2408.1599 	EXP 	textBlank500: autoDraw = True
+2408.6493 	EXP 	New trial (rep=166, index=0): None
+2408.6676 	EXP 	textBlank500: autoDraw = False
+2408.6676 	EXP 	textBlank500: autoDraw = False
+2408.6676 	EXP 	textConf: text = 'distance'
+2408.6676 	EXP 	textConf: autoDraw = True
+2408.6676 	EXP 	textConfScale: autoDraw = True
+2409.9710 	DATA 	Keypress: 6
+2410.0039 	EXP 	textConf: autoDraw = False
+2410.0039 	EXP 	textConfScale: autoDraw = False
+2410.0039 	EXP 	textTestBlank: text = 'distance'
+2410.0039 	EXP 	textTestBlank: autoDraw = True
+2410.5158 	EXP 	textTestBlank: autoDraw = False
+2410.5158 	EXP 	textRKN: text = 'distance'
+2410.5158 	EXP 	textRKN: autoDraw = True
+2410.5158 	EXP 	textRKNScale: autoDraw = True
+2410.6865 	DATA 	Keypress: r
+2410.7123 	EXP 	textRKN: autoDraw = False
+2410.7123 	EXP 	textRKNScale: autoDraw = False
+2410.7123 	EXP 	textBlank500: autoDraw = True
+2411.2028 	EXP 	New trial (rep=167, index=0): None
+2411.2210 	EXP 	textBlank500: autoDraw = False
+2411.2210 	EXP 	textBlank500: autoDraw = False
+2411.2210 	EXP 	textConf: text = 'front'
+2411.2210 	EXP 	textConf: autoDraw = True
+2411.2210 	EXP 	textConfScale: autoDraw = True
+2412.2737 	DATA 	Keypress: 1
+2412.2763 	EXP 	textConf: autoDraw = False
+2412.2763 	EXP 	textConfScale: autoDraw = False
+2412.2763 	EXP 	textTestBlank: text = 'front'
+2412.2763 	EXP 	textTestBlank: autoDraw = True
+2412.7854 	EXP 	textTestBlank: autoDraw = False
+2412.7854 	EXP 	textRKN: text = 'front'
+2412.7854 	EXP 	textRKN: autoDraw = True
+2412.7854 	EXP 	textRKNScale: autoDraw = True
+2413.0788 	DATA 	Keypress: n
+2413.0814 	EXP 	textRKN: autoDraw = False
+2413.0814 	EXP 	textRKNScale: autoDraw = False
+2413.0814 	EXP 	textBlank500: autoDraw = True
+2413.5721 	EXP 	New trial (rep=168, index=0): None
+2413.5889 	EXP 	textBlank500: autoDraw = False
+2413.5889 	EXP 	textBlank500: autoDraw = False
+2413.5889 	EXP 	textConf: text = 'plane'
+2413.5889 	EXP 	textConf: autoDraw = True
+2413.5889 	EXP 	textConfScale: autoDraw = True
+2414.8736 	DATA 	Keypress: 1
+2414.9007 	EXP 	textConf: autoDraw = False
+2414.9007 	EXP 	textConfScale: autoDraw = False
+2414.9007 	EXP 	textTestBlank: text = 'plane'
+2414.9007 	EXP 	textTestBlank: autoDraw = True
+2415.4061 	EXP 	textTestBlank: autoDraw = False
+2415.4061 	EXP 	textTestBlank: autoDraw = False
+2415.4061 	EXP 	textRKN: text = 'plane'
+2415.4061 	EXP 	textRKN: autoDraw = True
+2415.4061 	EXP 	textRKNScale: autoDraw = True
+2415.9589 	DATA 	Keypress: n
+2415.9859 	EXP 	textRKN: autoDraw = False
+2415.9859 	EXP 	textRKNScale: autoDraw = False
+2415.9859 	EXP 	textBlank500: autoDraw = True
+2416.4770 	EXP 	New trial (rep=169, index=0): None
+2416.4951 	EXP 	textBlank500: autoDraw = False
+2416.4951 	EXP 	textBlank500: autoDraw = False
+2416.4951 	EXP 	textConf: text = 'trial'
+2416.4951 	EXP 	textConf: autoDraw = True
+2416.4951 	EXP 	textConfScale: autoDraw = True
+2417.9024 	DATA 	Keypress: 1
+2417.9048 	EXP 	textConf: autoDraw = False
+2417.9048 	EXP 	textConfScale: autoDraw = False
+2417.9048 	EXP 	textTestBlank: text = 'trial'
+2417.9048 	EXP 	textTestBlank: autoDraw = True
+2418.4036 	EXP 	textTestBlank: autoDraw = False
+2418.4036 	EXP 	textTestBlank: autoDraw = False
+2418.4036 	EXP 	textRKN: text = 'trial'
+2418.4036 	EXP 	textRKN: autoDraw = True
+2418.4036 	EXP 	textRKNScale: autoDraw = True
+2418.8840 	DATA 	Keypress: n
+2418.8874 	EXP 	textRKN: autoDraw = False
+2418.8874 	EXP 	textRKNScale: autoDraw = False
+2418.8874 	EXP 	textBlank500: autoDraw = True
+2419.3762 	EXP 	New trial (rep=170, index=0): None
+2419.3911 	EXP 	textBlank500: autoDraw = False
+2419.3911 	EXP 	textBlank500: autoDraw = False
+2419.3911 	EXP 	textConf: text = 'benefit'
+2419.3911 	EXP 	textConf: autoDraw = True
+2419.3911 	EXP 	textConfScale: autoDraw = True
+2422.2947 	DATA 	Keypress: 1
+2422.2977 	EXP 	textConf: autoDraw = False
+2422.2977 	EXP 	textConfScale: autoDraw = False
+2422.2977 	EXP 	textTestBlank: text = 'benefit'
+2422.2977 	EXP 	textTestBlank: autoDraw = True
+2422.8116 	EXP 	textTestBlank: autoDraw = False
+2422.8116 	EXP 	textRKN: text = 'benefit'
+2422.8116 	EXP 	textRKN: autoDraw = True
+2422.8116 	EXP 	textRKNScale: autoDraw = True
+2423.0554 	DATA 	Keypress: n
+2423.0583 	EXP 	textRKN: autoDraw = False
+2423.0583 	EXP 	textRKNScale: autoDraw = False
+2423.0583 	EXP 	textBlank500: autoDraw = True
+2423.5476 	EXP 	New trial (rep=171, index=0): None
+2423.5600 	EXP 	textBlank500: autoDraw = False
+2423.5600 	EXP 	textBlank500: autoDraw = False
+2423.5600 	EXP 	textConf: text = 'tough'
+2423.5600 	EXP 	textConf: autoDraw = True
+2423.5600 	EXP 	textConfScale: autoDraw = True
+2425.1765 	DATA 	Keypress: 1
+2425.1790 	EXP 	textConf: autoDraw = False
+2425.1790 	EXP 	textConfScale: autoDraw = False
+2425.1790 	EXP 	textTestBlank: text = 'tough'
+2425.1790 	EXP 	textTestBlank: autoDraw = True
+2425.6944 	EXP 	textTestBlank: autoDraw = False
+2425.6944 	EXP 	textRKN: text = 'tough'
+2425.6944 	EXP 	textRKN: autoDraw = True
+2425.6944 	EXP 	textRKNScale: autoDraw = True
+2426.7445 	DATA 	Keypress: n
+2426.7471 	EXP 	textRKN: autoDraw = False
+2426.7471 	EXP 	textRKNScale: autoDraw = False
+2426.7471 	EXP 	textBlank500: autoDraw = True
+2427.2490 	EXP 	New trial (rep=172, index=0): None
+2427.2626 	EXP 	textBlank500: autoDraw = False
+2427.2626 	EXP 	textConf: text = 'dance'
+2427.2626 	EXP 	textConf: autoDraw = True
+2427.2626 	EXP 	textConfScale: autoDraw = True
+2429.5302 	DATA 	Keypress: 6
+2429.5326 	EXP 	textConf: autoDraw = False
+2429.5326 	EXP 	textConfScale: autoDraw = False
+2429.5326 	EXP 	textTestBlank: text = 'dance'
+2429.5326 	EXP 	textTestBlank: autoDraw = True
+2430.0321 	EXP 	textTestBlank: autoDraw = False
+2430.0321 	EXP 	textTestBlank: autoDraw = False
+2430.0321 	EXP 	textRKN: text = 'dance'
+2430.0321 	EXP 	textRKN: autoDraw = True
+2430.0321 	EXP 	textRKNScale: autoDraw = True
+2430.2481 	DATA 	Keypress: r
+2430.2506 	EXP 	textRKN: autoDraw = False
+2430.2506 	EXP 	textRKNScale: autoDraw = False
+2430.2506 	EXP 	textBlank500: autoDraw = True
+2430.7558 	EXP 	New trial (rep=173, index=0): None
+2430.7769 	EXP 	textBlank500: autoDraw = False
+2430.7769 	EXP 	textConf: text = 'resistance'
+2430.7769 	EXP 	textConf: autoDraw = True
+2430.7769 	EXP 	textConfScale: autoDraw = True
+2432.3853 	DATA 	Keypress: 1
+2432.3879 	EXP 	textConf: autoDraw = False
+2432.3879 	EXP 	textConfScale: autoDraw = False
+2432.3879 	EXP 	textTestBlank: text = 'resistance'
+2432.3879 	EXP 	textTestBlank: autoDraw = True
+2432.9043 	EXP 	textTestBlank: autoDraw = False
+2432.9043 	EXP 	textRKN: text = 'resistance'
+2432.9043 	EXP 	textRKN: autoDraw = True
+2432.9043 	EXP 	textRKNScale: autoDraw = True
+2433.1822 	DATA 	Keypress: n
+2433.1851 	EXP 	textRKN: autoDraw = False
+2433.1851 	EXP 	textRKNScale: autoDraw = False
+2433.1851 	EXP 	textBlank500: autoDraw = True
+2433.6729 	EXP 	New trial (rep=174, index=0): None
+2433.6872 	EXP 	textBlank500: autoDraw = False
+2433.6872 	EXP 	textBlank500: autoDraw = False
+2433.6872 	EXP 	textConf: text = 'drove'
+2433.6872 	EXP 	textConf: autoDraw = True
+2433.6872 	EXP 	textConfScale: autoDraw = True
+2435.1694 	DATA 	Keypress: 1
+2435.1718 	EXP 	textConf: autoDraw = False
+2435.1718 	EXP 	textConfScale: autoDraw = False
+2435.1718 	EXP 	textTestBlank: text = 'drove'
+2435.1718 	EXP 	textTestBlank: autoDraw = True
+2435.6801 	EXP 	textTestBlank: autoDraw = False
+2435.6801 	EXP 	textTestBlank: autoDraw = False
+2435.6801 	EXP 	textRKN: text = 'drove'
+2435.6801 	EXP 	textRKN: autoDraw = True
+2435.6801 	EXP 	textRKNScale: autoDraw = True
+2435.9153 	DATA 	Keypress: n
+2435.9209 	EXP 	textRKN: autoDraw = False
+2435.9209 	EXP 	textRKNScale: autoDraw = False
+2435.9209 	EXP 	textBlank500: autoDraw = True
+2436.4086 	EXP 	New trial (rep=175, index=0): None
+2436.4240 	EXP 	textBlank500: autoDraw = False
+2436.4240 	EXP 	textBlank500: autoDraw = False
+2436.4240 	EXP 	textConf: text = 'produce'
+2436.4240 	EXP 	textConf: autoDraw = True
+2436.4240 	EXP 	textConfScale: autoDraw = True
+2437.9237 	DATA 	Keypress: 1
+2437.9262 	EXP 	textConf: autoDraw = False
+2437.9262 	EXP 	textConfScale: autoDraw = False
+2437.9262 	EXP 	textTestBlank: text = 'produce'
+2437.9262 	EXP 	textTestBlank: autoDraw = True
+2438.4416 	EXP 	textTestBlank: autoDraw = False
+2438.4416 	EXP 	textRKN: text = 'produce'
+2438.4416 	EXP 	textRKN: autoDraw = True
+2438.4416 	EXP 	textRKNScale: autoDraw = True
+2438.5028 	DATA 	Keypress: n
+2438.5071 	EXP 	textRKN: autoDraw = False
+2438.5071 	EXP 	textRKNScale: autoDraw = False
+2438.5071 	EXP 	textBlank500: autoDraw = True
+2439.0010 	EXP 	New trial (rep=176, index=0): None
+2439.0228 	EXP 	textBlank500: autoDraw = False
+2439.0228 	EXP 	textBlank500: autoDraw = False
+2439.0228 	EXP 	textConf: text = 'express'
+2439.0228 	EXP 	textConf: autoDraw = True
+2439.0228 	EXP 	textConfScale: autoDraw = True
+2440.2121 	DATA 	Keypress: 1
+2440.2145 	EXP 	textConf: autoDraw = False
+2440.2145 	EXP 	textConfScale: autoDraw = False
+2440.2145 	EXP 	textTestBlank: text = 'express'
+2440.2145 	EXP 	textTestBlank: autoDraw = True
+2440.7318 	EXP 	textTestBlank: autoDraw = False
+2440.7318 	EXP 	textRKN: text = 'express'
+2440.7318 	EXP 	textRKN: autoDraw = True
+2440.7318 	EXP 	textRKNScale: autoDraw = True
+2440.8354 	DATA 	Keypress: n
+2440.8610 	EXP 	textRKN: autoDraw = False
+2440.8610 	EXP 	textRKNScale: autoDraw = False
+2440.8610 	EXP 	textBlank500: autoDraw = True
+2441.3499 	EXP 	New trial (rep=177, index=0): None
+2441.3686 	EXP 	textBlank500: autoDraw = False
+2441.3686 	EXP 	textBlank500: autoDraw = False
+2441.3686 	EXP 	textConf: text = 'season'
+2441.3686 	EXP 	textConf: autoDraw = True
+2441.3686 	EXP 	textConfScale: autoDraw = True
+2442.9103 	DATA 	Keypress: 1
+2442.9127 	EXP 	textConf: autoDraw = False
+2442.9127 	EXP 	textConfScale: autoDraw = False
+2442.9127 	EXP 	textTestBlank: text = 'season'
+2442.9127 	EXP 	textTestBlank: autoDraw = True
+2443.4183 	EXP 	textTestBlank: autoDraw = False
+2443.4183 	EXP 	textTestBlank: autoDraw = False
+2443.4183 	EXP 	textRKN: text = 'season'
+2443.4183 	EXP 	textRKN: autoDraw = True
+2443.4183 	EXP 	textRKNScale: autoDraw = True
+2443.6367 	DATA 	Keypress: n
+2443.6622 	EXP 	textRKN: autoDraw = False
+2443.6622 	EXP 	textRKNScale: autoDraw = False
+2443.6622 	EXP 	textBlank500: autoDraw = True
+2444.1511 	EXP 	New trial (rep=178, index=0): None
+2444.1659 	EXP 	textBlank500: autoDraw = False
+2444.1659 	EXP 	textBlank500: autoDraw = False
+2444.1659 	EXP 	textConf: text = 'sunset'
+2444.1659 	EXP 	textConf: autoDraw = True
+2444.1659 	EXP 	textConfScale: autoDraw = True
+2445.4345 	DATA 	Keypress: 1
+2445.4370 	EXP 	textConf: autoDraw = False
+2445.4370 	EXP 	textConfScale: autoDraw = False
+2445.4370 	EXP 	textTestBlank: text = 'sunset'
+2445.4370 	EXP 	textTestBlank: autoDraw = True
+2445.9508 	EXP 	textTestBlank: autoDraw = False
+2445.9508 	EXP 	textRKN: text = 'sunset'
+2445.9508 	EXP 	textRKN: autoDraw = True
+2445.9508 	EXP 	textRKNScale: autoDraw = True
+2446.0950 	DATA 	Keypress: n
+2446.0979 	EXP 	textRKN: autoDraw = False
+2446.0979 	EXP 	textRKNScale: autoDraw = False
+2446.0979 	EXP 	textBlank500: autoDraw = True
+2446.5911 	EXP 	New trial (rep=179, index=0): None
+2446.6115 	EXP 	textBlank500: autoDraw = False
+2446.6115 	EXP 	textBlank500: autoDraw = False
+2446.6115 	EXP 	textConf: text = 'harmony'
+2446.6115 	EXP 	textConf: autoDraw = True
+2446.6115 	EXP 	textConfScale: autoDraw = True
+2447.9340 	DATA 	Keypress: 1
+2447.9364 	EXP 	textConf: autoDraw = False
+2447.9364 	EXP 	textConfScale: autoDraw = False
+2447.9364 	EXP 	textTestBlank: text = 'harmony'
+2447.9364 	EXP 	textTestBlank: autoDraw = True
+2448.4564 	EXP 	textTestBlank: autoDraw = False
+2448.4564 	EXP 	textRKN: text = 'harmony'
+2448.4564 	EXP 	textRKN: autoDraw = True
+2448.4564 	EXP 	textRKNScale: autoDraw = True
+2448.4807 	DATA 	Keypress: n
+2448.5040 	EXP 	textRKN: autoDraw = False
+2448.5040 	EXP 	textRKNScale: autoDraw = False
+2448.5040 	EXP 	textBlank500: autoDraw = True
+2449.0182 	EXP 	textBlank500: autoDraw = False
+2449.0182 	EXP 	textEnd: autoDraw = True
+2459.0276 	EXP 	textEnd: autoDraw = False
+2459.3312 	EXP 	window1: mouseVisible = True
